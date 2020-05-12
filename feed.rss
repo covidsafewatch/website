@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+	<channel>
+		<title />
+		<link>https://covidsafe.watch/</link>
+		<description />
+		<copyright>2020</copyright>
+		<pubDate>Tue, 12 May 2020 23:50:01 GMT</pubDate>
+		<lastBuildDate>Tue, 12 May 2020 23:50:01 GMT</lastBuildDate>
+		<item>
+			<title>Official COVIDSafe website is insecure</title>
+			<link>https://covidsafe.watch/issue-register/official-covidsafe-website-is-insecure</link>
+			<guid>https://covidsafe.watch/issue-register/official-covidsafe-website-is-insecure</guid>
+			<content:encoded>&lt;?# Twitter 1260194548166176775 /?&gt;
+&lt;?# Twitter 1260196519325597704 /?&gt;
+&lt;?# Raw ?&gt;
+&lt;?# Include "https://github.com/foo/bar/me.md" &gt;
+&lt;?#/ Raw ?&gt;  
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>CVE-2020-12717</title>
+			<link>https://covidsafe.watch/issue-register/cve-2020-12717</link>
+			<guid>https://covidsafe.watch/issue-register/cve-2020-12717</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+	</channel>
+</rss>

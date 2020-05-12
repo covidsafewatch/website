@@ -1,8 +1,0 @@
-{
-    "profiles": {
-      "COVIDSafe.watch": {
-        "commandName": "Project",
-        "commandLineArgs": "preview"
-      }
-    }
-  }
