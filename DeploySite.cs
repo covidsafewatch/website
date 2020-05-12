@@ -12,7 +12,7 @@ namespace CovidSafeWatch
 
             OutputModules = new ModuleList
             {
-                new DeployGitHubPages("covidsafe.watch", "website-vnext", Config.FromSetting<string>("GITHUB_TOKEN")).ToBranch("master")
+                new DeployGitHubPages("covidsafe-watch", "website-vnext", Config.FromSetting<string>("GITHUB_TOKEN")).ToBranch("master")
             };
         }
     }
