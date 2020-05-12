@@ -1,0 +1,5 @@
+FeedRss: true
+FeedAtom: true
+FeedSources: "issue-register/{*,!index.*}"
+FeedOrderKey: Published
+FeedOrderDescending: true
