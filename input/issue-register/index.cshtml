@@ -1,0 +1,14 @@
+ArchiveSources: issue-register/*.md
+---
+@{
+    Layout = @"/_Layout.cshtml";
+}
+
+<div>
+    @foreach (IDocument child in Document.GetChildren())
+    {
+        <div class="py-3 my-3 border-bottom">
+            @Html.DocumentLink(child)
+        </div>
+    }
+</div>
