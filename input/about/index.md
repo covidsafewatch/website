@@ -37,7 +37,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 # Richard Nelson
 
-My <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into iPhone application background behaviour</a> identified human error as a contributing factor preventing COVIDSafe from working effectively. I discovered a remote bluetooth vulrunability (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020%E2%80%9312717">CVE-2020–12717</a>) in COVIDSafe that [redacted].
+I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a remote bluetooth vulrunability (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020%E2%80%9312717">CVE-2020–12717</a>) in COVIDSafe that [redacted].
 
 Follow <a href="https://twitter.com/wabzqem">me on Twitter</a> for the latest updates.
 
