@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Wed, 13 May 2020 15:21:07 GMT</pubDate>
-		<lastBuildDate>Wed, 13 May 2020 15:21:07 GMT</lastBuildDate>
+		<pubDate>Wed, 13 May 2020 15:21:48 GMT</pubDate>
+		<lastBuildDate>Wed, 13 May 2020 15:21:48 GMT</lastBuildDate>
 		<item>
 			<title>Transparency</title>
 			<link>https://covidsafe.watch/issue-register/transparency</link>
@@ -35,6 +35,12 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>Server Sourcecode</title>
+			<link>https://covidsafe.watch/issue-register/server-sourcecode</link>
+			<guid>https://covidsafe.watch/issue-register/server-sourcecode</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>Hearing Aid Incompatibility</title>
 			<link>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</link>
 			<guid>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</guid>
@@ -50,6 +56,12 @@
 			<title>Blood Glucose Monitor Incompatibility</title>
 			<link>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</link>
 			<guid>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Application Sourcecode</title>
+			<link>https://covidsafe.watch/issue-register/application-sourcecode</link>
+			<guid>https://covidsafe.watch/issue-register/application-sourcecode</guid>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
