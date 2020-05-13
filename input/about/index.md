@@ -3,7 +3,13 @@ BreadcrumbTitle: About
 Xref: About
 ---
 
-We are a team of security researchers, open-source advocates, community managers and privacy specalists that support the concept of technology based contact tracing. We want to see lives saved, but at the same time it's very important to us that privacy and security issues are addressed promptly with a high degree of transparency. We would prefer to colloberate directly with engineers out-in-the-open on GitHub and send in pull-requests to resolve defects rather than use ineffiecent and error prone processes of submitting bug reports. 
+We are a team of security researchers, open-source advocates, community managers and privacy specialists that support the concept of technology based contact tracing.
+
+* We want to see lives saved through the use of this unprecedented technology.
+* It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.
+* We believe transparency is essential to achieve both of these goals without compromising either. Compromising privacy risks people’s lives by undermining public trust in the systems built to protect them.
+* This can only be achieved by direct collaboration with engineers using transparent open source platforms as the UK National Health Service and German Ministry of Health.
+* We advocate for direct collaboration with engineers using open source platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
 
 # Geoffrey Huntley
 
