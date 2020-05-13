@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Wed, 13 May 2020 15:21:48 GMT</pubDate>
-		<lastBuildDate>Wed, 13 May 2020 15:21:48 GMT</lastBuildDate>
+		<pubDate>Wed, 13 May 2020 15:23:01 GMT</pubDate>
+		<lastBuildDate>Wed, 13 May 2020 15:23:01 GMT</lastBuildDate>
 		<item>
 			<title>Transparency</title>
 			<link>https://covidsafe.watch/issue-register/transparency</link>
@@ -56,6 +56,14 @@
 			<title>Blood Glucose Monitor Incompatibility</title>
 			<link>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</link>
 			<guid>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Better than Singapore?</title>
+			<link>https://covidsafe.watch/issue-register/better-than-singapore</link>
+			<guid>https://covidsafe.watch/issue-register/better-than-singapore</guid>
+			<content:encoded>&lt;?# Twitter 1259091209848410112 /?&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
