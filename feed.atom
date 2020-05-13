@@ -4,7 +4,13 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-13T15:23:01Z</updated>
+	<updated>2020-05-13T15:26:44Z</updated>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</id>
+		<title>You have COVID text causes public panic</title>
+		<link href="https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic" />
+		<updated />
+	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/transparency</id>
 		<title>Transparency</title>
@@ -36,6 +42,30 @@
 		<id>https://covidsafe.watch/issue-register/server-sourcecode</id>
 		<title>Server Sourcecode</title>
 		<link href="https://covidsafe.watch/issue-register/server-sourcecode" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/no-customer-support-on-social-media</id>
+		<title>No customer support on social media</title>
+		<link href="https://covidsafe.watch/issue-register/no-customer-support-on-social-media" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/no-customer-support-in-the-app-stores</id>
+		<title>No customer support in the app stores</title>
+		<link href="https://covidsafe.watch/issue-register/no-customer-support-in-the-app-stores" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/lack-of-bug-bounty</id>
+		<title>Lack of Bug Bounty</title>
+		<link href="https://covidsafe.watch/issue-register/lack-of-bug-bounty" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/just-a-paint-job</id>
+		<title>Just a paint job</title>
+		<link href="https://covidsafe.watch/issue-register/just-a-paint-job" />
 		<updated />
 	</entry>
 	<entry>
