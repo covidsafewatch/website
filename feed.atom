@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-13T15:29:19Z</updated>
+	<updated>2020-05-13T15:31:28Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</id>
 		<title>You have COVID text causes public panic</title>
@@ -42,6 +42,12 @@
 		<id>https://covidsafe.watch/issue-register/rural-and-remote-cannot-register</id>
 		<title>Rural And Remote Cannot Register</title>
 		<link href="https://covidsafe.watch/issue-register/rural-and-remote-cannot-register" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/questionable-metrics-of-success</id>
+		<title>Questionable Metrics of Success</title>
+		<link href="https://covidsafe.watch/issue-register/questionable-metrics-of-success" />
 		<updated />
 	</entry>
 	<entry>
