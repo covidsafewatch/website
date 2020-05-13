@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Wed, 13 May 2020 15:26:44 GMT</pubDate>
-		<lastBuildDate>Wed, 13 May 2020 15:26:44 GMT</lastBuildDate>
+		<pubDate>Wed, 13 May 2020 15:29:19 GMT</pubDate>
+		<lastBuildDate>Wed, 13 May 2020 15:29:19 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text causes public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</link>
@@ -41,9 +41,9 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>Server Sourcecode</title>
-			<link>https://covidsafe.watch/issue-register/server-sourcecode</link>
-			<guid>https://covidsafe.watch/issue-register/server-sourcecode</guid>
+			<title>Rural And Remote Cannot Register</title>
+			<link>https://covidsafe.watch/issue-register/rural-and-remote-cannot-register</link>
+			<guid>https://covidsafe.watch/issue-register/rural-and-remote-cannot-register</guid>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
@@ -83,6 +83,33 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>Server Sourcecode</title>
+			<link>https://covidsafe.watch/issue-register/covidsafe-server-sourcecode</link>
+			<guid>https://covidsafe.watch/issue-register/covidsafe-server-sourcecode</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Covidsafe Not Available In International Appstores</title>
+			<link>https://covidsafe.watch/issue-register/covidsafe-not-available-in-international-appstores</link>
+			<description>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/covidsafe-not-available-in-international-appstores</guid>
+			<content:encoded>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Application Sourcecode</title>
+			<link>https://covidsafe.watch/issue-register/covidsafe-application-sourcecode</link>
+			<guid>https://covidsafe.watch/issue-register/covidsafe-application-sourcecode</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Community engagement</title>
+			<link>https://covidsafe.watch/issue-register/community-engagement</link>
+			<guid>https://covidsafe.watch/issue-register/community-engagement</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>Blood Glucose Monitor Incompatibility</title>
 			<link>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</link>
 			<guid>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</guid>
@@ -94,12 +121,6 @@
 			<guid>https://covidsafe.watch/issue-register/better-than-singapore</guid>
 			<content:encoded>&lt;?# Twitter 1259091209848410112 /?&gt;
 </content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Application Sourcecode</title>
-			<link>https://covidsafe.watch/issue-register/application-sourcecode</link>
-			<guid>https://covidsafe.watch/issue-register/application-sourcecode</guid>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>

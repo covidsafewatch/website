@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-13T15:26:44Z</updated>
+	<updated>2020-05-13T15:29:19Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</id>
 		<title>You have COVID text causes public panic</title>
@@ -39,9 +39,9 @@
 </content>
 	</entry>
 	<entry>
-		<id>https://covidsafe.watch/issue-register/server-sourcecode</id>
-		<title>Server Sourcecode</title>
-		<link href="https://covidsafe.watch/issue-register/server-sourcecode" />
+		<id>https://covidsafe.watch/issue-register/rural-and-remote-cannot-register</id>
+		<title>Rural And Remote Cannot Register</title>
+		<link href="https://covidsafe.watch/issue-register/rural-and-remote-cannot-register" />
 		<updated />
 	</entry>
 	<entry>
@@ -81,6 +81,33 @@
 		<updated />
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/covidsafe-server-sourcecode</id>
+		<title>Server Sourcecode</title>
+		<link href="https://covidsafe.watch/issue-register/covidsafe-server-sourcecode" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/covidsafe-not-available-in-international-appstores</id>
+		<title>Covidsafe Not Available In International Appstores</title>
+		<link href="https://covidsafe.watch/issue-register/covidsafe-not-available-in-international-appstores" />
+		<updated />
+		<content>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/covidsafe-application-sourcecode</id>
+		<title>Application Sourcecode</title>
+		<link href="https://covidsafe.watch/issue-register/covidsafe-application-sourcecode" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/community-engagement</id>
+		<title>Community engagement</title>
+		<link href="https://covidsafe.watch/issue-register/community-engagement" />
+		<updated />
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</id>
 		<title>Blood Glucose Monitor Incompatibility</title>
 		<link href="https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility" />
@@ -93,12 +120,6 @@
 		<updated />
 		<content>&lt;?# Twitter 1259091209848410112 /?&gt;
 </content>
-	</entry>
-	<entry>
-		<id>https://covidsafe.watch/issue-register/application-sourcecode</id>
-		<title>Application Sourcecode</title>
-		<link href="https://covidsafe.watch/issue-register/application-sourcecode" />
-		<updated />
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/accessibility</id>
