@@ -1,6 +1,6 @@
 Title: Transparency
 ReportedAt: 2020/04/26
-CaseNumber: TBA
+ResolvedAt: 
 Status: => $"Unresolved for {(DateTime.Today - GetDateTime("ReportedAt")).Days} days"
 ---
 
