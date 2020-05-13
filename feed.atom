@@ -4,14 +4,14 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-13T14:28:53Z</updated>
+	<updated>2020-05-13T14:35:27Z</updated>
 	<entry>
-		<id>https://covidsafe.watch/issue-register/official-covidsafe-website-is-insecure</id>
-		<title>Official COVIDSafe website is insecure</title>
-		<link href="https://covidsafe.watch/issue-register/official-covidsafe-website-is-insecure" />
+		<id>https://covidsafe.watch/issue-register/transparency</id>
+		<title>Transparency</title>
+		<link href="https://covidsafe.watch/issue-register/transparency" />
 		<updated />
-		<content>&lt;?# Twitter 1260194548166176775 /?&gt;
-&lt;?# Twitter 1260196519325597704 /?&gt;
+		<content>&lt;?# Twitter 1258745850647293953 /?&gt;
+&lt;?# Twitter 1259076147276443649 /?&gt;
 &lt;?# Raw ?&gt;
 &lt;?# Include "https://github.com/foo/bar/me.md" &gt;
 &lt;?#/ Raw ?&gt;  
