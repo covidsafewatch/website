@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-13T15:15:52Z</updated>
+	<updated>2020-05-13T15:21:07Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/transparency</id>
 		<title>Transparency</title>
@@ -18,9 +18,36 @@
 </content>
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/social-pressure-and-coersion</id>
+		<title>Social Pressure &amp; Coersion</title>
+		<link href="https://covidsafe.watch/issue-register/social-pressure-and-coersion" />
+		<updated />
+		<content>&lt;h1 id="government"&gt;Government&lt;/h1&gt;
+&lt;?# Twitter 1256403073674739712 /?&gt;
+&lt;h1 id="companies"&gt;Companies&lt;/h1&gt;
+&lt;?# Twitter 1259725400952864768 /?&gt;
+&lt;?# Twitter 1259695834809036800 /?&gt;
+&lt;?# Twitter 1257518972972367872 /?&gt;
+&lt;?# Twitter 1258322382034366465 /?&gt;
+&lt;?# Twitter 1258670284007063552 /?&gt;
+</content>
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</id>
+		<title>Hearing Aid Incompatibility</title>
+		<link href="https://covidsafe.watch/issue-register/hearing-aid-incompatibility" />
+		<updated />
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/cve-2020-12717</id>
 		<title>CVE-2020-12717</title>
 		<link href="https://covidsafe.watch/issue-register/cve-2020-12717" />
+		<updated />
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</id>
+		<title>Blood Glucose Monitor Incompatibility</title>
+		<link href="https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility" />
 		<updated />
 	</entry>
 	<entry>

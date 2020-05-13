@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Wed, 13 May 2020 15:15:52 GMT</pubDate>
-		<lastBuildDate>Wed, 13 May 2020 15:15:52 GMT</lastBuildDate>
+		<pubDate>Wed, 13 May 2020 15:21:07 GMT</pubDate>
+		<lastBuildDate>Wed, 13 May 2020 15:21:07 GMT</lastBuildDate>
 		<item>
 			<title>Transparency</title>
 			<link>https://covidsafe.watch/issue-register/transparency</link>
@@ -20,9 +20,36 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>Social Pressure &amp; Coersion</title>
+			<link>https://covidsafe.watch/issue-register/social-pressure-and-coersion</link>
+			<guid>https://covidsafe.watch/issue-register/social-pressure-and-coersion</guid>
+			<content:encoded>&lt;h1 id="government"&gt;Government&lt;/h1&gt;
+&lt;?# Twitter 1256403073674739712 /?&gt;
+&lt;h1 id="companies"&gt;Companies&lt;/h1&gt;
+&lt;?# Twitter 1259725400952864768 /?&gt;
+&lt;?# Twitter 1259695834809036800 /?&gt;
+&lt;?# Twitter 1257518972972367872 /?&gt;
+&lt;?# Twitter 1258322382034366465 /?&gt;
+&lt;?# Twitter 1258670284007063552 /?&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Hearing Aid Incompatibility</title>
+			<link>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</link>
+			<guid>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>CVE-2020-12717</title>
 			<link>https://covidsafe.watch/issue-register/cve-2020-12717</link>
 			<guid>https://covidsafe.watch/issue-register/cve-2020-12717</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Blood Glucose Monitor Incompatibility</title>
+			<link>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</link>
+			<guid>https://covidsafe.watch/issue-register/blood-glucose-monitor-incompatibility</guid>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
