@@ -9,7 +9,7 @@ We are a team of security researchers, open-source advocates, community managers
 * It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.
 * We believe transparency is essential to achieve both of these goals without compromising either. Compromising privacy risks people’s lives by undermining public trust in the systems built to protect them.
 * This can only be achieved by direct collaboration with engineers using transparent open source platforms as the UK National Health Service and German Ministry of Health.
-* We advocate for direct collaboration with engineers using open source platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
+* This can only be achieved by direct collaboration with engineers using transparent open source collaborative platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
 
 # Geoffrey Huntley
 
@@ -37,7 +37,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 # Richard Nelson
 
-I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a denial of service vulnerability (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020%E2%80%9312717">CVE-2020–12717</a>) in COVIDSafe that [redacted].
+I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a <a href="/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service">denial of service vulnerability</a> (CVE-2020–12717) in COVIDSafe.
 
 Follow <a href="https://twitter.com/wabzqem">me on Twitter</a> for the latest updates.
 
