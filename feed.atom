@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-14T03:57:54Z</updated>
+	<updated>2020-05-14T10:34:00Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -68,6 +68,17 @@
 		<summary>&lt;p&gt;Many rural Australians aren't able to register for the app at all.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/roadmap</id>
+		<title>What is the roadmap?</title>
+		<link href="https://covidsafe.watch/issue-register/roadmap" />
+		<updated />
+		<content>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;
+&lt;?# Twitter 1258446501488889856 /?&gt;
+</content>
+		<summary>&lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/questionable-metrics-of-success</id>
 		<title>Questionable Metrics of Success</title>
 		<link href="https://covidsafe.watch/issue-register/questionable-metrics-of-success" />
@@ -121,6 +132,16 @@
 &lt;?# Twitter 1257540474048581632 /?&gt;
 &lt;?# Twitter 1257541996874326018 /?&gt;
 &lt;?# Twitter 1257547477542027270 /?&gt;
+&lt;p&gt;&lt;a href="https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/"&gt;https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;&lt;a href="https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/"&gt;https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/&lt;/a&gt;&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices</id>
+		<title>iPhones Appearing as Connected Device</title>
+		<link href="https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices" />
+		<updated />
+		<content>&lt;?# Twitter 1260768916994789376 /?&gt;
 </content>
 	</entry>
 	<entry>

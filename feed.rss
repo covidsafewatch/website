@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Thu, 14 May 2020 03:57:54 GMT</pubDate>
-		<lastBuildDate>Thu, 14 May 2020 03:57:54 GMT</lastBuildDate>
+		<pubDate>Thu, 14 May 2020 10:34:00 GMT</pubDate>
+		<lastBuildDate>Thu, 14 May 2020 10:34:00 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -70,6 +70,17 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>What is the roadmap?</title>
+			<link>https://covidsafe.watch/issue-register/roadmap</link>
+			<description>&lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/roadmap</guid>
+			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;
+&lt;?# Twitter 1258446501488889856 /?&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>Questionable Metrics of Success</title>
 			<link>https://covidsafe.watch/issue-register/questionable-metrics-of-success</link>
 			<guid>https://covidsafe.watch/issue-register/questionable-metrics-of-success</guid>
@@ -108,6 +119,7 @@
 		<item>
 			<title>Just a paint job</title>
 			<link>https://covidsafe.watch/issue-register/just-a-paint-job</link>
+			<description>&lt;p&gt;&lt;a href="https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/"&gt;https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/&lt;/a&gt;&lt;/p&gt;</description>
 			<guid>https://covidsafe.watch/issue-register/just-a-paint-job</guid>
 			<content:encoded>&lt;?# Twitter 1256952268206665730 /?&gt;
 &lt;?# Twitter 1257600104183164929 /?&gt;
@@ -122,6 +134,15 @@
 &lt;?# Twitter 1257540474048581632 /?&gt;
 &lt;?# Twitter 1257541996874326018 /?&gt;
 &lt;?# Twitter 1257547477542027270 /?&gt;
+&lt;p&gt;&lt;a href="https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/"&gt;https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>iPhones Appearing as Connected Device</title>
+			<link>https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices</link>
+			<guid>https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices</guid>
+			<content:encoded>&lt;?# Twitter 1260768916994789376 /?&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
