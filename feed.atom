@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-14T03:43:53Z</updated>
+	<updated>2020-05-14T03:49:44Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -41,10 +41,30 @@
 </content>
 	</entry>
 	<entry>
-		<id>https://covidsafe.watch/issue-register/rural-and-remote-cannot-register</id>
-		<title>Rural And Remote Cannot Register</title>
-		<link href="https://covidsafe.watch/issue-register/rural-and-remote-cannot-register" />
+		<id>https://covidsafe.watch/issue-register/rural-and-remote-australians-on-telstra-cannot-register</id>
+		<title>Rural And Remote Australians On Telstra Cannot Register</title>
+		<link href="https://covidsafe.watch/issue-register/rural-and-remote-australians-on-telstra-cannot-register" />
 		<updated />
+		<content>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Many rural Australians aren't able to register for the app at all.&lt;/p&gt;
+&lt;p&gt;In order to register for COVIDSafe, users need to be sent an SMS verification. This two-factor authentication (2FA) is for security purposes and in general is a good feature of the app.&lt;/p&gt;
+&lt;p&gt;But this becomes problematic if you live in an area with patchy or no mobile service. And this is the issue that many rural Australians are now facing. If you can't get the SMS, you can't use COVIDSafe.&lt;/p&gt;
+&lt;p&gt;For rural Aussies – or even just those who live in a mobile black spot – who are on plans with Vodafone and Optus, excluding prepaid, this isn't a problem. With these providers, they're able to still receive the verification text because these telcos offer SMS Over WiFi.&lt;/p&gt;
+&lt;p&gt;Unfortunately, users who are with Telstra or some Mobile virtual Network Operator (MVNO) resellers don't have the SMS over WiFi option.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.gizmodo.com.au/2020/05/telstra-sms-over-wifi-launch/"&gt;https://www.gizmodo.com.au/2020/05/telstra-sms-over-wifi-launch/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="resolution"&gt;Resolution&lt;/h1&gt;
+&lt;?# Twitter 1257902961780387840 /?&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Telstra customers in areas that do not have mobile coverage are unable to send or receive SMS over WiFi. We have been working to introduce this capability into the network and will now accelerate the work required. We are also working closely with the DTA on alternative methods for the COVIDSafe app to send an authentication code,&amp;quot; a Telstra spokesperson said in an email to Gizmodo Australia.&lt;/p&gt;
+&lt;p&gt;&amp;quot;The government is aware that Telstra handsets presently do not support SMS over wi-fi, meaning that those in areas with poor mobile coverage may experience challenges in completing the process to download and register the COVIDSafe App (as the process involves receiving a code via SMS),&amp;quot;a spokesperson for the Minister for Communications, Cyber Safety and the Arts, Paul Fletcher, said in an email to Gizmodo Australia.&lt;/p&gt;
+&lt;p&gt;While Telstra's statement indicated that it was working on introducing SMS Over Wifi, no time frame was given. Telstra has now confirmed with Gizmodo Australia that the feature has begun rolling out on iOS and Samsung devices as of today.&lt;/p&gt;
+&lt;p&gt;&amp;quot;SMS over WiFi updates for customers’ smartphones have gone live overnight and will roll out progressively over the next seven days. Some Telstra customers will already see the functionality available on their devices.&amp;quot; said a Telstra spokesperson in an email tp Gizmodo Australia.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.gizmodo.com.au/2020/04/some-rural-australians-cant-access-covidsafe-app-due-to-a-missing-telstra-feature/"&gt;https://www.gizmodo.com.au/2020/04/some-rural-australians-cant-access-covidsafe-app-due-to-a-missing-telstra-feature/&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Many rural Australians aren't able to register for the app at all.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/questionable-metrics-of-success</id>
