@@ -4,6 +4,7 @@
 
 <div class="pb-3 mb-3 border-bottom">
     <div><strong>Reported At:</strong> @Document.GetDateTime("ReportedAt").ToLongDateString()</div>
+    <div><strong>Resolved At:</strong> @Document.GetDateTime("ResolvedAt").ToLongDateString()</div>
     <div><strong>Case Number: </strong> @Document.GetString("CaseNumber")</div>
     <div><strong>Status: </strong> @Document.GetString("Status")</div>
 </div>
