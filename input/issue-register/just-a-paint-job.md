@@ -14,3 +14,5 @@ Title: Just a paint job
 <?# Twitter 1257540474048581632 /?>
 <?# Twitter 1257541996874326018 /?>
 <?# Twitter 1257547477542027270 /?>
+
+https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/
