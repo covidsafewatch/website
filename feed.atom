@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-14T10:34:00Z</updated>
+	<updated>2020-05-14T13:36:33Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -74,7 +74,11 @@
 		<updated />
 		<content>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
 &lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;
+&lt;h2 id="original-twitter-thread"&gt;Original Twitter thread&lt;/h2&gt;
 &lt;?# Twitter 1258446501488889856 /?&gt;
+&lt;h2 id="senate-committee-transcript"&gt;Senate Committee transcript&lt;/h2&gt;
+&lt;p&gt;See Mr. Brugeaud's comments at the top of page 3 about being early adopters of the forthcoming Apple and Google APIs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://parlinfo.aph.gov.au/parlInfo/download/committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/toc_pdf/Senate%20Select%20Committee%20on%20COVID-19_2020_05_06_7691.pdf;fileType=application%2Fpdf#search=%22committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/0000%22"&gt;https://parlinfo.aph.gov.au/parlInfo/download/committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/toc_pdf/Senate%20Select%20Committee%20on%20COVID-19_2020_05_06_7691.pdf;fileType=application%2Fpdf#search=%22committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/0000%22&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;There has been no roadmap published by the DTA. We sometimes hear through the media that an update may be coming, but we don't know what that update will contain until it is published, and then it is just the brief release notes on the app stores or we compare the decompiled app with the previous version. The only certain item that has been mentioned several times is that they are planning to integrate the Exposure Notification APIs developed by Apple and Google. But there has been no mention or discussion by the DTA on what this integration may involve.&lt;/p&gt;</summary>
 	</entry>
