@@ -6,7 +6,7 @@ ports:
     onOpen: open-preview
 
 tasks:
-  - name: Build
+  - name: Preview
     command: dotnet run -- preview
     openMode: tab-after
 
