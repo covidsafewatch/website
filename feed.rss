@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Thu, 14 May 2020 01:17:23 GMT</pubDate>
-		<lastBuildDate>Thu, 14 May 2020 01:17:23 GMT</lastBuildDate>
+		<pubDate>Thu, 14 May 2020 02:37:00 GMT</pubDate>
+		<lastBuildDate>Thu, 14 May 2020 02:37:00 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text causes public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</link>
@@ -83,9 +83,34 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>CVE-2020-12717</title>
-			<link>https://covidsafe.watch/issue-register/cve-2020-12717</link>
-			<guid>https://covidsafe.watch/issue-register/cve-2020-12717</guid>
+			<title>CVE-2020-12717 - iOS Bluetooth Denial of Service</title>
+			<link>https://covidsafe.watch/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service</link>
+			<description>&lt;p&gt;COVIDSafe for iOS, versions 1.0 and 1.1 contain a denial of service vulnerability, inherited from the OpenTrace code. The coding error allows an attacker within Bluetooth range to crash the application. This causes no further records of contacts to be stored until the user manually reopens the application. Only when the exploit is stopped, or the user is out of range, is the application able to run again. If attackers (such as a misguided group of activists) were motivated to disrupt the COVIDSafe system, they could use this bug to prevent contact exchanges in busy, popular areas.&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service</guid>
+			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;p&gt;COVIDSafe for iOS, versions 1.0 and 1.1 contain a denial of service vulnerability, inherited from the OpenTrace code. The coding error allows an attacker within Bluetooth range to crash the application. This causes no further records of contacts to be stored until the user manually reopens the application. Only when the exploit is stopped, or the user is out of range, is the application able to run again. If attackers (such as a misguided group of activists) were motivated to disrupt the COVIDSafe system, they could use this bug to prevent contact exchanges in busy, popular areas.&lt;/p&gt;
+&lt;?# Youtube 7UdVHB1ohNo /?&gt;
+&lt;p&gt;This bug also affected Singapore’s TraceTogether, Alberta’s ABTraceTogether and Poland’s ProteGO.&lt;/p&gt;
+&lt;h1 id="technical-anaylsis"&gt;Technical Anaylsis&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708"&gt;https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="exploit"&gt;Exploit&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit"&gt;https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
+&lt;p&gt;The response from the disclosure of this particular vulnerability was very positive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;6/5/20 22:57: Information of bug shared with DTA&lt;/li&gt;
+&lt;li&gt;7/5/20 07:54: Response confirming receipt and that they were looking into it.&lt;/li&gt;
+&lt;li&gt;7/5/20 13:13: DTA confirmed the bug and that they would have a fix in the next release&lt;/li&gt;
+&lt;li&gt;8/5/20 19:03: DTA said they had fixed the bug and shared a timeframe for fix, and that upgrade advice for users would be settled.&lt;/li&gt;
+&lt;li&gt;14/5/20: Fix released to users in the App Store.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A fast response, continuous updates with a good outcome.&lt;/p&gt;
+&lt;?# Twitter 1260743270629388289 /?&gt;
+&lt;h1 id="acknowledgements"&gt;Acknowledgements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Contents from this page were mirrored from &lt;a href="https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708"&gt;https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
