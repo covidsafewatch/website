@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-14T03:12:57Z</updated>
+	<updated>2020-05-14T03:37:47Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -53,16 +53,28 @@
 		<updated />
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/no-customer-support-until-successful-registration</id>
+		<title>No customer support until successful registration</title>
+		<link href="https://covidsafe.watch/issue-register/no-customer-support-until-successful-registration" />
+		<updated />
+		<content>&lt;?# Twitter 1257507534035800066 /?&gt;
+</content>
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/no-customer-support-on-social-media</id>
 		<title>No customer support on social media</title>
 		<link href="https://covidsafe.watch/issue-register/no-customer-support-on-social-media" />
 		<updated />
+		<content>&lt;?# Twitter 1257513065727188992 /?&gt;
+</content>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/no-customer-support-in-the-app-stores</id>
 		<title>No customer support in the app stores</title>
 		<link href="https://covidsafe.watch/issue-register/no-customer-support-in-the-app-stores" />
 		<updated />
+		<content>&lt;?# Twitter 1257513065727188992 /?&gt;
+</content>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/lack-of-bug-bounty</id>
@@ -75,6 +87,20 @@
 		<title>Just a paint job</title>
 		<link href="https://covidsafe.watch/issue-register/just-a-paint-job" />
 		<updated />
+		<content>&lt;?# Twitter 1256952268206665730 /?&gt;
+&lt;?# Twitter 1257600104183164929 /?&gt;
+&lt;?# Twitter 1257506430476640256 /?&gt;
+&lt;?# Twitter 1257506832140038145 /?&gt;
+&lt;?# Twitter 1257507532173541378 /?&gt;
+&lt;?# Twitter 1257524946361741317 /?&gt;
+&lt;?# Twitter 1257532378320265216 /?&gt;
+&lt;?# Twitter 1257537188540985349 /?&gt;
+&lt;?# Twitter 1257537587306090498 /?&gt;
+&lt;?# Twitter 1257540470613237765 /?&gt;
+&lt;?# Twitter 1257540474048581632 /?&gt;
+&lt;?# Twitter 1257541996874326018 /?&gt;
+&lt;?# Twitter 1257547477542027270 /?&gt;
+</content>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</id>
@@ -165,6 +191,14 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 </content>
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/battery-usage</id>
+		<title>Battery Usage</title>
+		<link href="https://covidsafe.watch/issue-register/battery-usage" />
+		<updated />
+		<content>&lt;?# Twitter 1256937599064653824 /?&gt;
+</content>
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/accessibility</id>
 		<title>Accessibility</title>
 		<link href="https://covidsafe.watch/issue-register/accessibility" />
@@ -173,6 +207,7 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 &lt;p&gt;Vision and hearing-impaired people are also at a disadvantage in using the app. Testing by disability groups has found that it is not fully screen reader accessible, and there is no known Auslan guide on access and use. There is an urgent need for immediate consultation with this community to enable accessibility features to be built into the app design and inform any future iterations&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://www.afdo.org.au/covidsafe-app-community-sector-letter/"&gt;https://www.afdo.org.au/covidsafe-app-community-sector-letter/&lt;/a&gt;&lt;/p&gt;
+&lt;?# Twitter 1256939183853064192 /?&gt;
 </content>
 		<summary>&lt;p&gt;Vision and hearing-impaired people are also at a disadvantage in using the app. Testing by disability groups has found that it is not fully screen reader accessible, and there is no known Auslan guide on access and use. There is an urgent need for immediate consultation with this community to enable accessibility features to be built into the app design and inform any future iterations&lt;/p&gt;</summary>
 	</entry>
