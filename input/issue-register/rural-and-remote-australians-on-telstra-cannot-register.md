@@ -1,8 +1,12 @@
 Tite: Rural and remote Australian's on Telstra cannot register
+ReportedAt: 2020/04/29
+ResolvedAt: 2020/05/05  
 Status: Resolved
 ---
 
 # Overview
+
+<?# Twitter 1254499854245433344 /?>
 
 > Many rural Australians aren't able to register for the app at all.
 > 
