@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-14T03:49:44Z</updated>
+	<updated>2020-05-14T03:51:35Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -46,6 +46,7 @@
 		<link href="https://covidsafe.watch/issue-register/rural-and-remote-australians-on-telstra-cannot-register" />
 		<updated />
 		<content>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;?# Twitter 1254499854245433344 /?&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Many rural Australians aren't able to register for the app at all.&lt;/p&gt;
 &lt;p&gt;In order to register for COVIDSafe, users need to be sent an SMS verification. This two-factor authentication (2FA) is for security purposes and in general is a good feature of the app.&lt;/p&gt;
