@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Thu, 14 May 2020 02:40:49 GMT</pubDate>
-		<lastBuildDate>Thu, 14 May 2020 02:40:49 GMT</lastBuildDate>
+		<pubDate>Thu, 14 May 2020 02:44:04 GMT</pubDate>
+		<lastBuildDate>Thu, 14 May 2020 02:44:04 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text causes public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</link>
@@ -96,7 +96,7 @@
 &lt;p&gt;This is a fairly obvious bug that should have been picked up in an automated scan and/or an in-depth security review.&lt;/p&gt;
 &lt;p&gt;The model that governments have chosen to build on OpenTrace has made the disclosure process extremely painful. It seems as though each government received a code drop of OpenTrace at some point in time, and from there on there was little to no communication. There’s no central repository they all build upon, no process for communicating bugs up or downstream, and in fact no security contacts that we could find at all. we tried contacting each entity separately through the traditional support request forms, but did not get a response from any, apart from the DTA who we happened to have a specific email address for. If they had followed an established upstream/downstream model or all contributed to a monorepo, there would have been significant advantages to all involved.
 As much as was my wish, it seemed impossible to coordinate disclosure between all affected entities. And there could be more affected applications that we just don’t know about.&lt;/p&gt;
-&lt;h1 id="technical-anaylsis"&gt;Technical Anaylsis&lt;/h1&gt;
+&lt;h1 id="technical-analysis"&gt;Technical Analysis&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708"&gt;https://medium.com/&amp;#64;wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="exploit"&gt;Exploit&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit"&gt;https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit&lt;/a&gt;&lt;/p&gt;
