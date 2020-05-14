@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Wed, 13 May 2020 16:16:46 GMT</pubDate>
-		<lastBuildDate>Wed, 13 May 2020 16:16:46 GMT</lastBuildDate>
+		<pubDate>Thu, 14 May 2020 00:56:09 GMT</pubDate>
+		<lastBuildDate>Thu, 14 May 2020 00:56:09 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text causes public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-causes-public-panic</link>
@@ -104,9 +104,11 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>Application Sourcecode</title>
+			<title>COVIDSafe Application Sourcecode</title>
 			<link>https://covidsafe.watch/issue-register/covidsafe-application-sourcecode</link>
 			<guid>https://covidsafe.watch/issue-register/covidsafe-application-sourcecode</guid>
+			<content:encoded>&lt;?# Twitter 1260734086097670144 /?&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
