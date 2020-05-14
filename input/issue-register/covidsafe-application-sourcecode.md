@@ -1,5 +1,9 @@
 Title: COVIDSafe Application Sourcecode
 ---
 
-<?# Twitter 1260734086097670144 /?>
 
+# Timeline
+
+- 14th April 2020, v1.0.16 was released to the App Stores but the source code has not been released.
+
+<?# Twitter 1260734086097670144 /?>
