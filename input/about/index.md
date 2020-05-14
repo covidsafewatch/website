@@ -3,7 +3,7 @@ BreadcrumbTitle: About
 Xref: About
 ---
 
-We are a team of security researchers, open-source advocates, community managers and privacy specialists that support the concept of technology based contact tracing.
+We are a team of security researchers, open-source software engineers, community managers and privacy specialists that support the concept of technology based contact tracing.
 
 * We want to see lives saved through the use of this unprecedented technology.
 * It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.
