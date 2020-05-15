@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-15T08:03:14Z</updated>
+	<updated>2020-05-15T08:21:51Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -42,6 +42,7 @@
 		<updated />
 		<content>&lt;?# Twitter 1258745850647293953 /?&gt;
 &lt;?# Twitter 1259076147276443649 /?&gt;
+&lt;?# Twitter 1260734086097670144 /?&gt;
 &lt;?# Raw ?&gt;
 &lt;?# Include "https://github.com/foo/bar/me.md" &gt;
 &lt;?#/ Raw ?&gt;  
