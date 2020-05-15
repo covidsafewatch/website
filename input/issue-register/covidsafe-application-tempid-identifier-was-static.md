@@ -13,6 +13,8 @@ CVEIdentifier: TBA
 
 From: https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#
 
+# Impact / Risk
+
 <?# Twitter 1261109574263730177 /?>
 
 # Timeline
