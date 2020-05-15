@@ -2,6 +2,7 @@ Title: COVIDSafe application TempID identifier was static
 ReportedAt: 2020/04/27
 ResolvedAt: 2020/05/14
 Status: Resolved
+CVEIdentifier: TBA
 ---
 
 # Overview
