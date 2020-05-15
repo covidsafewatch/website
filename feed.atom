@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-15T04:28:08Z</updated>
+	<updated>2020-05-15T05:04:03Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -180,6 +180,21 @@
 		<summary>&lt;p&gt;&lt;a href="https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/"&gt;https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/&lt;/a&gt;&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<id>https://covidsafe.watch/issue-register/iphones-not-working-in-the-background</id>
+		<title>iPhone's not working in the backgrounf</title>
+		<link href="https://covidsafe.watch/issue-register/iphones-not-working-in-the-background" />
+		<updated />
+		<content>&lt;?# Twitter 1259091209848410112 /?&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jim Mussared is one Australian developer who's been working on uncovering the app's flaws to ensure it's doing what it's meant to. For him, it's made one thing particularly clear — the DTA hasn't been easy to work with when it comes to disclosing bugs.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Seeing the source code allows us to do a direct comparison to the Singapore [TraceTogether] code,&amp;quot; Mussared said to Gizmodo Australia over email.&lt;/p&gt;
+&lt;p&gt;&amp;quot;One very clear result of this is that there were zero functional changes to the iOS BLE backgrounding behaviour (CentralController.swift). We know that the Singapore team knew that background-to-background iPhone didn't work, so any claims by the DTA that they 'fixed it' indicate that either they never actually tested [or] investigated it, or their testing methodology was flawed.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/"&gt;https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Jim Mussared is one Australian developer who's been working on uncovering the app's flaws to ensure it's doing what it's meant to. For him, it's made one thing particularly clear — the DTA hasn't been easy to work with when it comes to disclosing bugs.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<id>https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices</id>
 		<title>iPhones Appearing as Connected Device</title>
 		<link href="https://covidsafe.watch/issue-register/iphones-appearing-as-connected-devices" />
@@ -248,7 +263,8 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 		<title>COVIDSafe Application Sourcecode</title>
 		<link href="https://covidsafe.watch/issue-register/covidsafe-application-sourcecode" />
 		<updated />
-		<content>&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
+		<content>&lt;?# Twitter 1261151214298750977 /?&gt;
+&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;14th April 2020. v1.0.17 was released to the App Stores but the source code has not been released.&lt;/li&gt;
 &lt;/ul&gt;
@@ -278,8 +294,25 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 		<title>Better than Singapore?</title>
 		<link href="https://covidsafe.watch/issue-register/better-than-singapore" />
 		<updated />
-		<content>&lt;?# Twitter 1259091209848410112 /?&gt;
+		<content>&lt;h1 id="claim"&gt;Claim&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Australia’s forthcoming contact tracing app will be fundamentally different to Singapore’s TraceTogether, with improvements having already been made to the latter's functionality.&lt;/p&gt;
+&lt;p&gt;Acting health department secretary Caroline Edwards told a senate inquiry into COVID-19 on Thursday that although the app is derived from TraceTogether, its code base will be unique.&lt;/p&gt;
+&lt;p&gt;“I don’t think the Singapore TraceTogether app is the model,” she said in response to questions from Labor senator Murray Watt, adding that it has been an “important contributor”&lt;/p&gt;
+&lt;p&gt;But Australia’s app, which is being developed by the Digital Transformation Agency, is expected to build on TraceTogether elements, particularly around Bluetooth on iPhones.&lt;/p&gt;
+&lt;p&gt;Edwards said that the DTA app would not need to constantly run in the foreground for contacts to be recorded, although he admitted Bluetooth would work better with the app open.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://www.itnews.com.au/news/australias-covid-tracing-app-better-than-singapores-health-chief-547126"&gt;https://www.itnews.com.au/news/australias-covid-tracing-app-better-than-singapores-health-chief-547126&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="technical-analysis"&gt;Technical Analysis&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jim Mussared is one Australian developer who's been working on uncovering the app's flaws to ensure it's doing what it's meant to. For him, it's made one thing particularly clear — the DTA hasn't been easy to work with when it comes to disclosing bugs.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Seeing the source code allows us to do a direct comparison to the Singapore [TraceTogether] code,&amp;quot; Mussared said to Gizmodo Australia over email.&lt;/p&gt;
+&lt;p&gt;&amp;quot;One very clear result of this is that there were zero functional changes to the iOS BLE backgrounding behaviour (CentralController.swift). We know that the Singapore team knew that background-to-background iPhone didn't work, so any claims by the DTA that they 'fixed it' indicate that either they never actually tested [or] investigated it, or their testing methodology was flawed.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/"&gt;https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/&lt;/a&gt;&lt;/p&gt;
+&lt;?# Twitter 1259091209848410112 /?&gt;
 </content>
+		<summary>&lt;p&gt;Australia’s forthcoming contact tracing app will be fundamentally different to Singapore’s TraceTogether, with improvements having already been made to the latter's functionality.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/battery-usage</id>
