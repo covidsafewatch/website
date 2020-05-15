@@ -14,7 +14,7 @@ Status: Unresolved
 <?# Twitter 1259105952030027776 /?>
 <?# Twitter 1259111494072975363 /?>
 
-- 2020/05/12: support@covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.
+- 2020/05/12: support@covidsafe.gov.au (the <a href="https://covidsafe.gov.au/.well-known/security.txt">designated security contact address</a>) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.
 
 <?# Twitter 1260012514131099648 /?>
 
