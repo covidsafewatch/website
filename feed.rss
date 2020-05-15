@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Fri, 15 May 2020 05:23:42 GMT</pubDate>
-		<lastBuildDate>Fri, 15 May 2020 05:23:42 GMT</lastBuildDate>
+		<pubDate>Fri, 15 May 2020 06:14:06 GMT</pubDate>
+		<lastBuildDate>Fri, 15 May 2020 06:14:06 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -90,6 +90,20 @@
 			<title>Questionable Metrics of Success</title>
 			<link>https://covidsafe.watch/issue-register/questionable-metrics-of-success</link>
 			<guid>https://covidsafe.watch/issue-register/questionable-metrics-of-success</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Potential Databreach Handled Incorrectly</title>
+			<link>https://covidsafe.watch/issue-register/potential-data-breach-handled-incorrectly</link>
+			<guid>https://covidsafe.watch/issue-register/potential-data-breach-handled-incorrectly</guid>
+			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;?# Twitter 1259117490912796675 /?&gt;
+&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
+&lt;?# Twitter 1260012514131099648 /?&gt;
+&lt;?# Twitter 1259103414316707840 /?&gt;
+&lt;?# Twitter 1259105952030027776 /?&gt;
+&lt;?# Twitter 1259111494072975363 /?&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
@@ -212,6 +226,59 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>CVE-2020-12857 - TempID identifier was static</title>
+			<link>https://covidsafe.watch/issue-register/cve-2020-12857-tempid-identifier-was-static</link>
+			<description>&lt;p&gt;The lifetime of this ID is important because it will uniquely identify your phone for this time interval. It doesn't say who you are, but it allows any Bluetooth device in range to know that it's the same phone it saw earlier. A simple example of how this could be abused is that it allows someone to track your movement as your ID shows up in multiple locations. Devices recording these IDs could provide effective distributed location tracing. This is why it's very important that the same ID is used for the shortest possible period.&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/cve-2020-12857-tempid-identifier-was-static</guid>
+			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The lifetime of this ID is important because it will uniquely identify your phone for this time interval. It doesn't say who you are, but it allows any Bluetooth device in range to know that it's the same phone it saw earlier. A simple example of how this could be abused is that it allows someone to track your movement as your ID shows up in multiple locations. Devices recording these IDs could provide effective distributed location tracing. This is why it's very important that the same ID is used for the shortest possible period.&lt;/p&gt;
+&lt;p&gt;A slightly more complicated example is that if I already know who someone is and can record their ID (by being within 20 metres of them for a few seconds), then I now can track that exact person. This would be especially worrying to victims of domestic violence (also note that the issues described here do not require access to an unlocked phone).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#"&gt;https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="impact-risk"&gt;Impact / Risk&lt;/h1&gt;
+&lt;?# Twitter 1261109574263730177 /?&gt;
+&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;This issue was first reported to privacy&amp;#64;health.gov.au at 1:19am on 27/04/2020, and subsequently by in-app feedback later that day. It was also reported to asd.assist&amp;#64;defence.gov.au at 4:52pm on 27/04/2020.&lt;/li&gt;
+&lt;li&gt;This issue was first reported to the Singapore OpenTrace team at 12:38am on 30/04/2020 and &lt;a href="https://github.com/opentrace-community/opentrace-android/commit/0c7f7f6c4b265140f86b91f8e9e1ec70f5cd67ba"&gt;was fixed in this commit&lt;/a&gt; to the opentrace-android repository at 7:11pm on the same day.&lt;/li&gt;
+&lt;li&gt;This issue was fixed in v1.0.17 released on 14/05/2020 (see note at end)&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>CVE-2020-12856 - Long-term tracking and possibly enables other bluetooth based attack vectors</title>
+			<link>https://covidsafe.watch/issue-register/cve-2020-12856-long-term-tracking-and-possibly-enables-other-bluetooth-based-attack-vectors</link>
+			<description>&lt;p&gt;Authors: Jim Mussared (micropython.org), Alwen Tiu (The Australian National University)&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/cve-2020-12856-long-term-tracking-and-possibly-enables-other-bluetooth-based-attack-vectors</guid>
+			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Authors: Jim Mussared (micropython.org), Alwen Tiu (The Australian National University)&lt;/p&gt;
+&lt;p&gt;A vulnerability has been identified in the implementation of the Android version of Australia's COVIDSafe contact tracing app that may affect several other contact tracing apps that share a similar architecture, such as Singapore's TraceTogether and Alberta's ABTraceTogether. This issue is being tracked using the CVE ID CVE-2020-12856. The vulnerability allows for long term tracking of users of the affected apps, and possibly enables other bluetooth-based attack vectors.&lt;/p&gt;
+&lt;p&gt;The details of the issue are still currently under embargo, until the developers of the affected apps have been notified and given a chance to put in place mitigation strategies. After the embargo period ends, more details of the issue will be published here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://github.com/alwentiu/COVIDSafe-CVE-2020-12856"&gt;https://github.com/alwentiu/COVIDSafe-CVE-2020-12856&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This can be applied in a couple of different ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone. Although it still only requires simple equipment and limited expertise, it's harder to pull off. However, it allows for permanent tracking of an iPhone even when the COVIDSafe app is uninstalled. This gives access to the full device name normally hidden on iPhone.&lt;/li&gt;
+&lt;li&gt;Android. This allows for simple long-term tracking of an Android device (similar in execution to Issue #1 and #2) while the app is still installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unlike issue &lt;a href="https://covidsafe.watch/issue-register/CVE-2020-12857-tempid-identifier-was-static"&gt;CVE-2020-12857&lt;/a&gt; and Issue #2, this persists after reboot on both iPhone and Android.&lt;/p&gt;
+&lt;p&gt;This applies to all contact tracing apps based on a similar protocol (e.g. confirmed for UK, Singapore)&lt;/p&gt;
+&lt;p&gt;I strongly recommend that the Google/Apple protocol is adopted instead. When possible I will add mitigation details.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#"&gt;https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2020/05/15 - GitHub repository created at &lt;a href="https://github.com/alwentiu/COVIDSafe-CVE-2020-12856"&gt;https://github.com/alwentiu/COVIDSafe-CVE-2020-12856&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lacking an official disclosure/bug bounty program, we have now (5:00pm on 05/05/2020) raised this informally with the DTA and ASD/ACSC though available channels, with as much detail as possible.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>CVE-2020-12717 - iOS Bluetooth Denial of Service</title>
 			<link>https://covidsafe.watch/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service</link>
 			<description>&lt;p&gt;COVIDSafe for iOS, versions 1.0 and 1.1 contain a denial of service vulnerability, inherited from the OpenTrace code. The coding error allows an attacker within Bluetooth range to crash the application. This causes no further records of contacts to be stored until the user manually reopens the application. Only when the exploit is stopped, or the user is out of range, is the application able to run again. If attackers (such as a misguided group of activists) were motivated to disrupt the COVIDSafe system, they could use this bug to prevent contact exchanges in busy, popular areas.&lt;/p&gt;</description>
@@ -258,27 +325,6 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 			<description>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;</description>
 			<guid>https://covidsafe.watch/issue-register/covidsafe-not-available-in-international-appstores</guid>
 			<content:encoded>&lt;p&gt;Title: COVIDSafe not available in international app stores&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>COVIDSafe application TempID identifier was static</title>
-			<link>https://covidsafe.watch/issue-register/covidsafe-application-tempid-identifier-was-static</link>
-			<description>&lt;p&gt;The lifetime of this ID is important because it will uniquely identify your phone for this time interval. It doesn't say who you are, but it allows any Bluetooth device in range to know that it's the same phone it saw earlier. A simple example of how this could be abused is that it allows someone to track your movement as your ID shows up in multiple locations. Devices recording these IDs could provide effective distributed location tracing. This is why it's very important that the same ID is used for the shortest possible period.&lt;/p&gt;</description>
-			<guid>https://covidsafe.watch/issue-register/covidsafe-application-tempid-identifier-was-static</guid>
-			<content:encoded>&lt;h1 id="overview"&gt;Overview&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The lifetime of this ID is important because it will uniquely identify your phone for this time interval. It doesn't say who you are, but it allows any Bluetooth device in range to know that it's the same phone it saw earlier. A simple example of how this could be abused is that it allows someone to track your movement as your ID shows up in multiple locations. Devices recording these IDs could provide effective distributed location tracing. This is why it's very important that the same ID is used for the shortest possible period.&lt;/p&gt;
-&lt;p&gt;A slightly more complicated example is that if I already know who someone is and can record their ID (by being within 20 metres of them for a few seconds), then I now can track that exact person. This would be especially worrying to victims of domestic violence (also note that the issues described here do not require access to an unlocked phone).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From: &lt;a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#"&gt;https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#&lt;/a&gt;&lt;/p&gt;
-&lt;?# Twitter 1261109574263730177 /?&gt;
-&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;This issue was first reported to privacy&amp;#64;health.gov.au at 1:19am on 27/04/2020, and subsequently by in-app feedback later that day. It was also reported to asd.assist&amp;#64;defence.gov.au at 4:52pm on 27/04/2020.&lt;/li&gt;
-&lt;li&gt;This issue was first reported to the Singapore OpenTrace team at 12:38am on 30/04/2020 and &lt;a href="https://github.com/opentrace-community/opentrace-android/commit/0c7f7f6c4b265140f86b91f8e9e1ec70f5cd67ba"&gt;was fixed in this commit&lt;/a&gt; to the opentrace-android repository at 7:11pm on the same day.&lt;/li&gt;
-&lt;li&gt;This issue was fixed in v1.0.17 released on 14/05/2020 (see note at end)&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
