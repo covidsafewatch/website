@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-15T08:37:22Z</updated>
+	<updated>2020-05-15T10:01:13Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -65,6 +65,7 @@
 &lt;?# Twitter 1258322382034366465 /?&gt;
 &lt;?# Twitter 1258670284007063552 /?&gt;
 &lt;?# Twitter 1261161464183664641 /?&gt;
+&lt;?# Twitter 1261189641396318213 /?&gt;
 </content>
 	</entry>
 	<entry>
@@ -114,6 +115,8 @@
 		<title>Questionable Metrics of Success</title>
 		<link href="https://covidsafe.watch/issue-register/questionable-metrics-of-success" />
 		<updated />
+		<content>&lt;?# Twitter 1261115581769498625 /?&gt;
+</content>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/potential-data-breach-handled-incorrectly</id>
@@ -128,7 +131,7 @@
 &lt;?# Twitter 1259105952030027776 /?&gt;
 &lt;?# Twitter 1259111494072975363 /?&gt;
 &lt;ul&gt;
-&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
+&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the &lt;a href="https://covidsafe.gov.au/.well-known/security.txt"&gt;designated security contact address&lt;/a&gt;) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;?# Twitter 1260012514131099648 /?&gt;
 &lt;h1 id="recommended-next-steps"&gt;Recommended Next Steps&lt;/h1&gt;

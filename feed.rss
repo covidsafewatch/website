@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Fri, 15 May 2020 08:37:22 GMT</pubDate>
-		<lastBuildDate>Fri, 15 May 2020 08:37:22 GMT</lastBuildDate>
+		<pubDate>Fri, 15 May 2020 10:01:13 GMT</pubDate>
+		<lastBuildDate>Fri, 15 May 2020 10:01:13 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -66,6 +66,7 @@
 &lt;?# Twitter 1258322382034366465 /?&gt;
 &lt;?# Twitter 1258670284007063552 /?&gt;
 &lt;?# Twitter 1261161464183664641 /?&gt;
+&lt;?# Twitter 1261189641396318213 /?&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -115,6 +116,8 @@
 			<title>Questionable Metrics of Success</title>
 			<link>https://covidsafe.watch/issue-register/questionable-metrics-of-success</link>
 			<guid>https://covidsafe.watch/issue-register/questionable-metrics-of-success</guid>
+			<content:encoded>&lt;?# Twitter 1261115581769498625 /?&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
@@ -129,7 +132,7 @@
 &lt;?# Twitter 1259105952030027776 /?&gt;
 &lt;?# Twitter 1259111494072975363 /?&gt;
 &lt;ul&gt;
-&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
+&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the &lt;a href="https://covidsafe.gov.au/.well-known/security.txt"&gt;designated security contact address&lt;/a&gt;) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;?# Twitter 1260012514131099648 /?&gt;
 &lt;h1 id="recommended-next-steps"&gt;Recommended Next Steps&lt;/h1&gt;
