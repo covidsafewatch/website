@@ -7,6 +7,8 @@ Biosecurity Act received amendments which provide legal constraints of how infor
 
 ### 15th May 2020
 
+* <?# Twitter 1261109562498637824 /?>
+
 * Queensland *__relaxes__* lockdown constraints to enable Restaurants, Cafes, Pubs, Clubs, RSL clubs and Hotels to open doors for up to maximum 10 customers per venue. A detailed checklist provided to ensure any of the business mentioned above types must abide by before opening for trade (https://www.covid19.qld.gov.au/__data/assets/pdf_file/0020/127235/COVID-Safe-Checklist-RestCafes.pdf).
 
 * Queensland business required to keep records of customers before trade commences, specifically they are required to ask customers for their __name, address and mobile phone number__ of a *person* at each table.
