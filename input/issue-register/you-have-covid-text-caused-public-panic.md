@@ -1,11 +1,8 @@
 Title: You have COVID text caused public panic
 ReportedAt: 2020/04/26
-ResolvedAt: 
+ResolvedAt: 2020/05/04
 Status: Resolved
 ---
-
-# Overview
-
 
 # Timeline
 - 2020/04/26: Identified that the text in the application could potentially cause public panic:
@@ -16,6 +13,8 @@ From: https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8v
 
 - 2020/04/28: Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
 
+<?# Twitter 1255671317145108482 /?>
+
 > Confusion and privacy concerns have grown over the federal government's COVIDSafe app, with one Melbourne woman saying a puzzling message led her to believe she had contracted the virus.
 >
 > Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
@@ -24,7 +23,7 @@ From: https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8v
 
 From: https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavirus-after-confusing-message/e9146501-6bbd-4509-b89a-406b2b98ed2a
 
-<?# Twitter 1255671317145108482 /?>
-<?# Twitter 1258014478978842625 /?>
 
 - 2020/05/04: V1.0.15 released which removed the text. Time to resolution 10 days.
+
+<?# Twitter 1258014478978842625 /?>
