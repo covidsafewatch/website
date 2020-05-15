@@ -12,6 +12,8 @@ Status: Resolved
 
 From: https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit#
 
+<?# Twitter 1261109574263730177 /?>
+
 # Timeline
 
 - This issue was first reported to privacy@health.gov.au at 1:19am on 27/04/2020, and subsequently by in-app feedback later that day. It was also reported to asd.assist@defence.gov.au at 4:52pm on 27/04/2020.
