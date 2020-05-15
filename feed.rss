@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Fri, 15 May 2020 08:26:56 GMT</pubDate>
-		<lastBuildDate>Fri, 15 May 2020 08:26:56 GMT</lastBuildDate>
+		<pubDate>Fri, 15 May 2020 08:37:22 GMT</pubDate>
+		<lastBuildDate>Fri, 15 May 2020 08:37:22 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -123,19 +123,19 @@
 			<guid>https://covidsafe.watch/issue-register/potential-data-breach-handled-incorrectly</guid>
 			<content:encoded>&lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;2020/05/09: Discussion about a S3 bucket starts circulating in the community. Reported to ASD.Assist&amp;#64;defense.gov.au, support&amp;#64;covidsafe.gov.au.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;?# Twitter 1260012514131099648 /?&gt;
-&lt;ul&gt;
-&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
+&lt;li&gt;2020/05/09: Discussion about a S3 bucket starts circulating in the community about an Amazon S3 bucket that files named &amp;quot;CovidSafeUserData&amp;quot;. Reported to ASD.Assist&amp;#64;defense.gov.au, support&amp;#64;covidsafe.gov.au.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;?# Twitter 1259103414316707840 /?&gt;
 &lt;?# Twitter 1259105952030027776 /?&gt;
 &lt;?# Twitter 1259111494072975363 /?&gt;
 &lt;ul&gt;
-&lt;li&gt;2020/05/09: Jelle downloaded the files and conducted an analsys:&lt;/li&gt;
+&lt;li&gt;2020/05/12: support&amp;#64;covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;?# Twitter 1259117490912796675 /?&gt;
+&lt;?# Twitter 1260012514131099648 /?&gt;
+&lt;h1 id="recommended-next-steps"&gt;Recommended Next Steps&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Seperate customer support and security reporting channels. Establish a proper bug bounty.&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>

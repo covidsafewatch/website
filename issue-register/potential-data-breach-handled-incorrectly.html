@@ -91,31 +91,30 @@
 <div class="pb-3 mb-3 border-bottom">
     <div><strong>Reported At:</strong> Saturday, May 9, 2020</div>
     <div><strong>Resolved At:</strong> Monday, January 1, 0001</div>
-    <div><strong>Case Number: </strong> </div>
+    <div><strong>Case Number: </strong> OPS-69547, CFS-8301</div>
     <div><strong>Status: </strong> Unresolved</div>
 </div>
 
 <h1 id="timeline">Timeline</h1>
 <ul>
-<li>2020/05/09: Discussion about a S3 bucket starts circulating in the community. Reported to ASD.Assist@defense.gov.au, support@covidsafe.gov.au.</li>
-</ul>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Double what the f. Reported that a S3 bucket was online with database files named "<a href="https://twitter.com/hashtag/covidsafe?src=hash&amp;ref_src=twsrc%5Etfw">#covidsafe</a> user data" 👇 finally got a reply after two days? You are not going to believe it.<br><br>Potential data breach ignored.<br>Directed to look at source code instead. <a href="https://t.co/K1pctcw0jq">https://t.co/K1pctcw0jq</a> <a href="https://t.co/MijdDra4cu">pic.twitter.com/MijdDra4cu</a></p>— geoffrey huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1260012514131099648?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
-<script async="" src="/mirror/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<ul>
-<li>2020/05/12: support@covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.</li>
+<li>2020/05/09: Discussion about a S3 bucket starts circulating in the community about an Amazon S3 bucket that files named "CovidSafeUserData". Reported to ASD.Assist@defense.gov.au, support@covidsafe.gov.au.</li>
 </ul>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What the actual f is this. I hope this is a honey pot <a href="https://twitter.com/DTA?ref_src=twsrc%5Etfw">@DTA</a>. <a href="https://twitter.com/hashtag/covidsafe?src=hash&amp;ref_src=twsrc%5Etfw">#covidsafe</a><a href="https://t.co/nWBSy9f7HJ">https://t.co/nWBSy9f7HJ</a> <a href="https://t.co/PtWgXBk3fF">pic.twitter.com/PtWgXBk3fF</a></p>— geoffrey huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1259103414316707840?ref_src=twsrc%5Etfw">May 9, 2020</a></blockquote>
+<script async="" src="/mirror/platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Have left voice mail with our internal contact at the DTA and emailed ASD.Asssist@defense.gov.au. <a href="https://t.co/3jbd5MgjOY">pic.twitter.com/3jbd5MgjOY</a></p>— geoffrey huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1259105952030027776?ref_src=twsrc%5Etfw">May 9, 2020</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">CFS-8301. <a href="https://t.co/j5Jbo5OQ4D">pic.twitter.com/j5Jbo5OQ4D</a></p>— geoffrey huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1259111494072975363?ref_src=twsrc%5Etfw">May 9, 2020</a></blockquote>
 
 <ul>
-<li>2020/05/09: Jelle downloaded the files and conducted an analsys:</li>
+<li>2020/05/12: support@covidsafe.gov.au (the designated security contact address) responded to the matter incorrectly and directed Geoff where he could download the source code of the application.</li>
 </ul>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">contents of "<a href="https://t.co/FI1rRLKzn0">https://t.co/FI1rRLKzn0</a>" is "Good try..." and the `.parquet` files are not valid: CovidSafeUserData_0001.parquet is not a Parquet file. expected magic number at tail [80, 65, 82, 49] but found [-65, 70, -72, -59]<br><br>🍯 ?</p>— Jelle (@wires_wires) <a href="https://twitter.com/wires_wires/status/1259117490912796675?ref_src=twsrc%5Etfw">May 9, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Double what the f. Reported that a S3 bucket was online with database files named "<a href="https://twitter.com/hashtag/covidsafe?src=hash&amp;ref_src=twsrc%5Etfw">#covidsafe</a> user data" 👇 finally got a reply after two days? You are not going to believe it.<br><br>Potential data breach ignored.<br>Directed to look at source code instead. <a href="https://t.co/K1pctcw0jq">https://t.co/K1pctcw0jq</a> <a href="https://t.co/MijdDra4cu">pic.twitter.com/MijdDra4cu</a></p>— geoffrey huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1260012514131099648?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
 
+<h1 id="recommended-next-steps">Recommended Next Steps</h1>
+<ul>
+<li>Seperate customer support and security reporting channels. Establish a proper bug bounty.</li>
+</ul>
 
 
                                         </div>
@@ -123,6 +122,7 @@
                                             <div class="border-bottom mb-3">
                                                 <p class="small font-weight-bold">On This Page</p>
                                                     <p class="small"><a href="#timeline">Timeline</a></p>
+                                                    <p class="small"><a href="#recommended-next-steps">Recommended Next Steps</a></p>
                                             </div>
                                         <p class="small font-weight-bold"><a href="https://github.com/covidsafewatch/website/edit/develop/input/issue-register/potential-data-breach-handled-incorrectly.md"><i class="fad fa-pencil"></i> Edit This Page</a></p>
                                 </div>
