@@ -1,6 +1,7 @@
 Title: You have COVID text caused public panic
-ReportedAt:
-ResolvedAt:
+ReportedAt: 2020/04/26
+ResolvedAt: 
+Status: Resolved
 ---
 
 # Overview
@@ -17,6 +18,12 @@ From: https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-cor
 <?# Twitter 1258014478978842625 /?>
 
 # Timeline
+- 2020/04/26: Identified that the text in the application could potentially cause public panic:
 
-https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#
+> When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing. Since the user is only supposed to upload data when asked to by a health official (see the previous screen), this statement should reiterate that data should not be uploaded UNLESS you have tested positive. It’s possible that uploading data without having tested positive will result in unnecessary and false notifications being sent to other users
 
+From: https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit
+
+- 2020/04/28: Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
+
+- 2020/05/04: V1.0.15 released which removed the text. Time to resolution 10 days.
