@@ -33,6 +33,3 @@ Biosecurity Act received amendments which provide legal constraints of how infor
 
 
 Note: __Queensland Attorney-General and Minister for Justice / Shadow Minister(s) have been notified formally for response to these set of issues.__
-
-
-
