@@ -13,7 +13,8 @@ ReportedAt: 2020/04/23
 > But Australia’s app, which is being developed by the Digital Transformation Agency, is expected to build on TraceTogether elements, particularly around Bluetooth on iPhones.
 >
 > Edwards said that the DTA app would not need to constantly run in the foreground for contacts to be recorded, although he admitted Bluetooth would work better with the app open.
-https://www.itnews.com.au/news/australias-covid-tracing-app-better-than-singapores-health-chief-547126
+
+From: https://www.itnews.com.au/news/australias-covid-tracing-app-better-than-singapores-health-chief-547126
 
 # Technical Analysis
 
@@ -23,6 +24,6 @@ https://www.itnews.com.au/news/australias-covid-tracing-app-better-than-singapor
 >
 > "One very clear result of this is that there were zero functional changes to the iOS BLE backgrounding behaviour (CentralController.swift). We know that the Singapore team knew that background-to-background iPhone didn't work, so any claims by the DTA that they 'fixed it' indicate that either they never actually tested [or] investigated it, or their testing methodology was flawed."
 
-https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
+From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
 
 <?# Twitter 1259091209848410112 /?>
