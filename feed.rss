@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Fri, 15 May 2020 07:51:46 GMT</pubDate>
-		<lastBuildDate>Fri, 15 May 2020 07:51:46 GMT</lastBuildDate>
+		<pubDate>Fri, 15 May 2020 07:58:22 GMT</pubDate>
+		<lastBuildDate>Fri, 15 May 2020 07:58:22 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -22,7 +22,19 @@
 &lt;?# Twitter 1255671317145108482 /?&gt;
 &lt;?# Twitter 1258014478978842625 /?&gt;
 &lt;h1 id="timeline"&gt;Timeline&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#"&gt;https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2020/04/26: Identified that the text in the application could potentially cause public panic:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing. Since the user is only supposed to upload data when asked to by a health official (see the previous screen), this statement should reiterate that data should not be uploaded UNLESS you have tested positive. It’s possible that uploading data without having tested positive will result in unnecessary and false notifications being sent to other users&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From: &lt;a href="https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit"&gt;https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;2020/04/28: Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2020/05/04: V1.0.15 released which removed the text. Time to resolution 10 days.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
