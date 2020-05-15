@@ -1,5 +1,6 @@
 Title: Better than Singapore?
 ReportedAt: 2020/04/23
+Status: Unresolved
 ---
 
 # Claim
