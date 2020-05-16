@@ -6,3 +6,4 @@ Title: Questionable Metrics of Success
 https://twitter.com/GeoffreyHuntley/status/1261444399705157632?s=19
 
 https://twitter.com/NathanLee/status/1261481135931928577?s=19
+https://twitter.com/unixbigot/status/1261549852556619777?s=19
