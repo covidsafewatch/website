@@ -18,3 +18,5 @@ Title: Social Pressure & Coersion
 <?# Twitter 1261161464183664641 /?>
 
 <?# Twitter 1261189641396318213 /?>
+
+https://twitter.com/taz_taz9/status/1261405509795495938?s=19
