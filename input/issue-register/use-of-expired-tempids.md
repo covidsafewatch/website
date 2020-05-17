@@ -12,9 +12,11 @@ The first issue relates to how the iOS app obtains new TempIDs.
 
 The second issue identifies the parts of the codebase where the apps continue to use TempIDs that it already knows have expired.
 
+The use of TempIDs beyond their 2-hour lifespan may make it easier for third-parties to track COVIDSafe app users.
+
 # Obtaining new TempIDs on iOS
 
-When requesting a tempID from the National COVIDSafe Data Store, the response contains three fields:
+When requesting a TempID from the National COVIDSafe Data Store, the response contains three fields:
 
 1. The TempID itself.
 1. A refresh time, which is 1 hour from the current time, after which the application should attempt to obtain a new TempID.
