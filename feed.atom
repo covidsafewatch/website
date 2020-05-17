@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-17T01:31:10Z</updated>
+	<updated>2020-05-17T03:18:16Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -695,9 +695,11 @@ Peripheral advertising..
 		<title>Hearing Aid Incompatibility</title>
 		<link href="https://covidsafe.watch/issue-register/hearing-aid-incompatibility" />
 		<updated />
-		<content>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;&lt;/p&gt;
+		<content>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/cve-2020-12857-tempid-identifier-was-static</id>
