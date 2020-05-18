@@ -73,3 +73,4 @@ As has been interpreted from the code and has also been observed from performing
 
 # Timeline
 - 17th May 2020: Reported to support@covidsafe.gov.au
+- 18th May 2020: Response confirming receipt and that this has been passed on to the development team.
