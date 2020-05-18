@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-17T03:20:02Z</updated>
+	<updated>2020-05-18T06:23:57Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -1289,9 +1289,11 @@ Peripheral advertising..
 		<link href="https://covidsafe.watch/issue-register/battery-usage" />
 		<updated />
 		<content>&lt;?# Twitter 1256937599064653824 /?&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/Therese_Rein/status/1260183690396594177?s=19"&gt;https://twitter.com/Therese_Rein/status/1260183690396594177?s=19&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/Therese_Rein/status/1260183690396594177?s=19"&gt;https://twitter.com/Therese_Rein/status/1260183690396594177?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/realFlorisBlok/status/1262260634957144065?s=19"&gt;https://twitter.com/realFlorisBlok/status/1262260634957144065?s=19&lt;/a&gt;&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;&lt;a href="https://twitter.com/Therese_Rein/status/1260183690396594177?s=19"&gt;https://twitter.com/Therese_Rein/status/1260183690396594177?s=19&lt;/a&gt;&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;&lt;a href="https://twitter.com/Therese_Rein/status/1260183690396594177?s=19"&gt;https://twitter.com/Therese_Rein/status/1260183690396594177?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/realFlorisBlok/status/1262260634957144065?s=19"&gt;https://twitter.com/realFlorisBlok/status/1262260634957144065?s=19&lt;/a&gt;&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/accessibility</id>
