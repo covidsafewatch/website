@@ -5,8 +5,8 @@
 		<link>https://covidsafe.watch/</link>
 		<description />
 		<copyright>2020</copyright>
-		<pubDate>Mon, 18 May 2020 09:34:13 GMT</pubDate>
-		<lastBuildDate>Mon, 18 May 2020 09:34:13 GMT</lastBuildDate>
+		<pubDate>Mon, 18 May 2020 23:05:08 GMT</pubDate>
+		<lastBuildDate>Mon, 18 May 2020 23:05:08 GMT</lastBuildDate>
 		<item>
 			<title>You have COVID text caused public panic</title>
 			<link>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</link>
@@ -695,19 +695,6 @@ Peripheral advertising..
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>Hearing Aid Incompatibility</title>
-			<link>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</link>
-			<description>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
-&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;
-&lt;a href="https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19"&gt;https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19&lt;/a&gt;&lt;/p&gt;</description>
-			<guid>https://covidsafe.watch/issue-register/hearing-aid-incompatibility</guid>
-			<content:encoded>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
-&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;
-&lt;a href="https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19"&gt;https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
 			<title>CVE-2020-12857 - TempID identifier was static</title>
 			<link>https://covidsafe.watch/issue-register/cve-2020-12857-tempid-identifier-was-static</link>
 			<description>&lt;p&gt;The lifetime of this ID is important because it will uniquely identify your phone for this time interval. It doesn't say who you are, but it allows any Bluetooth device in range to know that it's the same phone it saw earlier. A simple example of how this could be abused is that it allows someone to track your movement as your ID shows up in multiple locations. Devices recording these IDs could provide effective distributed location tracing. This is why it's very important that the same ID is used for the shortest possible period.&lt;/p&gt;</description>
@@ -830,6 +817,21 @@ As much as was my wish, it seemed impossible to coordinate disclosure between al
 			<title>Community engagement</title>
 			<link>https://covidsafe.watch/issue-register/community-engagement</link>
 			<guid>https://covidsafe.watch/issue-register/community-engagement</guid>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Bluetooth Interference</title>
+			<link>https://covidsafe.watch/issue-register/bluetooth-interference</link>
+			<description>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19"&gt;https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/rdenyer/status/1262518353060442112?s=19"&gt;https://twitter.com/rdenyer/status/1262518353060442112?s=19&lt;/a&gt;&lt;/p&gt;</description>
+			<guid>https://covidsafe.watch/issue-register/bluetooth-interference</guid>
+			<content:encoded>&lt;p&gt;&lt;a href="https://twitter.com/healthgovau/status/1261826148020809728?s=19"&gt;https://twitter.com/healthgovau/status/1261826148020809728?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/wabzqem/status/1261837148224811009?s=19"&gt;https://twitter.com/wabzqem/status/1261837148224811009?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19"&gt;https://twitter.com/ondroad2royalty/status/1262302097178910721?s=19&lt;/a&gt;
+&lt;a href="https://twitter.com/rdenyer/status/1262518353060442112?s=19"&gt;https://twitter.com/rdenyer/status/1262518353060442112?s=19&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
