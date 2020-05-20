@@ -1,0 +1,589 @@
+
+# Preface
+
+This document is a compilation of findings made by Geoffrey Huntley and the [COVIDSafe.watch](COVIDSafe.watch) community in relation to the COVIDSafe app. 
+
+We have compiled this document with the aim of presenting our findings in a readable format for presentation to journalists and the Senate, in order to show the app’s significant privacy and security concerns that the community has uncovered.
+
+**Twitter thread:** [https://twitter.com/GeoffreyHuntley/status/1257216171968827392](https://twitter.com/GeoffreyHuntley/status/1257216171968827392) 
+
+**Other links**
+
+
+<table>
+  <tr>
+   <td>COVIDSafe Android App dissection document
+   </td>
+   <td><a href="https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit?usp=sharing">https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit?usp=sharing</a>
+   </td>
+  </tr>
+  <tr>
+   <td>COVIDSafe iOS App dissection document
+   </td>
+   <td><a href="https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/edit?usp=sharing">https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/edit?usp=sharing</a> 
+   </td>
+  </tr>
+  <tr>
+   <td>COVIDSafe Privacy Policy
+   </td>
+   <td><a href="https://www.health.gov.au/using-our-websites/privacy/privacy-policy-for-covidsafe-app">https://www.health.gov.au/using-our-websites/privacy/privacy-policy-for-covidsafe-app</a> 
+   </td>
+  </tr>
+  <tr>
+   <td>COVIDSafe Application Privacy Impact Assessment
+   </td>
+   <td><a href="https://www.health.gov.au/sites/default/files/documents/2020/04/covidsafe-application-privacy-impact-assessment-covidsafe-application-privacy-impact-assessment.pdf">https://www.health.gov.au/sites/default/files/documents/2020/04/covidsafe-application-privacy-impact-assessment-covidsafe-application-privacy-impact-assessment.pdf</a> 
+   </td>
+  </tr>
+  <tr>
+   <td>Department of Health Response to the Privacy Impact Assessment
+   </td>
+   <td><a href="https://www.health.gov.au/resources/publications/covidsafe-application-privacy-impact-assessment-agency-response">https://www.health.gov.au/resources/publications/covidsafe-application-privacy-impact-assessment-agency-response</a>
+   </td>
+  </tr>
+</table>
+
+
+
+# Aim
+
+COVIDSafe is a mobile application released by the Australian Government, aimed at assisting with the contact tracing efforts by health authorities to slow the spread of COVID-19. Through research and reverse engineering done by a community of software engineers and security professionals, we have found several issues that expose serious privacy concerns and unnecessarily limits the COVIDSafe app from being used by large groups of people.
+
+This document aims to summarise the serious problems present with the COVIDSafe mobile application, and the difficulties the community has faced in responsibly disclosing these problems to government agencies, including the Digital Transformation Agency.
+
+
+# Executive Summary
+
+
+*   Latest release of the COVIDSafe app (v1.0.16) did not address the vast majority of security and privacy issues raised.
+    *   The update mainly comprised of visual changes
+*   UniqueID does not necessarily refresh every 2 hours
+    *   Potential risk of multi-day tracking of the same UniqueID
+*   App records details about the messages it sends and receives in **unencrypted form**.
+*   Privacy Policy for COVIDSafe app breached
+*   iOS version is suboptimal when not in the foreground
+*   No way to securely disclose contact information
+*   No customer support
+*   Government agencies (including Greg Hunt) are aware of these issues and acknowledged them, yet above mentioned issues haven’t been addressed
+*   Source code has still not been publicly released by the government, despite [several promises](https://www.abc.net.au/radio/programs/am/heath-minister-says-govt-will-release-covidsafe-source-code/12187634) to do so, as well as it being suggested in the app’s [Application Privacy Impact Assessment](https://www.health.gov.au/resources/publications/covidsafe-application-privacy-impact-assessment-agency-response)
+*   Various functional definicines, privacy breaches and breaches of social contract 
+*   Unneeded incompatibility with older Android Devices
+
+
+# Breaches of Privacy Policy
+
+The COVIDSafe app’s basic operation is to transmit and receive encrypted user IDs (UniqueID) with other users of the app. We understand that UniqueIDs received by the app are stored locally on the phone and the list of received UniqueIDs is only transmitted when explicitly uploaded by the user..
+
+The app’s [Privacy Policy](https://www.health.gov.au/using-our-websites/privacy/privacy-policy-for-covidsafe-app) describes how the app will collect, store, use and store the user’s information. We have found that key parts of the policy do not reflect the real-world behaviour of the COVIDSafe app.
+
+
+## Tracking of the encrypted user ID (UniqueID)
+
+The Privacy Impact Assessment has stated the following:
+
+
+> _8.18	The App will only accept the new Unique IDs if it is open and running. If the App successfully accepts the new Unique ID, an automatic message will be generated and sent back to the National COVIDSafe Data Store. This message will only effectively indicate a “yes (new Unique ID successfully delivered)” response to the National COVIDSafe Data Store. **If the App is not open and running, it will not be able to accept a new Unique ID. It will continue to store the previous Unique ID and use this when the App is opened, until a new Unique ID is generated and accepted**._
+
+The Privacy Policy states that “An encrypted user ID will be created every 2 hours”, and this represents a major flaw, in which it is possible for someone to be traced for more than 2 hours. This can lead to the same UniqueID being used for multiple days.
+
+
+## Misrepresentation of stored data
+
+The Privacy Policy has stated that the app only records the following contact data:
+
+
+
+1. The encrypted user ID
+2. Date and time of contact; and
+3. Bluetooth signal strength of other COVIDSafe users with which you come into contact
+
+It has also stated that “No user will be able to see the contact data stored on their device as it will be encrypted.” This is not true:
+
+
+
+*   The database also stores the model of the phone that sent the data
+*   The database contents are stored in plaintext aside from the encrypted user ID. 
+
+Example of database log
+
+
+<table>
+  <tr>
+   <td><strong>Epoch date</strong>
+   </td>
+   <td><strong>Human-readable date (GMT)</strong>
+   </td>
+   <td><strong>v</strong>
+   </td>
+   <td><strong>message</strong>
+   </td>
+   <td><strong>org</strong>
+   </td>
+   <td><strong>modelP</strong>
+   </td>
+   <td><strong>modelC</strong>
+   </td>
+   <td><strong>RSSI</strong>
+   </td>
+   <td><strong>txpower</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1587917327</strong>
+   </td>
+   <td>2020-04-26 16:08:47
+   </td>
+   <td>1
+   </td>
+   <td><&lt;msg>>
+   </td>
+   <td>AU_DTA
+   </td>
+   <td>Nexus 5X
+   </td>
+   <td>iPhone 7
+   </td>
+   <td>-48
+   </td>
+   <td>1
+   </td>
+  </tr>
+</table>
+
+
+The app is not collecting enough data or the right data to be able to detect “close contact” (distance of 1.5m for more than 15 minutes), even with server-side processing. Instead it collects and stores data from any phone within Bluetooth range, regardless of proximity. This is not what the general public would reasonably believe to be happening and breaches the implicit permission they are giving that their data only be collected by phones that are possible “close contacts” and not any phone within Bluetooth range, which could be in another room or on a different floor or even in a different building.
+
+
+## Collection of Android device ID
+
+On Android, the app collects the user's device ID as part of the onboarding process. On versions of Android 8.0 and higher, this device ID is unique per app. However, on devices prior to Android 8.0, this device ID is only unique to the device (not per app) and can be easily obtained with access to the device. The collection of the device ID should be included in the privacy policy along with the other personal information the app collects.
+
+
+# Accessibility issues
+
+Several issues have been identified where several groups are unable to use the app, including:
+
+*   Inability for international visitors to use the app
+    *   App only available on Australian version of Google Play Store and Apple App Store
+    *   The app only accepts Australian phone numbers (what if you’re roaming with an international SIM while located in Australia?)
+*   Inability for those without mobile phone service to be onboarded to the app
+    *   There is no form of two-factor authentication other than SMS (although this has been alleviated somewhat with Telstra’s SMS over WiFi)
+    *   Users can only be onboarded on mobile data (e.g. 3G/4G network data). 
+
+
+# Lack of end user support
+
+The app store reviews contain hundreds of negative reviews, none of which are being addressed. There is no social media team where users could reach out for support. 
+
+There's absolutely no way to get support ("faq and help buttons") until you have registered. Which means if people can't register they just give up and don't know where to turn.
+
+
+# Lack of response to raised security issues
+
+> "In private I tried numerous times contacting the DTA, the minister of Services Australia and the media/privacy departments and the Australian Signals Directorate to pick up the phone. I was not the only researcher who experienced these problems.
+
+
+<?# Twitter 1257506430476640256 /?>
+
+
+“We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report.”
+
+<?# Twitter 1256192209340133376 /?>
+
+
+# Unneeded incompatibility with Android 5.0
+
+ \
+Android 5.0 Lollipop was launched by Google back in late 2014 preceded by 5.1 Lollipop in early 2015. As of April 2020 both run on 2.64% of Australia’s Android Devices which make 55% of the wider Market. ([Source](https://gs.statcounter.com/android-version-market-share/mobile/australia/#monthly-202004-202004-bar)) The COVIDSafe app has found to have an unneeded compatibility with those devices as it’s minimum version supported is 6.0.
+
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate0.png "image_tooltip")
+
+
+ \
+ \
+Android 5.0 introduced the functionality of Bluetooth Low Energy Broadcasts, which is what the COVIDSafe app uses to emit the identifiers. The method used to code this functionality in the COVIDSafe app should run without a problem on both Android 5.0 & 5.1. \
+ \
+
+
+The other thing is that the libraries **(Sets of prewritten code)** that are available to the public of which the COVIDSafe app is dependent upon are compatible with Android 5.0. \
+
+
+
+<table>
+  <tr>
+   <td>Library
+   </td>
+   <td>Compatibility with Android 5.0
+   </td>
+  </tr>
+  <tr>
+   <td>ProgressButton by Razir
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Lottie-android by Airbnb
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>OkHttp by Square
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Okio by Square
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>EasyPermissions by Google
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Retrofit by Square
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>RxAndroid
+   </td>
+   <td>✅
+   </td>
+  </tr>
+</table>
+
+
+One item that no one in the community can figure out is the closed source **(meaning private)** library called **“com.atlassian.mobilekit”** of which the COVIDSafe app is dependent upon. There is speculation that since the COVIDSafe app is dependent on this library, that it is forced to make the minimum version 6.0.  \
+Atlassian, the creators of this library, could potentially make a derivative that works on 5.0 & 5.1 devices.
+
+ \
+The Digital Transformation Agency is working with Apple and Google on their improved bluetooth connectivity to implement into the COVIDSafe app. As of the preliminary documentation released by Google in April describing how this technology works on Android, it has outlined the minimum Android version required would be 5.0.
+
+ \
+If there are no issues with dependencies that the COVIDSafe app is reliant upon, the modification to the code is not difficult. Simply adjust the **“minSdkVersion”** number from 23 to 21.  \
+This small change could enable the COVIDSafe app to reach that 3% that might really need it.
+
+
+## 
+
+
+## Appendix
+
+
+### Twitter thread timeline
+
+Times are Australian Eastern Standard Time (AEST, UTC+10)
+
+
+<table>
+  <tr>
+   <td>1/5/2020 5:11pm
+   </td>
+   <td>@lanevb:
+<p>
+<em>“The governments focus today on how many downloads the app has makes me very concerned. PM seemed to indicate that is a major decision point for reducing lockdown with no awareness that download is not equal to usage.”</em>
+<p>
+@GeoffreyHuntley:
+<p>
+<em>“Exactly, amount of downloads is a vanity metric when there's clear evidence THAT PEOPLE CANNOT REGISTER. “</em>
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1256193119411789824">https://twitter.com/GeoffreyHuntley/status/1256193119411789824</a><em> </em>
+<p>
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate1.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate2.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+
+
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate3.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate4.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+  <tr>
+   <td>1/5/2020 10:02pm
+   </td>
+   <td>“We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report.”
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1256192209340133376">https://twitter.com/GeoffreyHuntley/status/1256192209340133376</a> 
+<p>
+
+
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate5.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate5.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+  <tr>
+   <td>3/5/2020 7:39am
+   </td>
+   <td>“There has been a lot of speculation about why<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> isn't working on iPhones but not many facts. Here's one reason we believe it isn't working. “ Document url: <a href="https://t.co/m5EcE3zCdX?amp=1">https://t.co/m5EcE3zCdX?amp=1</a> 
+<p>
+Excerpt from document:
+<p>
+<em>The COVIDSafe application code is derived from Opentrace. In the OpenTrace source code, it sets up a timer to run here:</em>
+<p>
+<em><a href="https://github.com/opentrace-community/opentrace-ios/blob/master/OpenTrace/Bluetrace/CentralController.swift#L86">https://github.com/opentrace-community/opentrace-ios/blob/master/OpenTrace/Bluetrace/CentralController.swift#L86</a></em>
+<p>
+<em>The main problem here is that it is continuously starting and stopping scans, using a timer. When the application is put into the background, the timer started on the main thread’s execution is paused, and scans do not run. When the application enters the foreground again, it runs immediately because the timer suddenly expires. It then may run again shortly after (as seen in the script output above).</em>
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1256699811849334784">https://twitter.com/GeoffreyHuntley/status/1256699811849334784</a> 
+   </td>
+  </tr>
+  <tr>
+   <td>3/5/2020 11:13pm 
+   </td>
+   <td>“Reading the appstore reviews on<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> is distressing. There hasn't been a version shipped yet since launch. There isn't anyone replying to users on the appstore or on social media. So many people can't register and the crazy thing is the problem is known. Turn off WiFi.”
+<p>
+Several negative reviews without any replies or support. Several more examples of negative reviews in the thread (scroll down)
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1256935025095741441">https://twitter.com/GeoffreyHuntley/status/1256935025095741441</a> 
+<p>
+
+
+<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate6.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+  <tr>
+   <td>3/5/2020 11:57pm
+   </td>
+   <td>Anyway that's it for now. Pretty much scrolled through all appstore reviews. Here's what's wrong. 
+<p>
+1) Pages and pages and pages and pages and pages and pages and pages and pages and pages of people who can't register. 
+<p>
+2) No one is doing customer support. Be more like slack.
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1256946000922423296">https://twitter.com/GeoffreyHuntley/status/1256946000922423296</a> 
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 12:52pm
+   </td>
+   <td>The updated version of the app still did not fix the text “You have tested positive for COVID-19” in the upload data screen, despite being simple to correct and publish
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257503293711855621">https://twitter.com/GeoffreyHuntley/status/1257503293711855621</a>
+<p>
+
+
+<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate7.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate7.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+(excerpt from <em>The Australian</em>: <a href="https://www.theaustralian.com.au/news/latest-news/virus-app-issues-stop-people-signing-up/news-story/da84a6643061dd7919c89d7910f39243">https://www.theaustralian.com.au/news/latest-news/virus-app-issues-stop-people-signing-up/news-story/da84a6643061dd7919c89d7910f39243</a>)
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 1:04pm
+   </td>
+   <td>“In private I tried numerous times contacting the DTA, the minister of Services Australia and the media/privacy departments and the Australian Signals Directorate to pickup the phone. I was not the only researcher who experienced these problems.”
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257506430476640256">https://twitter.com/GeoffreyHuntley/status/1257506430476640256</a> 
+<p>
+
+
+<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate8.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate8.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+
+
+<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate9.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+(Associated video: <a href="https://twitter.com/GeoffreyHuntley/status/1257506832140038145">https://twitter.com/GeoffreyHuntley/status/1257506832140038145</a>)
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 1:08pm
+   </td>
+   <td>“Now, speaking of "customer support". This UX defect has not been fixed. If people have troubles registering the customer support options in the app don't appear until _AFTER SOMEONE HAS REGISTERED_<a href="https://twitter.com/GeoffreyHuntley/status/1256567250892423169"> https://twitter.com/GeoffreyHuntley/status/1256567250892423169</a> Not fixed in the latest version of the app”
+<p>
+UX defect where the user has no way to get support (“FAQ and help buttons”) until you have registered. Still was not fixed as of 5/5/2020 at 1:08pm in the then-latest version of the app. No social media support nor anyone replying to app store reviews either.
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257507534035800066">https://twitter.com/GeoffreyHuntley/status/1257507534035800066</a> 
+<p>
+
+
+<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/19-Senate10.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 1:30pm
+   </td>
+   <td>Still a lack of customer support, main deficiencies being on social media and reviews of the App Store/Play Store, as there are many hundreds of reviews identifying issues however there is silence from the government
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257513065727188992">https://twitter.com/GeoffreyHuntley/status/1257513065727188992</a>
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 1:47pm
+   </td>
+   <td>Greg Hunt said on ABC AM radio that people have looked over the app and have found no privacy implications, but did not mention whether any of the multitude of issues discovered will be fixed, or even acknowledge them at all.
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257517275311046657">https://twitter.com/GeoffreyHuntley/status/1257517275311046657</a>
+   </td>
+  </tr>
+  <tr>
+   <td>5/5/2020 1:48pm
+   </td>
+   <td>As pointed out by Jed Wesley-Smith (@jedws), determining whether an app user came into close contact with another user/s is done on the server rather than on an individual’s phone, meaning that the distance required to register contact can be changed arbitrarily. Essentially, any handshake between two user’s phones, regardless of the distance between them, is still uploaded to the government’s datastore.
+<p>
+<a href="https://twitter.com/GeoffreyHuntley/status/1257517576298479617">https://twitter.com/GeoffreyHuntley/status/1257517576298479617</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+### Sources
+
+[https://github.com/vteague/contactTracing](https://github.com/vteague/contactTracing) 
+
+
+#### Twitter thread screenshots
+
+
+
+<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate11.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate11.png "image_tooltip")
+
+
+<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate12.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate12.png "image_tooltip")
+
+
+
+
+<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: error handling inline image </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+
+
+
+<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: error handling inline image </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+
+<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: error handling inline image </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+
+<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate13.png "image_tooltip")
+
+
+
+
+<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate14.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate14.png "image_tooltip")
+
+
+<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate15.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate15.png "image_tooltip")
+
+
+
+
+<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate16.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate16.png "image_tooltip")
+
+
+<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate17.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate17.png "image_tooltip")
+
+
+<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate18.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate18.png "image_tooltip")
+
+
+<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate19.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate19.png "image_tooltip")
+
+
+<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/19-Senate20.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/19-Senate20.png "image_tooltip")
+

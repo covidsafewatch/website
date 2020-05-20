@@ -14,7 +14,7 @@
         
 		
 
-        <title>COVIDSafe.watch - CVE-2020-12717 - iOS Bluetooth Denial of Service</title>
+        <title>COVIDSafe.watch - Senate Submissions</title>
     </head>
     <body>
         <div class="flex-grow-1 d-flex flex-column">
@@ -65,9 +65,9 @@
                         <div class="offset-md-3 offset-lg-2 offset-lg-2 col-12 col-lg-8 px-3 px-lg-0 w-100 d-flex align-items-end">
                             <div class="flex-grow-1">
                                 <div class="breadcrumbs text-uppercase d-flex flex-column-reverse flex-md-row-reverse justify-content-md-end">
-                                            <span><a href="/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service">CVE-2020-12717 - iOS Bluetooth Denial of Service</a></span>
+                                            <span><a href="/senate-submissions">Senate Submissions</a></span>
                                 </div>
-                                <div class="text-white m-0 title">CVE-2020-12717 - iOS Bluetooth Denial of Service</div>
+                                <div class="text-white m-0 title">Senate Submissions</div>
                             </div>
                                 <div class="navbar navbar-expand-md navbar-dark p-0">
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-sidebar" aria-controls="collapse-sidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,56 +88,14 @@
                                         </div>
                                         <div id="content" class="col-md-9 col-lg-8 p-4 pt-md-0 bg-white">
                                             
-<div class="pb-3 mb-3 border-bottom">
-    <div><strong>Reported At:</strong> Wednesday, May 6, 2020</div>
-    <div><strong>Resolved At:</strong> Thursday, May 14, 2020</div>
-    <div><strong>Case Number: </strong> </div>
-    <div><strong>Status: </strong> Resolved</div>
+<div>
+        <div class="py-3 my-3 border-bottom">
+            <a href="/senate-submissions/slow-resolution-to-covidsafe-causing-public-panic">Slow resolution to COVIDSafe causing public panic</a>
+        </div>
 </div>
-
-<h1 id="overview">Overview</h1>
-<p>COVIDSafe for iOS, versions 1.0 and 1.1 contain a denial of service vulnerability, inherited from the OpenTrace code. The coding error allows an attacker within Bluetooth range to crash the application. This causes no further records of contacts to be stored until the user manually reopens the application. Only when the exploit is stopped, or the user is out of range, is the application able to run again. If attackers (such as a misguided group of activists) were motivated to disrupt the COVIDSafe system, they could use this bug to prevent contact exchanges in busy, popular areas.</p>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/7UdVHB1ohNo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<p>This bug also affected Singapore’s TraceTogether, Alberta’s ABTraceTogether and Poland’s ProteGO.</p>
-<p>This is a fairly obvious bug that should have been picked up in an automated scan and/or an in-depth security review.</p>
-<p>The model that governments have chosen to build on OpenTrace has made the disclosure process extremely painful. It seems as though each government received a code drop of OpenTrace at some point in time, and from there on there was little to no communication. There’s no central repository they all build upon, no process for communicating bugs up or downstream, and in fact no security contacts that we could find at all. we tried contacting each entity separately through the traditional support request forms, but did not get a response from any, apart from the DTA who we happened to have a specific email address for. If they had followed an established upstream/downstream model or all contributed to a monorepo, there would have been significant advantages to all involved.
-As much as was my wish, it seemed impossible to coordinate disclosure between all affected entities. And there could be more affected applications that we just don’t know about.</p>
-<h1 id="technical-analysis">Technical Analysis</h1>
-<p><a href="https://medium.com/@wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708">https://medium.com/@wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708</a></p>
-<h1 id="exploit">Exploit</h1>
-<p><a href="https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit">https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit</a></p>
-<h1 id="timeline">Timeline</h1>
-<p>The response from the disclosure of this particular vulnerability was very positive:</p>
-<ul>
-<li>6/5/20 22:57: Information of bug shared with DTA</li>
-<li>7/5/20 07:54: Response confirming receipt and that they were looking into it.</li>
-<li>7/5/20 13:13: DTA confirmed the bug and that they would have a fix in the next release</li>
-<li>8/5/20 19:03: DTA said they had fixed the bug and shared a timeframe for fix, and that upgrade advice for users would be settled.</li>
-<li>14/5/20: Fix released to users in the App Store.</li>
-</ul>
-<p>A fast response, continuous updates with a good outcome.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today’s COVIDSafe update fixes a security flaw I reported, which allows an attacker to disable the app for all iPhones in the vicinity. App has to be out of range of attack and manually opened to record contacts again. <br><br>Details <a href="https://t.co/ay7BZSaRQI">https://t.co/ay7BZSaRQI</a><br><br>You should still use it.🧵 <a href="https://t.co/5LR32ft7RF">pic.twitter.com/5LR32ft7RF</a></p>— Richard Nelson (@wabzqem) <a href="https://twitter.com/wabzqem/status/1260743270629388289?ref_src=twsrc%5Etfw">May 14, 2020</a></blockquote>
-<script async="" src="/mirror/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">For people running <a href="https://twitter.com/hashtag/covidsafe?src=hash&amp;ref_src=twsrc%5Etfw">#covidsafe</a>: Make sure you install today's update (v1.0.17 for Android). It contains two fixes, addressing two of the long-term tracking issues I raised. There's still a way to go, but, progress!<br><br>There's also fixes in the Android app that help the iPhone app.</p>— Jim Mussared (@jim_mussared) <a href="https://twitter.com/jim_mussared/status/1260732343616077824?ref_src=twsrc%5Etfw">May 14, 2020</a></blockquote>
-
-<h1 id="acknowledgements">Acknowledgements</h1>
-<ul>
-<li>Contents from this page were mirrored from <a href="https://medium.com/@wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708">https://medium.com/@wabz/covidsafe-ios-vulnerability-cve-2020-12717-30dc003f9708</a></li>
-</ul>
-
-
                                         </div>
                                 <div class="col-lg-2 d-none d-lg-block bg-body pl-3 pt-3">
-                                            <div class="border-bottom mb-3">
-                                                <p class="small font-weight-bold">On This Page</p>
-                                                    <p class="small"><a href="#overview">Overview</a></p>
-                                                    <p class="small"><a href="#technical-analysis">Technical Analysis</a></p>
-                                                    <p class="small"><a href="#exploit">Exploit</a></p>
-                                                    <p class="small"><a href="#timeline">Timeline</a></p>
-                                                    <p class="small"><a href="#acknowledgements">Acknowledgements</a></p>
-                                            </div>
-                                        <p class="small font-weight-bold"><a href="https://github.com/covidsafewatch/website/edit/develop/input/issue-register/CVE-2020-12717-ios-bluetooth-denial-of-service.md"><i class="fad fa-pencil"></i> Edit This Page</a></p>
+                                        <p class="small font-weight-bold"><a href="https://github.com/covidsafewatch/website/edit/develop/input/senate-submissions/index.cshtml"><i class="fad fa-pencil"></i> Edit This Page</a></p>
                                 </div>
                             </div>
                         </div>
