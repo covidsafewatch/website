@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://covidsafe.watch/" />
 	<rights>2020</rights>
-	<updated>2020-05-20T15:01:00Z</updated>
+	<updated>2020-05-20T15:49:16Z</updated>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/you-have-covid-text-caused-public-panic</id>
 		<title>You have COVID text caused public panic</title>
@@ -40,15 +40,15 @@
 		<title>Transparency</title>
 		<link href="https://covidsafe.watch/issue-register/transparency" />
 		<updated />
-		<content>&lt;p&gt;&lt;a href="https://twitter.com/GeoffreyHuntley/status/1261251106547494912?s=19"&gt;https://twitter.com/GeoffreyHuntley/status/1261251106547494912?s=19&lt;/a&gt;&lt;/p&gt;
-&lt;?# Twitter 1258745850647293953 /?&gt;
+		<content>&lt;?# Twitter 1258745850647293953 /?&gt;
 &lt;?# Twitter 1259076147276443649 /?&gt;
 &lt;?# Twitter 1260734086097670144 /?&gt;
+&lt;?# Twitter 1258306041579634688 /?&gt;
+&lt;?# Twitter 1261251106547494912 /?&gt;
 &lt;?# Raw ?&gt;
 &lt;?# Include "https://github.com/foo/bar/me.md" &gt;
 &lt;?#/ Raw ?&gt;  
 </content>
-		<summary>&lt;p&gt;&lt;a href="https://twitter.com/GeoffreyHuntley/status/1261251106547494912?s=19"&gt;https://twitter.com/GeoffreyHuntley/status/1261251106547494912?s=19&lt;/a&gt;&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<id>https://covidsafe.watch/issue-register/social-pressure-and-coersion</id>
