@@ -1,0 +1,10 @@
+@{
+    Layout = @"/_layout.cshtml";
+}
+
+<div class="pb-3 mb-3 border-bottom">
+    <div><strong>Status: </strong> @Document.GetString("Status")</div>
+    <div><strong>GitSha: </strong> @Document.GetString("GitSha")</div>
+</div>
+
+@RenderBody()
