@@ -5,7 +5,7 @@ IssueMaintainer: ghuntley
 
 # Overview
 
-Theese reviews were exported on the 22nd of May 2020 from the Apple Appstore. The latest data can be programatically accessed via https://itunes.apple.com/au/rss/customerreviews/id=1509242894/xml
+These reviews were exported on the 22nd of May 2020 from the Apple Appstore. The latest data can be programatically accessed via https://itunes.apple.com/au/rss/customerreviews/id=1509242894/xml
 
 # Attachments
 
