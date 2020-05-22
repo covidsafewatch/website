@@ -24,6 +24,18 @@ TODO:
 
 - any recommendations Jimmo?
 
+# Articles from the media
+
+TODO:
+
+- citations
+
+# Official comments from the DTA
+
+TODO:
+
+- citations
+
 # Feedback from Twitter
 
 <?# Twitter 1262302097178910721 /?>
