@@ -109,7 +109,7 @@ https://www.theadvocate.com.au/story/6745024/govt-under-pressure-over-app-bugs-a
 > 
 > "The government keeps talking about the number of downloads. That should not be the success metric. The metric should be how it is working," he said.
 
-# Closing Remarks
+# Closing Remarks and Recommendations
 
 In Geoffrey Huntley's and Richard Nelson's professional opinion 10 days is unacceptable time to resolution as the fix involved removing a single line of text from the application and releasing a new version of the application.
 

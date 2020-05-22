@@ -56,11 +56,16 @@ support@covidsafe.gov.au, the designated security contact, replied two days late
 <?# Twitter 1260012514131099648 /?>
 
 
-# Recommendeds
+# Closing Remarks and Recommendations
+
+Taking two days to respond to a potential data breach report is unacceptable.
+
+
+Additionally, it is clear that support@covidsafe.gov.au is not the appropriate avenue for security and privacy researchers. It is industry best practice that security and privacy research is read, processed and triaged by engineers and not customer support presentatives whom maybe non-technical.
+
+Establishing a proper bug bounty - with or without financial rewards must be done urgently. What matters outcome wise is the establishment of a known, publically documented process that is manned by engineers with response time SLAs of less than an hour no matter what time of day it is. 
 
 <?# Twitter 1263581018566430720 /?>
-
-Seperate customer support and security reporting channels. Establish a proper bug bounty - with or without financial rewards. What is important is a known, publically documented process that is manned by engineers with response time SLAs of less than an hour no matter what time of day it is. 
 
 Geoffrey Huntley recommends using a commerical offering such as https://bugcrowd.com or https://hackerone.com/
 
