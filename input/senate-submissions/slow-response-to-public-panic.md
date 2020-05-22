@@ -1,4 +1,4 @@
-Title: Slow resolution in response to public panic
+Title: Slow response to public panic
 Status: Not submitted. Requires proof read and readability improvements.
 ---
 
