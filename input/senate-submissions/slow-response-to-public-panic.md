@@ -1,5 +1,6 @@
 Title: Slow response to public panic
 Status: Not submitted. Requires proof read and readability improvements.
+IssueMaintainer: ghuntley
 ---
 
 # April 27th, 2020 - Initial Discovery

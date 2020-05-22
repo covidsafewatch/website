@@ -10,7 +10,7 @@
     <div><strong>Submission Name: </strong> @Document.GetString(Keys.Title) - </div>
     <div><strong>Url: </strong> <a href="@Document.GetLink()">https://covidsafe.watch/@Document.GetLink()</a>
     <div><strong>Status: </strong> @Document.GetString("Status")</div>
-    <div><strong>Version: </strong> @Environment.GetEnvironmentVariable("GITHUB_SHA") on <a href="https://github.com/covidsafewatch/website">https://github.com/covidsafewatch/website</div>
+    <div><strong>Version: </strong> @Environment.GetEnvironmentVariable("GITHUB_SHA") on <a href="https://github.com/covidsafewatch/website">https://github.com/covidsafewatch/website</a></div>
 </div>
 
 <hr/>
@@ -34,10 +34,6 @@
 
 <?# Twitter 1258453749691027465 /?>
 
-<p>Sincerely,<br/>
-Geoffrey Huntley<br/>
-<a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a></p>
-
 <h1>Experts available for in-person evidence</h1>
 
 <h2 id="geoffrey-huntley">Geoffrey Huntley</h2>
@@ -59,7 +55,20 @@ Geoffrey Huntley<br/>
 <img src="/about/richardnelson.jpg" width="100%">
 <p>Photo licensed under Attribution 4.0 International (CC BY 4.0)</p>
 
+<h1>Contact person for this submission</h1>
 
+@switch (Document.GetString(SiteKeys.IssueMaintainer)) {
+    default:
+    case "ghuntley":
+
+        <p>
+        Name: Geoffrey Huntley:<br/>
+        Email: <a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a><br/>
+        LinkedIn: <a href="https://www.linkedin.com/in/geoffreyhuntley">https://www.linkedin.com/in/geoffreyhuntley</a>
+        </p>
+
+    break;
+}
 
 @RenderBody()
 
