@@ -10,8 +10,10 @@
     <div><strong>Submission Name: </strong> @Document.GetString(Keys.Title) - </div>
     <div><strong>Url: </strong> <a href="@Document.GetLink()">https://covidsafe.watch/@Document.GetLink()</a>
     <div><strong>Status: </strong> @Document.GetString("Status")</div>
-    <div><strong>Version: </strong> @Environment.GetEnvironmentVariable("GITHUB_SHA") on <a href="https://github.com/covidsafewatch/website">https://github.com/covidsafewatch/website</a></div>
+    <div><strong>Version: </strong> @Context.GetString("GITHUB_SHA", "Error GITHUB_SHA env is not set") on <a href="https://github.com/covidsafewatch/website">https://github.com/covidsafewatch/website</a></div>
 </div>
+
+
 
 <hr/>
 <h2>Select Committee on COVID-19</h2>
@@ -82,10 +84,10 @@
 @RenderBody()
 
 
-<h1>Release History - Google Android</h1>
+<h1>Appendix - Google Android Release History</h1>
 
 TODO: Html.Partial("_android-release-history.cshtml")
 
-<h1>Release History - Apple iPhone</h1>
+<h1>Appendix - Apple iPhone Release History</h1>
 
 TODO: Html.Partial("_apple-release-history.cshtml")
