@@ -3,8 +3,58 @@
 }
 
 <div class="pb-3 mb-3 border-bottom">
+    <div><strong>Submission Name: @Document.GetString(Keys.Title)</strong></div>
+    <div><strong>Url: </strong> <a href="@Document.GetLink()">https://covidsafe.watch/@Document.GetLink()</a>
     <div><strong>Status: </strong> @Document.GetString("Status")</div>
-    <div><strong>GitSha: </strong> @Document.GetString("GitSha")</div>
+    <div><strong>Version: </strong> @Document.GetString("GitSha")</div>
 </div>
+
+<hr/>
+
+<h1>Introduction</h1>
+
+<p>To members of the Senate Select Committee on COVID-19. Thank you for the opportunity to participate in this Senate inquiry. Below you will find a submission related to the COVIDSafe application. We are doing seperate submissions on a per-topic basis.</p> 
+
+<p>Members from the <a href="https://covidsafe.watch/">https://covidsafe.watch/</a> community are available to give in-person evidence to future public (or private) hearings by video conference.</p>
+
+<p>We would appreciate a confirmation of the receipt of this submission and welcomes any feedback you may have.</p> 
+
+<p><a href="https://covidsafe.watch/">https://covidsafe.watch/</a> is an online community backed by a team of security researchers, open-source software engineers, community managers and privacy specialists that support the concept of technology based contact tracing.</p>
+
+<ul>
+<li>We want to see lives saved through the use of this unprecedented technology.</li>
+<li>It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.</li>
+<li>We believe transparency is essential to achieve both of these goals without compromising either. Compromising privacy risks people’s lives by undermining public trust in the systems built to protect them.</li>
+<li>This can only be achieved by direct collaboration with engineers using transparent open source platforms as done by the UK National Health Service.</li>
+</ul>
+
+<?# Twitter 1258453749691027465 /?>
+
+<p>Sincerely,<br/>
+Geoffrey Huntley<br/>
+<a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a></p>
+
+<h1>Experts available for in-person evidence</h1>
+
+<h2 id="geoffrey-huntley">Geoffrey Huntley</h2>
+<p>🙌 I'm Geoff, the probono open-source software engineer leading the independent analysis of <a href="https://covidsafe.gov.au/">covidsafe</a> via studying the source code. Software that I maintain is inside Microsoft Visual Studio, GitHub, Atlassian Sourcetree, Amazon Drive, Halo, Slack, is heavily used by the financial services industry and has been installed by other software developers over 21 million times.</p>
+
+<img src="/about/geoffreyhuntley.jpg" width="100%">
+<p>Photo licensed under Attribution 4.0 International (CC BY 4.0)</p>
+
+<h2 id="jim-mussared">Jim Mussared</h2>
+<p>I'm a hybrid hardware and software developer, with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. Formerly worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.</p>
+<p>My <a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit">Bluetooth research</a> into contact tracing has received world wide praise. I discovered a <a href="https://github.com/alwentiu/COVIDSafe-CVE-2020-12856">Bluetooth security vulrunability</a> (CVE-2020-12856) that which requires goverments to modify their technological approaches and programs of work.</p>
+
+<img src="/about/jimmussared.jpg" width="100%">
+<p>Photo licensed under Attribution 4.0 International (CC BY 4.0)</p>
+
+<h2 id="richard-nelson">Richard Nelson</h2>
+<p>I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a <a href="/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service">denial of service vulnerability</a> (CVE-2020–12717) in COVIDSafe.</p>
+
+<img src="/about/richardnelson.jpg" width="100%">
+<p>Photo licensed under Attribution 4.0 International (CC BY 4.0)</p>
+
+
 
 @RenderBody()

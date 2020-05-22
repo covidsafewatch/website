@@ -1,12 +1,10 @@
-Title: Slow resolution to COVIDSafe causing public panic
+Title: Slow resolution to COVIDSafe caused public panic
 Status: Requires fact check pass, proof read and readability improvements.
 ---
 
-# Overview
-
 # April 27th, 2020 - Initial Discovery
 
-Geoffrey Huntley (author of this submission) documented the possibility of the language used in the application as an issue in his [COVIDSAfe application dissection](https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#). 
+Geoffrey Huntley documented the possibility of the language used in the application as an issue in his [COVIDSAfe application dissection](https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#). 
 
 <img src="you-have-tested-positive-for-covid-bug-report.png" width="100%"/>
 
