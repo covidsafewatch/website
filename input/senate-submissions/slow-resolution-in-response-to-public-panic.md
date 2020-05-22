@@ -1,5 +1,5 @@
-Title: Slow resolution to COVIDSafe caused public panic
-Status: Requires fact check pass, proof read and readability improvements.
+Title: Slow resolution in response to public panic
+Status: Not submitted. Requires proof read and readability improvements.
 ---
 
 # April 27th, 2020 - Initial Discovery
@@ -10,21 +10,25 @@ Geoffrey Huntley documented the possibility of the language used in the applicat
 
 > When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing.
 
-This research featured on the front page of the technology website "[Hacker News](https://news.ycombinator.com/item?id=22986147)" and thus received wide attention from the globl technology industry. Including from Mike Cannon-Brookes, co-founder of Atlassian. 
+This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the globl technology industry. Including from Mike Cannon-Brookes, co-founder of Atlassian. 
+
+https://news.ycombinator.com/item?id=22986147
 
 >> I believe the government, PM and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
 
-Mike Cannon-Brookes' account was created on the 1st of April 2011. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely [circulated in the media](https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-app/).
+Mike Cannon-Brookes' account was created on the 1st of April 2011. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely circulated in the media.
+
+https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-app/
 
 Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application disection document on the 27th. Mike's comments in the media and covidsafe being on the front page of this technology website would have have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
 
 # April 28th, 2020 - Public Panic
 
-Article [published by 9News](https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavirus-after-confusing-message/e9146501-6bbd-4509-b89a-406b2b98ed2a):
+https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavirus-after-confusing-message/e9146501-6bbd-4509-b89a-406b2b98ed2a:
 
-A Melbourne woman feared she had coronavirus after confusing app message. Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
-
-The message "You have tested positive for COVID-19" appeared when she tapped the button "has a heath official asked you to upload your data?".
+> A Melbourne woman feared she had coronavirus after confusing app message. Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
+> 
+> The message "You have tested positive for COVID-19" appeared when she tapped the button "has a heath official asked you to upload your data?".
 
 <img src="holly-donovan.jpg" width="100%"/>
 
@@ -38,7 +42,9 @@ It is not meant to tell users they have coronavirus, but instead ask them to con
 
 https://www.afr.com/politics/federal/tech-community-backs-covidsafe-app-20200430-p54olb
 
+<!-- 
 <img src="tech-gurus-inspected-the-covidsafe-app.png" width="100%"/>
+-->
 
 > Over 500 met on Wednesday evening by video, after multiple developers and software engineers had reverse-engineered the code base and inspected it for security, integrity and usability.
 
@@ -64,7 +70,9 @@ https://www.afr.com/politics/federal/tech-community-backs-covidsafe-app-20200430
 
 https://www.news.com.au/national/breaking-news/virus-app-issues-stop-people-signing-up/news-story/da84a6643061dd7919c89d7910f39243
 
+<!--
 <img src="virus-app-issues-stop-people-signing-up.png" width="100%"/>
+-->
 
 > Mr Huntley also points out that anyone checking out all the areas of the app will easily end up on a page with the first line of text: "You have tested positive for COVID-19."
 > 
@@ -80,7 +88,9 @@ CovidSafe v1.0.15 was released which removed the text from the application. Time
 
 https://www.theadvocate.com.au/story/6745024/govt-under-pressure-over-app-bugs-and-flaws/?cs=12
 
+<!-- 
 <img src="federal-government-faces-criticism-over-bugs.png" width="100%"/>
+-->
 
 > Computer experts have voiced concern that, more than a week after the app was launched, the government was yet to issue a software update or address problems people have encountered in downloading and using the app.
 > 
