@@ -14,7 +14,7 @@ This research featured on the front page of the technology website "Hacker News"
 
 https://news.ycombinator.com/item?id=22986147
 
->> I believe the government, PM and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
+> I believe the government, PM and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
 
 Mike Cannon-Brookes' account was created on the 1st of April 2011. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely circulated in the media.
 
@@ -34,9 +34,9 @@ https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavir
 
 <img src="you-have-tested-positive-for-covid-message.jpg" width="100%"/>
 
-It is not meant to tell users they have coronavirus, but instead ask them to confirm they have tested positive.
-
-"I got a shock and then I thought people should know about this, because some people would get really panicky and go oh god I've got it," Holly Donovan told 9News.
+> It is not meant to tell users they have coronavirus, but instead ask them to confirm they have tested positive.
+>
+> "I got a shock and then I thought people should know about this, because some people would get really panicky and go oh god I've got it," Holly Donovan told 9News.
 
 # April 30th, 2020 - Australian Financial Review
 
