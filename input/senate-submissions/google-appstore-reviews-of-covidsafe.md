@@ -17,6 +17,8 @@ Geoffrey Huntley attempted numerous times, in private, to bring this to the atte
 
 <?# Twitter 1257506430476640256 /?>
 
+It is still unresolved.
+
 # Recommendations
 
 Have an engaged customer support team on social media and on the app stores helping that helps people.
