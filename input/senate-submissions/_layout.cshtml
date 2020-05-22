@@ -7,7 +7,7 @@
 
 <hr/>
 
-    <div><strong>Submission Name: </strong> @Document.GetString(Keys.Title) - </div>
+    <div><strong>Submission Name: </strong> @Document.GetString(Keys.Title)</div>
     <div><strong>Url: </strong> <a href="@Document.GetLink()">https://covidsafe.watch/@Document.GetLink()</a>
     <div><strong>Status: </strong> @Document.GetString("Status")</div>
     <div><strong>Version: </strong> @Context.GetString("GITHUB_SHA", "Error GITHUB_SHA env is not set") on <a href="https://github.com/covidsafewatch/website">https://github.com/covidsafewatch/website</a></div>
@@ -73,7 +73,7 @@
     case "ghuntley":
 
         <p>
-        Name: Geoffrey Huntley:<br/>
+        Name: Geoffrey Huntley<br/>
         Email: <a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a><br/>
         LinkedIn: <a href="https://www.linkedin.com/in/geoffreyhuntley">https://www.linkedin.com/in/geoffreyhuntley</a>
         </p>
@@ -86,8 +86,8 @@
 
 <h1>Appendix - Google Android Release History</h1>
 
-TODO: Html.Partial("_android-release-history.cshtml")
+@Html.Partial("senate-submissions/_google-release-history.cshtml")
 
 <h1>Appendix - Apple iPhone Release History</h1>
 
-TODO: Html.Partial("_apple-release-history.cshtml")
+@Html.Partial("senate-submissions/_apple-release-history.cshtml")
