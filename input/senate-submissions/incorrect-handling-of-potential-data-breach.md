@@ -6,7 +6,7 @@ IssueMaintainer: ghuntley
 
 # May 9th, 2020 - Incident
 
-Discussion about a S3 bucket starts circulating in the <a href="/">COVIDSafe.watch</a> community about an Amazon S3 bucket pubkically serving files without authentication. These files were named "CovidSafeUserData". 
+Discussion about a S3 bucket starts circulating in the <a href="/">COVIDSafe.watch</a> community about an Amazon S3 bucket publically serving files without authentication. These files were named "CovidSafeUserData". 
 
 Geoffrey Huntley reported the matter to ASD.Assist@defense.gov.au and again via phone.
 
