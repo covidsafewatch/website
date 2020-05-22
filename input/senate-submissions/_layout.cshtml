@@ -66,12 +66,13 @@
 <img src="/about/richardnelson.jpg" width="100%">
 <p>Photo licensed under Attribution 4.0 International (CC BY 4.0)</p>
 
-<h1>Contact person for this submission</h1>
+<h1>Contact person(s) for this submission</h1>
 
 @switch (Document.GetString(SiteKeys.IssueMaintainer)) {
     default:
     case "ghuntley":
 
+        <h2>Technical Expert & Coordinator</h2>
         <p>
         Name: Geoffrey Huntley<br/>
         Email: <a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a><br/>
@@ -79,6 +80,23 @@
         </p>
 
     break;
+
+    case "jimmo":
+        <h2>Technical Expert</h2>
+        <p>
+        Name: Jim Mussared<br/>
+        Email: <a href="mailto:jim.mussared@gmail.com">jim.mussared@gmail.com</a><br/>
+        LinkedIn: <a href="https://www.linkedin.com/in/jim-mussared">https://www.linkedin.com/in/jim-mussared</a>
+        </p>
+
+        <h2>Coordinator</h2>
+        <p>
+        Name: Geoffrey Huntley<br/>
+        Email: <a href="mailto:ghuntley@ghuntley.com">ghuntley@ghuntley.com</a><br/>
+        LinkedIn: <a href="https://www.linkedin.com/in/geoffreyhuntley">https://www.linkedin.com/in/geoffreyhuntley</a>
+        </p>
+    break;
+
 }
 
 @RenderBody()
