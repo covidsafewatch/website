@@ -21,7 +21,8 @@ It is still unresolved.
 
 # Recommendations
 
-Have an engaged customer support team on social media and on the app stores helping that helps people.
+Have an engaged customer support team on social media and on the app stores helping people.
+
 
 <?# Twitter 1256946000922423296 /?>
 
