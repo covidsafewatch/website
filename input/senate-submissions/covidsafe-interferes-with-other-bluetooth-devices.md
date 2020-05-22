@@ -5,7 +5,7 @@ IssueMaintainer: jimmo
 
 # Overview
 
-TODO: 
+Jimmo TODO: 
 
 - explain limitations of bluetooth chipsets
 - explain different phones have different chipsets/antennas
@@ -20,19 +20,19 @@ TODO:
 
 # Recommenations
 
-TODO:
+Jimmo TODO:
 
 - any recommendations Jimmo?
 
 # Articles from the media
 
-TODO:
+Geoff TODO:
 
 - citations
 
 # Official comments from the DTA
 
-TODO:
+Geoff TODO:
 
 - citations
 
