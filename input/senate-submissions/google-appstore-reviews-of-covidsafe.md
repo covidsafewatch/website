@@ -5,7 +5,7 @@ IssueMaintainer: ghuntley
 
 # Overview
 
-Theese reviews were exported on the 22nd of May 2020 from the Google Appstore. The latest data can be programatically accessed via scraping https://play.google.com/store/apps/details?id=au.gov.health.covidsafe&hl=en_AU&showAllReviews=true
+These reviews were exported on the 22nd of May 2020 from the Google Appstore. The latest data can be programatically accessed via scraping https://play.google.com/store/apps/details?id=au.gov.health.covidsafe&hl=en_AU&showAllReviews=true
 
 Geoffrey Huntley has seen no replies from customer support to app store reviews left by people who have been experiencing troubles downloading, registering and using the COVIDSafe application.
 
