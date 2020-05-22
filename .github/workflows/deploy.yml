@@ -15,3 +15,5 @@ jobs:
     - run: dotnet run -- deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NetlifyAccessToken: ${{ secrets.NetlifyAccessToken }}
+        NetlifySiteId: ${{ secrets.NetlifySiteId }}
