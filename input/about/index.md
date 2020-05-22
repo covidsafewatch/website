@@ -8,12 +8,12 @@ We are a team of security researchers, open-source software engineers, community
 * We want to see lives saved through the use of this unprecedented technology.
 * It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.
 * We believe transparency is essential to achieve both of these goals without compromising either. Compromising privacy risks people’s lives by undermining public trust in the systems built to protect them.
-* This can only be achieved by direct collaboration with engineers using transparent open source platforms as the UK National Health Service and German Ministry of Health.
-* This can only be achieved by direct collaboration with engineers using transparent open source collaborative platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
+* This can only be achieved by direct collaboration with engineers using transparent open-source platforms as the UK National Health Service and German Ministry of Health.
+* This can only be achieved by direct collaboration with engineers using transparent open-source collaborative platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
 
 # Geoffrey Huntley
 
-🙌 I'm Geoff, the probono open-source software engineer leading the independent analysis of <a href="https://covidsafe.gov.au/">covidsafe</a> via studying the source code. Software that I maintain is inside Microsoft Visual Studio, GitHub, Atlassian Sourcetree, Amazon Drive, Halo, Slack, is heavily used by the financial services industry and has been installed by other software developers over 21 million times. 
+🙌 I'm Geoff, the pro bono open-source software engineer leading the independent analysis of <a href="https://covidsafe.gov.au/">covidsafe</a> via studying the source code. Software that I maintain is inside Microsoft Visual Studio, GitHub, Atlassian Sourcetree, Amazon Drive, Halo, Slack, is heavily used by the financial services industry and has been installed by other software developers over 21 million times. 
 
 <a href="https://twitter.com/geoffreyhuntley">Follow me on Twitter</a> for latest updates and findings or support my efforts for government transparency by <a href="https://ghuntley.com/support">buying me a cup of coffee</a>.
 

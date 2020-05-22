@@ -10,7 +10,7 @@ Geoffrey Huntley documented the possibility of the language used in the applicat
 
 > When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing.
 
-This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the globl technology industry. Including from Mike Cannon-Brookes, co-founder of Atlassian. 
+This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the global technology industry, including from Mike Cannon-Brookes, co-founder of Atlassian.
 
 https://news.ycombinator.com/item?id=22986147
 
@@ -20,7 +20,7 @@ Mike Cannon-Brookes' account was created on the 1st of April 2011. The above com
 
 https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-app/
 
-Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application disection document on the 27th. Mike's comments in the media and covidsafe being on the front page of this technology website would have have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
+Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application dissection document on the 27th, Mike's comments in the media and COVIDSafe being on the front page of this technology website would have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
 
 # April 28th, 2020 - Public Panic
 
@@ -82,7 +82,7 @@ https://www.news.com.au/national/breaking-news/virus-app-issues-stop-people-sign
 
 # May 4th, 2020 - Software Update Released
 
-CovidSafe v1.0.15 was released which removed the text from the application. Time to resolution was 10 days.
+COVIDSafe v1.0.15 was released which removed the text from the application. The time to resolution was 10 days.
 
 # May 5th, 2020 - The Advocate
 
@@ -110,11 +110,11 @@ https://www.theadvocate.com.au/story/6745024/govt-under-pressure-over-app-bugs-a
 
 # Closing Remarks
 
-In Geoffrey Huntley's and Richard Nelson's professional opinion 10 days is unacceptable time to resolution as the fix involved removing a single line of text from the appliction and releasing a new version of the application.
+In Geoffrey Huntley's and Richard Nelson's professional opinion 10 days is an unacceptable time to resolution as the fix involved removing a single line of text from the application and releasing a new version of the application.
 
 Releasing a new version of the application should have been done immediately after seeing reports that mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
 
-New versions of mobile applications can be automatically released to the Google and Apple stores without human interaction. This is industry best practice - also known as continious integration/continuous delivery. Geoffrey Huntley has taught these methods as lectures at Microsoft and as in-person training to companies within Australia.
+New versions of mobile applications can be automatically released to the Google and Apple stores without human interaction. This is industry best practice - also known as continuous integration/continuous delivery. Geoffrey Huntley has taught these methods as lectures at Microsoft and as in-person training to companies within Australia.
 
 <?# Twitter 795916731482980353 /?>
 <?# Twitter 801069425323610113 /?>
