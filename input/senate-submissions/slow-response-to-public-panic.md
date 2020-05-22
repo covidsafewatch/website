@@ -1,5 +1,6 @@
 Title: Slow response to public panic
 Status: Not submitted. Requires proof read and readability improvements.
+IssueMaintainer: ghuntley
 ---
 
 # April 27th, 2020 - Initial Discovery
@@ -10,13 +11,13 @@ Geoffrey Huntley documented the possibility of the language used in the applicat
 
 > When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing.
 
-This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the global technology industry. Including from Mike Cannon-Brookes, co-founder of Atlassian. 
+This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the global technology industry, including from Mike Cannon-Brookes, co-founder of Atlassian. 
 
 https://news.ycombinator.com/item?id=22986147
 
 > I believe the government, PM and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
 
-Mike Cannon-Brookes' account was created on the 1st of April 2011. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely circulated in the media.
+Mike Cannon-Brookes' account was created on the 1st of April 2020. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely circulated in the media.
 
 https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-app/
 
@@ -28,7 +29,7 @@ https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavir
 
 > A Melbourne woman feared she had coronavirus after confusing app message. Mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
 > 
-> The message "You have tested positive for COVID-19" appeared when she tapped the button "has a heath official asked you to upload your data?".
+> The message "You have tested positive for COVID-19" appeared when she tapped the button "has a health official asked you to upload your data?".
 
 <img src="holly-donovan.jpg" width="100%"/>
 
@@ -64,7 +65,7 @@ https://www.afr.com/politics/federal/tech-community-backs-covidsafe-app-20200430
 >
 > The app uses bluetooth wireless signals to recognise another COVIDSafe app. There have also been issues of conflicts with other bluetooth applications, such as diabetes apps.
 >
-> There has also been confusion with a user exploring the app and getting a screen that says "you have tested positive screen". The screen came up after the user pressed the button used to upload data, after a person has been diagnosed with the virus.
+> There has also been confusion with a user exploring the app and getting a screen that says "you have tested positive". The screen came up after the user pressed the button used to upload data, after a person has been diagnosed with the virus.
 
 # May 4th, 2020 - The Australian
 
@@ -110,11 +111,11 @@ https://www.theadvocate.com.au/story/6745024/govt-under-pressure-over-app-bugs-a
 
 # Closing Remarks
 
-In Geoffrey Huntley's and Richard Nelson's professional opinion 10 days is unacceptable time to resolution as the fix involved removing a single line of text from the appliction and releasing a new version of the application.
+In Geoffrey Huntley's and Richard Nelson's professional opinion 10 days is unacceptable time to resolution as the fix involved removing a single line of text from the application and releasing a new version of the application.
 
 Releasing a new version of the application should have been done immediately after seeing reports that mother-of-two Holly Donovan from Frankston panicked when she thought the app had diagnosed her with coronavirus.
 
-New versions of mobile applications can be automatically released to the Google and Apple stores without human interaction. This is industry best practice - also known as continious integration/continuous delivery. Geoffrey Huntley has taught these methods as lectures at Microsoft and as in-person training to companies within Australia.
+New versions of mobile applications can be automatically released to the Google and Apple stores without human interaction. This is industry best practice - also known as continuous integration/continuous delivery. Geoffrey Huntley has taught these methods as lectures at Microsoft and as in-person training to companies within Australia.
 
 <?# Twitter 795916731482980353 /?>
 <?# Twitter 801069425323610113 /?>
