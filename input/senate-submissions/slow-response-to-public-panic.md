@@ -21,7 +21,7 @@ Mike Cannon-Brookes' account was created on the 1st of April 2020. The above com
 
 https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-app/
 
-Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application dissection document on the 27th. Mike's comments in the media and COVIDSafe being on the front page of this technology website would have have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
+Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application dissection document on the 27th. Mike's comments in the media and COVIDSafe being on the front page of this technology website would have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
 
 <?# Twitter 1255671317145108482 /?>
 
