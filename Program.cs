@@ -21,7 +21,8 @@ namespace CovidSafeWatch
                 ) 
                 .AddSetting(Keys.Host, "covidsafe.watch")
                 .AddSetting(Keys.LinksUseHttps, true)
-                .AddSetting(WebKeys.MirrorResources, true)
+                .AddSetting(WebKeys.MirrorResources, false)
+                // .AddSetting(WebKeys.MirrorResources, true)
                 .AddSetting(
                     Keys.DestinationPath,
                     Config.FromDocument((doc, ctx) =>
