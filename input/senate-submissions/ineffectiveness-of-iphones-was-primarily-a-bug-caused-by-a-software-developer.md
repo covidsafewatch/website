@@ -409,23 +409,22 @@ Peripheral advertising..
 
 <?# TWitter 1256701737898917888 /?>
 
-
-
-# 
-
-<?# Twitter 1262693741887807488 /?>
-
-<!-- <# YouTube YKC78xdtt4E -->
-
-<iframe width="709" height="399" src="https://www.youtube.com/embed/YKC78xdtt4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 # 6th of May 2020
 
 <?# Twitter 1257870387930525696 /?>
 <?# Twitter 1257871022465802240 /?>
 
 # 13th of May 2020
+
+> The government has now released the source code of its contact tracing app, COVIDSafe, but a developer has noted he's hitting brick walls when it comes to reporting any bugs or flaws with the app.
+>
+> Gizmodo Australia has contacted the DTA to understand how its process works and if it’s working on fixing any of the flaws Mussared and the group of developers have pointed out.
+> 
+> “As continuously stated, the Government will continue to work with Apple and Google to look for any opportunities to enhance the performance of their Bluetooth functionality – something that is not exclusive to the COVIDSafe app,” a DTA spokesperson said to Gizmodo Australia.
+> 
+> “The app performs better than many similar apps in other countries.”
+
+From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
 
 > Jim Mussared is one Australian developer who's been working on uncovering the app's flaws to ensure it's doing what it's meant to. For him, it's made one thing particularly clear — the DTA hasn't been easy to work with when it comes to disclosing bugs.
 >
@@ -434,6 +433,87 @@ Peripheral advertising..
 > "One very clear result of this is that there were zero functional changes to the iOS BLE backgrounding behaviour (CentralController.swift). We know that the Singapore team knew that background-to-background iPhone didn't work, so any claims by the DTA that they 'fixed it' indicate that either they never actually tested [or] investigated it, or their testing methodology was flawed."
 
 From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
+
+# 14th of May 2020
+
+COVIDSafe v1.2 for iPhone released which largely fixed background behaviour by implementing the recommendations of Richard Nelson. No announcements or communication that the problem has been resolved. Information regarding the updates on both the App Store and Google Play were vague, simply stating:
+
+- Push notifications are now optional
+- Improvements to Bluetooth security and connectivity
+- Accessibility enhancements
+- Bug fixes
+
+<?# Twitter 1262892094361722880 /?>
+
+
+# 15th of May 2020
+
+> The source code for COVIDSafe version 1.2 has been posted, and it contains two very important updates:
+>
+> - A fix for background scanning on iOS devices
+> - The security crash fix
+>
+> Number 2. is uninteresting, but 1. deserves attention.
+>
+> Even before COVIDSafe 1.0 was released, there was conflicting commentary on whether they had fixed the background iOS behaviour suffered by Singapore’s TraceTogether application. Apparently it was fixed, then maybe it wasn’t, then maybe it was slightly better?
+> 
+> Earlier in the month, before the source code was made available, I wrote up an analysis of the background behaviour of COVIDSafe, with a recommendation on how to improve the situation. We had the OpenTrace source code, but it was hard to tell if COVIDSafe had fixed anything as some politicians had suggested. I came to the conclusion that nothing had changed from OpenTrace, and that:
+>
+>> the application only needs to call scanForPeripherals once. I have an example project which continues to get peripheral discovery callbacks when it is in the background. The key to this, apart from not continuously starting and stopping scans is to set CBCentralManagerScanOptionAllowDuplicatesKey to true
+>
+> This is extremely important, but as confident as I was, I wasn’t 100% certain that the start/stop scans were being done for a reason I wasn’t privvy to.
+>
+> Well, now we have the source code of version 1.2, and we can see exactly what they have <a href="https://github.com/AU-COVIDSafe/mobile-ios/commit/cae9823e4426af126b05d4680d49d19ab596db31#diff-ea5ac28399eeee2eeaf4c8ebfb03a7d4">changed here</a>: 
+>
+> ![](unbroken-iphone-covidsafe-app-diff-00.png)
+>
+> First, there’s no more timer that starts and stops scans. Second, there is no mention of `central.stopScan()` anywhere at all in the new code! And then:
+>
+> ![](unbroken-iphone-covidsafe-app-diff-01.png)
+>
+>
+> They scan with `CBCentralManagerScanOptionAllowDuplicatesKey`.
+> 
+> This is good progress for COVIDSafe, and it completely validates the conclusion that I came to in my initial analysis.
+> 
+> However, <b>this very important change has been made rather silently, as it contradicts the very public statements DTA have made [to the Senate and in the media]  as to the background behaviour on iOS being a limitation imposed by Apple, and not an error in the way the application was using CoreBluetooth</b>.
+> 
+> iOS still has some background limitations, particularly that I have observed when the device is locked and unused. It will scan, but intervals can vary greatly. I (and others) noticed that simply waking the screen is often enough to trigger a bluetooth central scan to be made. It’s not clear to me if the next version of iOS will improve things here for applications not using their contact tracing methodology.
+But for now, it’s unquestionable that COVIDSafe will perform in a much better manner in the background, without Apple’s assistance.
+
+From: https://medium.com/@wabz/the-unbroken-ios-covidsafe-application-dea520af3694
+
+# 18th of May 2020
+
+<?# Twitter 1262535052040142849 /?>
+
+> The update fixed a vulnerability that could have allowed for tracking of the unique identifiers through the app, software developer Jim Mussared said, and also removed the potential for denial of service attack and also greatly improved the functionality of the app while running in the background on iPhones.
+>
+> There have been muddled and contradictory messages from the government and DTA over COVIDSafe’s performance on iPhones and effectiveness when not running in the foreground. The update has gone a long way towards fixing these issues, Mr Mussared said.
+> 
+> “I’m almost disappointed for the DTA that they can’t get out there and scream from the rooftops because unfortunately they said it was never broken,” he said.
+> 
+> “There has to be some admission of the way they addressed serious security issues, and it would be really wonderful if they could say they fixed the iPhone. Now it works as well as they said it used to.
+> 
+> “That’s important because people are not installing the app because they think it doesn’t work and they haven’t told people it has been fixed.”
+> 
+> The government’s attention and public communications have still been focused on trying to convince more Australians to download the COVIDSafe app, with restrictions easing around the country.
+> 
+> But there needed to be more focus on ensuring everyone who has already downloaded it to proactively update the app if they do not have these turned on automatically, shadow assistant minister for cybersecurity Tim Watts said.
+> 
+> “An important update to the COVIDSafe iPhone app was released today improving both the security and the ability of the app to register contacts,” Mr Watts said.
+> 
+> “While the PM regularly urges people to download the app he’s said nothing about the need for people to update this app,” he said.
+
+From: https://www.innovationaus.com/covidsafe-app-gets-important-update/
+
+# 20th of May 2020
+
+<?# Twitter 1262693741887807488 /?>
+
+<!-- <# YouTube YKC78xdtt4E -->
+
+<iframe width="709" height="399" src="https://www.youtube.com/embed/YKC78xdtt4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 24th of May 2020
 
