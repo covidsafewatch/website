@@ -24,7 +24,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 # Jim Mussared
 
-I'm a hybrid hardware and software developer with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. I formerly worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.
+I'm a hybrid hardware and software developer with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. Formerly I worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.
 
 My <a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit">Bluetooth research</a> into contact tracing has received world wide praise. 
 
