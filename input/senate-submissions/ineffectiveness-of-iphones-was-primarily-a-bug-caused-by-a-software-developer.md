@@ -410,6 +410,21 @@ Peripheral advertising..
 <?# TWitter 1256701737898917888 /?>
 
 
+
+# 
+
+<?# Twitter 1262693741887807488 /?>
+
+<!-- <# YouTube YKC78xdtt4E -->
+
+<iframe width="709" height="399" src="https://www.youtube.com/embed/YKC78xdtt4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# 6th of May 2020
+
+<?# Twitter 1257870387930525696 /?>
+<?# Twitter 1257871022465802240 /?>
+
 # 13th of May 2020
 
 > Jim Mussared is one Australian developer who's been working on uncovering the app's flaws to ensure it's doing what it's meant to. For him, it's made one thing particularly clear — the DTA hasn't been easy to work with when it comes to disclosing bugs.
@@ -420,10 +435,14 @@ Peripheral advertising..
 
 From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
 
-# 
+# 24th of May 2020
 
-<?# Twitter 1262693741887807488 /?>
+> Early on developers noted the iPhone version would not be able to exchange Bluetooth handshakes with other devices unless it was running on the screen – incredibly impractical for users.
+> 
+> The government initially denied this, refused to answer questions about it, and only once, before the Covid-19 senate committee, did the agencys chief executive, Randall Brugeaud, admit the Bluetooth function suffered when the app wasn’t on screen.
+> 
+> “What we can say is the quality of the Bluetooth connectivity for phones that have the app installed running in the foreground is very good,” he said. “And it progressively deteriorates and the quality of the connection is not as good as you get to a point where the phone is locked and the app is running in the background.”
+> 
+> That, in part, has been addressed by updates quietly released in the past week, but issues still persist, and will never truly be resolved unless the federal government implements functions released by Apple and Google this week.
 
-<!-- <# YouTube YKC78xdtt4E -->
-
-<iframe width="709" height="399" src="https://www.youtube.com/embed/YKC78xdtt4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+From: https://www.theguardian.com/world/2020/may/24/how-did-the-covidsafe-app-go-from-being-vital-to-almost-irrelevant
