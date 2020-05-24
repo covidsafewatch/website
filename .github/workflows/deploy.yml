@@ -1,18 +1,18 @@
-# name: Deploy Site
-# on: 
-#   push:
-#   schedule:
-#     # * is a special character in YAML so you have to quote this string
-#     - cron:  '0 22 * * *'
-# jobs:
-#   build:
-#     runs-on: windows-latest
-#     steps:
-#     - uses: actions/setup-dotnet@v1
-#       with:
-#         dotnet-version: '3.1.100' # SDK Version to use.
-#     - run: dotnet run -- deploy
-#       env:
-#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#         NetlifyAccessToken: ${{ secrets.NetlifyAccessToken }}
-#         NetlifySiteId: ${{ secrets.NetlifySiteId }}
+name: Deploy Site
+on: 
+  push:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 22 * * *'
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.100' # SDK Version to use.
+    - run: dotnet run -- deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NetlifyAccessToken: ${{ secrets.NetlifyAccessToken }}
+        NetlifySiteId: ${{ secrets.NetlifySiteId }}

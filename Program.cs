@@ -15,10 +15,10 @@ namespace CovidSafeWatch
             await Bootstrapper.Factory
                 .CreateWeb(args)
                 .AddSetting(WebKeys.NetlifyRedirects, true)              
-                // .DeployToNetlify(
-                //     Environment.GetEnvironmentVariable("NetlifySiteId"),
-                //     Environment.GetEnvironmentVariable("NetlifyAccessToken")
-                // ) 
+                .DeployToNetlify(
+                    Environment.GetEnvironmentVariable("NetlifySiteId"),
+                    Environment.GetEnvironmentVariable("NetlifyAccessToken")
+                ) 
                 .AddSetting(Keys.Host, "covidsafe.watch")
                 .AddSetting(Keys.LinksUseHttps, true)
                 .AddSetting(WebKeys.MirrorResources, true)
