@@ -2,12 +2,15 @@ Title: Breaches of Privacy Policy
 Status: Work in Progress
 ---
 
+<?# Twitter 1264363796207792129 /?>
+
 The COVIDSafe app’s basic operation is to transmit and receive encrypted user IDs (UniqueID) with other users of the app. We understand that UniqueIDs received by the app are stored locally on the phone and the list of received UniqueIDs is only transmitted when explicitly uploaded by the user..
 
 The app’s Privacy Policy describes how the app will collect, store, use and store the user’s information. We have found that key parts of the policy do not reflect the real-world behaviour of the COVIDSafe app.
 
 
 # Tracking of the encrypted user ID (UniqueID)
+
 The Privacy Impact Assessment has stated the following:
 8.18	The App will only accept the new Unique IDs if it is open and running. If the App successfully accepts the new Unique ID, an automatic message will be generated and sent back to the National COVIDSafe Data Store. This message will only effectively indicate a “yes (new Unique ID successfully delivered)” response to the National COVIDSafe Data Store. If the App is not open and running, it will not be able to accept a new Unique ID. It will continue to store the previous Unique ID and use this when the App is opened, until a new Unique ID is generated and accepted.
 

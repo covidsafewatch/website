@@ -8,3 +8,5 @@ IssueMaintainer: ghuntley
 https://www.afdo.org.au/covidsafe-app-community-sector-letter/
 
 <?# Twitter 1256939183853064192 /?>
+
+<?# Twitter 1257895892666839043 /?>

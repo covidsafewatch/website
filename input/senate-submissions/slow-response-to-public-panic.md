@@ -23,6 +23,8 @@ https://www.smartcompany.com.au/coronavirus/angry-mob-cannon-brookes-covidsafe-a
 
 Whilst Geoffrey Huntley has no evidence that the Digital Transformation Agency read the application dissection document on the 27th. Mike's comments in the media and COVIDSafe being on the front page of this technology website would have have most likely resulted in one or more people within the Digital Transformation Agency monitoring the document which was continually updated for weeks.
 
+<?# Twitter 1255671317145108482 /?>
+
 # April 28th, 2020 - Public Panic
 
 https://www.9news.com.au/national/covidsafe-app-melbourne-woman-feared-coronavirus-after-confusing-message/e9146501-6bbd-4509-b89a-406b2b98ed2a:
