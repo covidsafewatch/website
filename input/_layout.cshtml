@@ -20,6 +20,17 @@
             string title = @Document.ContainsKey(Keys.Title) ? $"COVIDSafe.watch - {Document.GetString(Keys.Title)}" : "COVIDSafe.watch";
         }
         <title>@title</title>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7V3FP8QKER"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7V3FP8QKER');
+        </script>
+
     </head>
     <body>
         <div class="flex-grow-1 d-flex flex-column">
@@ -177,6 +188,10 @@
             </div>
         </div>
         
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101257061);</script>
+        <script async src="//static.getclicky.com/js"></script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101257061ns.gif" /></p></noscript>
+
 		@RenderSection(SectionNames.Scripts, false)
     </body>
 </html>
