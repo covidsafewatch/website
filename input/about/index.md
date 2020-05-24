@@ -3,13 +3,13 @@ BreadcrumbTitle: About
 Xref: About
 ---
 
-We are a team of security researchers, open-source software engineers, community managers and privacy specialists that support the concept of technology based contact tracing.
+We are a team of security researchers, open-source software engineers, community managers and privacy specialists that support the concept of technology-based contact tracing.
 
-* We want to see lives saved through the use of this unprecedented technology.
+* We want to see lives saved through the use of this technology.
 * It is crucial to us that privacy and security issues are addressed promptly and communicated in an inclusive and open manner.
 * We believe transparency is essential to achieve both of these goals without compromising either. Compromising privacy risks people’s lives by undermining public trust in the systems built to protect them.
-* This can only be achieved by direct collaboration with engineers using transparent open source platforms as the UK National Health Service and German Ministry of Health.
-* This can only be achieved by direct collaboration with engineers using transparent open source collaborative platforms just as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
+* This can only be achieved by direct collaboration with engineers using transparent open source platforms such as the UK National Health Service and German Ministry of Health.
+* This can only be achieved by direct collaboration with engineers using transparent open source collaborative platforms such as the <a href="https://twitter.com/NHSX/status/1258453749691027465?s=19">UK National Health Service</a>, and the <a href="https://tcn-coalition.org/members/">TCN Coalition</a>.
 
 # Geoffrey Huntley
 
@@ -24,7 +24,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 # Jim Mussared
 
-I'm a hybrid hardware and software developer, with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. Formerly worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.
+I'm a hybrid hardware and software developer, with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. I formerly worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.
 
 My <a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit">Bluetooth research</a> into contact tracing has received world wide praise. 
 
