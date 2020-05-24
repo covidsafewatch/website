@@ -38,3 +38,5 @@ TestResult.xml
 /_NCrunch_Statiq.Framework
 .vscode
 *.pfx
+# Local Netlify folder
+.netlify

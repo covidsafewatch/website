@@ -1,4 +1,3 @@
-FROM gitpod/workspace-dotnet
-EXPOSE 5080
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
-CMD ["dotnet run -- preview"]
+ENTRYPOINT ["dotnet", "-- build"]

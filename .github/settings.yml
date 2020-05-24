@@ -6,7 +6,7 @@ repository:
   # The name of the repository. Changing this will rename the repository
   #name: template
 
-  description: the website of covidsafe.watch. send pull-requests to develop.
+  description: the website of covidsafe.watch.
   homepage: https://covidsafe.watch/
   topics: contact-tracing, covidsafe, website, statiq, first-timers-friendly
 
