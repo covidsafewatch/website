@@ -36,7 +36,7 @@ namespace CovidSafeWatch
                         }
                         return doc.Destination;
                     }))
-                .AddSetting("EditLink", Config.FromDocument((doc, ctx) => "https://github.com/covidsafewatch/website/edit/develop/input/" + doc.Source.GetRelativeInputPath()))
+                .AddSetting("EditLink", Config.FromDocument((doc, ctx) => "https://github.com/covidsafewatch/website/edit/master/input/" + doc.Source.GetRelativeInputPath()))
                 .AddSetting(SiteKeys.NoChildPages, Config.FromDocument(doc => doc.Destination.Segments[0].SequenceEqual("blog".AsMemory())))
                 .AddPipelines()
                 .RunAsync();
