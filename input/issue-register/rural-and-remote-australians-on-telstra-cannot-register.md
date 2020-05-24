@@ -1,4 +1,4 @@
-Tite: Rural and remote Australian's on Telstra cannot register
+Title: Rural and remote Australian's on Telstra cannot register
 ReportedAt: 2020/04/29
 ResolvedAt: 2020/05/05  
 Status: Resolved
@@ -16,7 +16,7 @@ Status: Resolved
 > 
 > For rural Aussies – or even just those who live in a mobile black spot – who are on plans with Vodafone and Optus, excluding prepaid, this isn't a problem. With these providers, they're able to still receive the verification text because these telcos offer SMS Over WiFi.
 > 
-> Unfortunately, users who are with Telstra or some Mobile virtual Network Operator (MVNO) resellers don't have the SMS over WiFi option.
+> Unfortunately, users who are with Telstra or some Mobile Virtual Network Operator (MVNO) resellers don't have the SMS over WiFi option.
 
 https://www.gizmodo.com.au/2020/05/telstra-sms-over-wifi-launch/
 
@@ -28,7 +28,7 @@ https://www.gizmodo.com.au/2020/05/telstra-sms-over-wifi-launch/
 > 
 > "The government is aware that Telstra handsets presently do not support SMS over wi-fi, meaning that those in areas with poor mobile coverage may experience challenges in completing the process to download and register the COVIDSafe App (as the process involves receiving a code via SMS),"a spokesperson for the Minister for Communications, Cyber Safety and the Arts, Paul Fletcher, said in an email to Gizmodo Australia.
 > 
-> While Telstra's statement indicated that it was working on introducing SMS Over Wifi, no time frame was given. Telstra has now confirmed with Gizmodo Australia that the feature has begun rolling out on iOS and Samsung devices as of today.
+> While Telstra's statement indicated that it was working on introducing SMS Over WiFi, no time frame was given. Telstra has now confirmed with Gizmodo Australia that the feature has begun rolling out on iOS and Samsung devices as of today.
 > 
 > "SMS over WiFi updates for customers’ smartphones have gone live overnight and will roll out progressively over the next seven days. Some Telstra customers will already see the functionality available on their devices." said a Telstra spokesperson in an email tp Gizmodo Australia.
 

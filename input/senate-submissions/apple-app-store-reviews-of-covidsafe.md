@@ -1,11 +1,11 @@
-Title: Apple Appstore Reviews of COVIDSafe
+Title: Apple App Store Reviews of COVIDSafe
 Status: Not submitted. Refresh data before submission.
 IssueMaintainer: ghuntley
 ---
 
 # Overview
 
-These reviews were exported on the 22nd of May 2020 from the Apple Appstore. The latest data can be programatically accessed via https://itunes.apple.com/au/rss/customerreviews/id=1509242894/xml
+These reviews were exported on the 22nd of May 2020 from the Apple App Store. The latest data can be programatically accessed via https://itunes.apple.com/au/rss/customerreviews/id=1509242894/xml
 
 Geoffrey Huntley has seen no replies from customer support to app store reviews left by people who have been experiencing troubles downloading, registering and using the COVIDSafe application.
 

@@ -1,4 +1,4 @@
-Title: Potential Databreach Handled Incorrectly
+Title: Potential Data Breach Handled Incorrectly
 ReportedAt: 2020/05/09
 CaseNumber: OPS-69547, CFS-8301
 Status: Unresolved
@@ -21,4 +21,4 @@ Status: Unresolved
 
 # Recommended Next Steps
 
-- Seperate customer support and security reporting channels. Establish a proper bug bounty.
+- Separate customer support and security reporting channels. Establish a proper bug bounty.

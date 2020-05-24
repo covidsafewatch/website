@@ -1,4 +1,4 @@
-Title: Google Appstore Reviews of COVIDSafe
+Title: Google Play Store Reviews of COVIDSafe
 Status: Not submitted. Refresh data before submission.
 IssueMaintainer: ghuntley
 ---

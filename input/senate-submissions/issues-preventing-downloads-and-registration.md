@@ -87,9 +87,9 @@ DDG search- https://duckduckgo.com/?q=tracetogether%2Fid1498276074+site%3Aapps.a
 https://www.gizmodo.com.au/2020/04/some-rural-australians-cant-access-covidsafe-app-due-to-a-missing-telstra-feature/
 
 
-> Over the past week we have been hearing about issues that some rural Australians are having installing the COVIDSafe app. This is because Telstra, unlike Vodafone and Optus, didn't have SMS over Wifi, which prevented 2FA texts from being received by people who don't have mobile phone reception. Importantly, is an issue that also impacts other 2FA SMS as well as emergency texts. During our investigation into this Telstra started quietly rolling the feature out.
+> Over the past week we have been hearing about issues that some rural Australians are having installing the COVIDSafe app. This is because Telstra, unlike Vodafone and Optus, didn't have SMS over WiFi, which prevented 2FA texts from being received by people who don't have mobile phone reception. Importantly, is an issue that also impacts other 2FA SMS as well as emergency texts. During our investigation into this Telstra started quietly rolling the feature out.
 >
-> We knew Telstra was going to be looking at finally rolling out SMS Over Wifi, but the telco was unable to provide Gizmodo Australia a clear timeline. It appears the decision may have been tied to COVID-19 and the need for the COVIDSafe app in rural communities. Comments received from both Telstra and the Federal Minister for Communications Paul Fletcher to Gizmodo last week indicated that the telco was working on a solution to 2FA for the COVIDSafe app specifically.
+> We knew Telstra was going to be looking at finally rolling out SMS Over WiFi, but the telco was unable to provide Gizmodo Australia a clear timeline. It appears the decision may have been tied to COVID-19 and the need for the COVIDSafe app in rural communities. Comments received from both Telstra and the Federal Minister for Communications Paul Fletcher to Gizmodo last week indicated that the telco was working on a solution to 2FA for the COVIDSafe app specifically.
 > 
 > "Telstra customers in areas that do not have mobile coverage are unable to send or receive SMS over WiFi. We have been working to introduce this capability into the network and will now accelerate the work required. We are also working closely with the DTA on alternative methods for the COVIDSafe app to send an authentication code," a Telstra spokesperson said in an email to Gizmodo Australia.
 >
@@ -106,7 +106,7 @@ Norfolk Island is an external territory of Australia but uses a different countr
 
 # People who are roaming with an international SIM cannot register
 
-COVIDSafe requires an Australia mobile number begining with `+61` to register, meaning foreigners in Australia need a local sim card. People who are roaming with an international SIM and are located within Australia cannot register for COVIDSafe.
+COVIDSafe requires an Australia mobile number beginning with `+61` to register, meaning foreigners in Australia need a local sim card. People who are roaming with an international SIM and are located within Australia cannot register for COVIDSafe.
 
 
 

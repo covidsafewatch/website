@@ -82,9 +82,9 @@ The app’s [Privacy Policy](https://www.health.gov.au/using-our-websites/privac
 The Privacy Impact Assessment has stated the following:
 
 
-> _8.18	The App will only accept the new Unique IDs if it is open and running. If the App successfully accepts the new Unique ID, an automatic message will be generated and sent back to the National COVIDSafe Data Store. This message will only effectively indicate a “yes (new Unique ID successfully delivered)” response to the National COVIDSafe Data Store. **If the App is not open and running, it will not be able to accept a new Unique ID. It will continue to store the previous Unique ID and use this when the App is opened, until a new Unique ID is generated and accepted**._
+> _8.18	The App will only accept the new Unique IDs if it is open and running. If the App successfully accepts the new Unique ID, an automatic message will be generated and sent back to the National COVIDSafe Data Store. This message will only effectively indicate a "yes (new Unique ID successfully delivered)" response to the National COVIDSafe Data Store. **If the App is not open and running, it will not be able to accept a new Unique ID. It will continue to store the previous Unique ID and use this when the App is opened, until a new Unique ID is generated and accepted**._
 
-The Privacy Policy states that “An encrypted user ID will be created every 2 hours”, and this represents a major flaw, in which it is possible for someone to be traced for more than 2 hours. This can lead to the same UniqueID being used for multiple days.
+The Privacy Policy states that "An encrypted user ID will be created every 2 hours", and this represents a major flaw, in which it is possible for someone to be traced for more than 2 hours. This can lead to the same UniqueID being used for multiple days.
 
 
 ## Misrepresentation of stored data
@@ -97,7 +97,7 @@ The Privacy Policy has stated that the app only records the following contact da
 2. Date and time of contact; and
 3. Bluetooth signal strength of other COVIDSafe users with which you come into contact
 
-It has also stated that “No user will be able to see the contact data stored on their device as it will be encrypted.” This is not true:
+It has also stated that "No user will be able to see the contact data stored on their device as it will be encrypted." This is not true:
 
 
 
@@ -151,7 +151,7 @@ Example of database log
 </table>
 
 
-The app is not collecting enough data or the right data to be able to detect “close contact” (distance of 1.5m for more than 15 minutes), even with server-side processing. Instead it collects and stores data from any phone within Bluetooth range, regardless of proximity. This is not what the general public would reasonably believe to be happening and breaches the implicit permission they are giving that their data only be collected by phones that are possible “close contacts” and not any phone within Bluetooth range, which could be in another room or on a different floor or even in a different building.
+The app is not collecting enough data or the right data to be able to detect "close contact" (distance of 1.5m for more than 15 minutes), even with server-side processing. Instead it collects and stores data from any phone within Bluetooth range, regardless of proximity. This is not what the general public would reasonably believe to be happening and breaches the implicit permission they are giving that their data only be collected by phones that are possible "close contacts" and not any phone within Bluetooth range, which could be in another room or on a different floor or even in a different building.
 
 
 ## Collection of Android device ID
@@ -186,7 +186,7 @@ There's absolutely no way to get support ("faq and help buttons") until you have
 <?# Twitter 1257506430476640256 /?>
 
 
-“We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report.”
+"We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report."
 
 <?# Twitter 1256192209340133376 /?>
 
@@ -266,14 +266,14 @@ The other thing is that the libraries **(Sets of prewritten code)** that are ava
 </table>
 
 
-One item that no one in the community can figure out is the closed source **(meaning private)** library called **“com.atlassian.mobilekit”** of which the COVIDSafe app is dependent upon. There is speculation that since the COVIDSafe app is dependent on this library, that it is forced to make the minimum version 6.0.  \
+One item that no one in the community can figure out is the closed source **(meaning private)** library called **"com.atlassian.mobilekit"** of which the COVIDSafe app is dependent upon. There is speculation that since the COVIDSafe app is dependent on this library, that it is forced to make the minimum version 6.0.  \
 Atlassian, the creators of this library, could potentially make a derivative that works on 5.0 & 5.1 devices.
 
  \
 The Digital Transformation Agency is working with Apple and Google on their improved bluetooth connectivity to implement into the COVIDSafe app. As of the preliminary documentation released by Google in April describing how this technology works on Android, it has outlined the minimum Android version required would be 5.0.
 
  \
-If there are no issues with dependencies that the COVIDSafe app is reliant upon, the modification to the code is not difficult. Simply adjust the **“minSdkVersion”** number from 23 to 21.  \
+If there are no issues with dependencies that the COVIDSafe app is reliant upon, the modification to the code is not difficult. Simply adjust the **"minSdkVersion"** number from 23 to 21.  \
 This small change could enable the COVIDSafe app to reach that 3% that might really need it.
 
 
@@ -294,11 +294,11 @@ Times are Australian Eastern Standard Time (AEST, UTC+10)
    </td>
    <td>@lanevb:
 <p>
-<em>“The governments focus today on how many downloads the app has makes me very concerned. PM seemed to indicate that is a major decision point for reducing lockdown with no awareness that download is not equal to usage.”</em>
+<em>"The governments focus today on how many downloads the app has makes me very concerned. PM seemed to indicate that is a major decision point for reducing lockdown with no awareness that download is not equal to usage."</em>
 <p>
 @GeoffreyHuntley:
 <p>
-<em>“Exactly, amount of downloads is a vanity metric when there's clear evidence THAT PEOPLE CANNOT REGISTER. “</em>
+<em>"Exactly, amount of downloads is a vanity metric when there's clear evidence THAT PEOPLE CANNOT REGISTER. "</em>
 <p>
 <a href="https://twitter.com/GeoffreyHuntley/status/1256193119411789824">https://twitter.com/GeoffreyHuntley/status/1256193119411789824</a><em> </em>
 <p>
@@ -338,7 +338,7 @@ Times are Australian Eastern Standard Time (AEST, UTC+10)
   <tr>
    <td>1/5/2020 10:02pm
    </td>
-   <td>“We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report.”
+   <td>"We have shared comprehensive details of several issues, ranging from privacy to app reliability that are worth attention. It's been impossible to establish any meaningful response with the gov. Here's a timestamp from an unreleased privacy, security and data quality report."
 <p>
 <a href="https://twitter.com/GeoffreyHuntley/status/1256192209340133376">https://twitter.com/GeoffreyHuntley/status/1256192209340133376</a> 
 <p>
@@ -354,7 +354,7 @@ Times are Australian Eastern Standard Time (AEST, UTC+10)
   <tr>
    <td>3/5/2020 7:39am
    </td>
-   <td>“There has been a lot of speculation about why<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> isn't working on iPhones but not many facts. Here's one reason we believe it isn't working. “ Document url: <a href="https://t.co/m5EcE3zCdX?amp=1">https://t.co/m5EcE3zCdX?amp=1</a> 
+   <td>"There has been a lot of speculation about why<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> isn't working on iPhones but not many facts. Here's one reason we believe it isn't working. " Document url: <a href="https://t.co/m5EcE3zCdX?amp=1">https://t.co/m5EcE3zCdX?amp=1</a> 
 <p>
 Excerpt from document:
 <p>
@@ -370,7 +370,7 @@ Excerpt from document:
   <tr>
    <td>3/5/2020 11:13pm 
    </td>
-   <td>“Reading the appstore reviews on<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> is distressing. There hasn't been a version shipped yet since launch. There isn't anyone replying to users on the appstore or on social media. So many people can't register and the crazy thing is the problem is known. Turn off WiFi.”
+   <td>"Reading the appstore reviews on<a href="https://twitter.com/hashtag/covidsafe?src=hashtag_click"> #covidsafe</a> is distressing. There hasn't been a version shipped yet since launch. There isn't anyone replying to users on the appstore or on social media. So many people can't register and the crazy thing is the problem is known. Turn off WiFi."
 <p>
 Several negative reviews without any replies or support. Several more examples of negative reviews in the thread (scroll down)
 <p>
@@ -400,7 +400,7 @@ Several negative reviews without any replies or support. Several more examples o
   <tr>
    <td>5/5/2020 12:52pm
    </td>
-   <td>The updated version of the app still did not fix the text “You have tested positive for COVID-19” in the upload data screen, despite being simple to correct and publish
+   <td>The updated version of the app still did not fix the text "You have tested positive for COVID-19" in the upload data screen, despite being simple to correct and publish
 <p>
 <a href="https://twitter.com/GeoffreyHuntley/status/1257503293711855621">https://twitter.com/GeoffreyHuntley/status/1257503293711855621</a>
 <p>
@@ -418,7 +418,7 @@ Several negative reviews without any replies or support. Several more examples o
   <tr>
    <td>5/5/2020 1:04pm
    </td>
-   <td>“In private I tried numerous times contacting the DTA, the minister of Services Australia and the media/privacy departments and the Australian Signals Directorate to pickup the phone. I was not the only researcher who experienced these problems.”
+   <td>"In private I tried numerous times contacting the DTA, the minister of Services Australia and the media/privacy departments and the Australian Signals Directorate to pickup the phone. I was not the only researcher who experienced these problems."
 <p>
 <a href="https://twitter.com/GeoffreyHuntley/status/1257506430476640256">https://twitter.com/GeoffreyHuntley/status/1257506430476640256</a> 
 <p>
@@ -444,9 +444,9 @@ Several negative reviews without any replies or support. Several more examples o
   <tr>
    <td>5/5/2020 1:08pm
    </td>
-   <td>“Now, speaking of "customer support". This UX defect has not been fixed. If people have troubles registering the customer support options in the app don't appear until _AFTER SOMEONE HAS REGISTERED_<a href="https://twitter.com/GeoffreyHuntley/status/1256567250892423169"> https://twitter.com/GeoffreyHuntley/status/1256567250892423169</a> Not fixed in the latest version of the app”
+   <td>"Now, speaking of "customer support". This UX defect has not been fixed. If people have troubles registering the customer support options in the app don't appear until _AFTER SOMEONE HAS REGISTERED_<a href="https://twitter.com/GeoffreyHuntley/status/1256567250892423169"> https://twitter.com/GeoffreyHuntley/status/1256567250892423169</a> Not fixed in the latest version of the app"
 <p>
-UX defect where the user has no way to get support (“FAQ and help buttons”) until you have registered. Still was not fixed as of 5/5/2020 at 1:08pm in the then-latest version of the app. No social media support nor anyone replying to app store reviews either.
+UX defect where the user has no way to get support ("FAQ and help buttons") until you have registered. Still was not fixed as of 5/5/2020 at 1:08pm in the then-latest version of the app. No social media support nor anyone replying to app store reviews either.
 <p>
 <a href="https://twitter.com/GeoffreyHuntley/status/1257507534035800066">https://twitter.com/GeoffreyHuntley/status/1257507534035800066</a> 
 <p>
