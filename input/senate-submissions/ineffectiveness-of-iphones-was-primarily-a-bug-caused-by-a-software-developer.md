@@ -5,7 +5,7 @@ IssueMaintainer: wabz
 
 # Overview
 
-The ineffectiveness of COVIDSafe on iPhone always was an bug in COVIDSafe, and not substantially a limitation imposed by Apple. A technical report was provided to the DTA before the Senate meeting. Whilst the problem has been resolved there has been no communication by DTA in this regard, because it contradicts the very public statements DTA made to the Senate and in the media as to the background behaviour on iOS being a limitation imposed by Apple.
+The ineffectiveness of COVIDSafe on iPhone was a bug in COVIDSafe, and not substantially a limitation imposed by Apple. A technical report was provided to the DTA before the Senate meeting. Whilst the problem has been resolved there has been no communication by DTA in this regard, because it contradicts the very public statements DTA made to the Senate and in the media as to the background behaviour on iOS being a limitation imposed by Apple.
 
 # 23rd of April 2020
 
