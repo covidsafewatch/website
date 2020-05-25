@@ -18,6 +18,12 @@ No industry best-practices were implemented at launch, including but not limited
 <?# Twitter 1258020825053065217 /?>
 
 
+> Huntley has called upon those responsible for the app to implement formal customer service and developer community engagement tools, as he feels the app is a worthy weapon in Australia’s coronavirus response. However he has withdrawn his personal support for the app until the privacy issues he has identified are addressed.
+
+Huntley also labelled the lack of a bug bounty program for the app “unusual” and said only personal relationships with government staff afforded him a channel through which to report his findings – after mailing government agencies' public email addresses with details of bugs and not receiving replies for a week.
+
+Australia’s app uses some of Singapore’s open source contact-tracing code. Huntley said he found flaws in Singapore’s code, reported it to developers there and saw changes made on the same day. He said he’s since informed Australian authorities of the same problem and seen it left in place in an app update that he said has changed nothing of substance. His research and opinions are detailed in this Tweet and subsequent thread.
+
 # Engagement on reported issues to coordinate disclosure
 
 <?# Twitter 1257506430476640256 /?>
