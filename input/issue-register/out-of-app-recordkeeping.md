@@ -2,7 +2,7 @@ Title: Out of App Record Keeping.
 ---
 Issues relating to how the Australian Government Federal, State and Local are endorsing / compelling citizens to record information outside the COVIDSafe application.
 
-Biosecurity Act received amendments which provide legal constraints of how information is stored during COVID and specifically its disposal.  There is no such legislation in place to cover the same conditions of collection and disposal outside the COVIDSafe Application context.
+The Biosecurity Act received amendments which provide legal constraints of how information is stored during COVID and specifically its disposal.  There is no such legislation in place to cover the same conditions of collection and disposal outside the COVIDSafe Application context.
 
 
 ### 15th May 2020

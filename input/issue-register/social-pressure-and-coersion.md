@@ -1,4 +1,4 @@
-Title: Social Pressure & Coersion
+Title: Social Pressure & Coercion
 ---
 
 # Government

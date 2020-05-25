@@ -147,7 +147,7 @@ labels:
 
   - name: thank-you
     color: E45E9D
-    description: Sometimes all a maintainer needs is a “thank you” 🙌.
+    description: Sometimes all a maintainer needs is a "thank you" 🙌.
 
   - name: triage/most-wanted
     color: ededed
