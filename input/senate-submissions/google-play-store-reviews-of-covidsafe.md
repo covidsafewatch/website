@@ -2,7 +2,7 @@ Title: Google Play Store Reviews of COVIDSafe
 Status: Not submitted. Refresh data before submission.
 IssueMaintainer: ghuntley
 RedirectFrom:
-- /senate-submissions/google-appstore-reviews-of-covidsafe
+- ./google-appstore-reviews-of-covidsafe
 ---
 
 # Overview
