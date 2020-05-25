@@ -1,6 +1,8 @@
 Title: Apple App Store Reviews of COVIDSafe
 Status: Not submitted. Refresh data before submission.
 IssueMaintainer: ghuntley
+RedirectFrom:
+- /senate-submissions/apple-appstore-reviews-of-covidsafe
 ---
 
 # Overview
