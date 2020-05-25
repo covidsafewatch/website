@@ -5,7 +5,7 @@ IssueMaintainer: ghuntley
 
 # April 27th, 2020 - Initial Discovery
 
-Geoffrey Huntley documented the possibility of the language used in the application as an issue in his [COVIDSafe application dissection](https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit#). 
+Geoffrey Huntley documented the possibility of the language used in the application as an issue in his [COVIDSafe application dissection](https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/preview#). 
 
 <img src="you-have-tested-positive-for-covid-bug-report.png" width="100%"/>
 

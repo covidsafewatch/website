@@ -14,13 +14,13 @@ We have compiled this document with the aim of presenting our findings in a read
   <tr>
    <td>COVIDSafe Android App dissection document
    </td>
-   <td><a href="https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit?usp=sharing">https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/edit?usp=sharing</a>
+   <td><a href="https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/preview?usp=sharing">https://docs.google.com/document/d/17GuApb1fG3Bn0_DVgDQgrtnd_QO3foBl7NVb8vaWeKc/preview?usp=sharing</a>
    </td>
   </tr>
   <tr>
    <td>COVIDSafe iOS App dissection document
    </td>
-   <td><a href="https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/edit?usp=sharing">https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/edit?usp=sharing</a> 
+   <td><a href="https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/preview?usp=sharing">https://docs.google.com/document/d/10OSroTZ6aB8L1DfSv8tBkXFLvG6tVlnNTL637C8Q4Bc/preview?usp=sharing</a> 
    </td>
   </tr>
   <tr>

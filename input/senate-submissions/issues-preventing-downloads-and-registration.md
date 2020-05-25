@@ -24,7 +24,7 @@ https://www.afr.com/politics/federal/tech-community-backs-covidsafe-app-20200430
 >
 > Mr Huntley detailed the issues the group had identified with the app.
 
-https://docs.google.com/presentation/d/1EELQ38POzp3AfnXhPcCZgPGcdlMaXLIqd3IA9t56HxE/edit#slide=id.g8453a0d5d1_0_300
+https://docs.google.com/presentation/d/1EELQ38POzp3AfnXhPcCZgPGcdlMaXLIqd3IA9t56HxE/preview#slide=id.g8453a0d5d1_0_300
 
 
 Attachment:

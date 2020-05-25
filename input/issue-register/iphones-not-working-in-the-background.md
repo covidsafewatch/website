@@ -31,7 +31,7 @@ From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
 
 ## Richard Nelson
 
-From: https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit
+From: https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/preview
 
 
 > This document describes a bug as observed in the COVIDSafe iOS application, causing it to be much less effective than it could be, while the application is not in the foreground.

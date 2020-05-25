@@ -28,7 +28,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 I'm a hybrid hardware and software developer, with current professional experience with open-source development and designing/developing BLE-based products for <a href="https://georgerobotics.com/">George Robotics</a>. Formerly worked in programming/electronics education at Grok Learning, and before that at Google Australia as a tech lead in the SRE team as well as some time working with the Android team.
 
-My <a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/edit">Bluetooth research</a> into contact tracing has received world wide praise.
+My <a href="https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U/preview">Bluetooth research</a> into contact tracing has received world wide praise.
 
 Follow <a href="https://twitter.com/jim_mussared">me on Twitter</a> for the latest updates.
 
@@ -39,7 +39,7 @@ Photo licensed under Attribution 4.0 International (CC BY 4.0)
 
 <img src="richardnelson.jpg" class="contributor-photo">
 
-I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a <a href="/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service">denial of service vulnerability</a> (CVE-2020–12717) in COVIDSafe.
+I'm a professional software engineer of 16 years, 8 of which have been in mobile app development and leadership. I have a strong interest in infosec, and my <a href="https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/preview">research into the iPhone application background behaviour</a> identified a coding error as a contributing factor preventing COVIDSafe from working effectively. I discovered a <a href="/issue-register/cve-2020-12717-ios-bluetooth-denial-of-service">denial of service vulnerability</a> (CVE-2020–12717) in COVIDSafe.
 
 Follow <a href="https://twitter.com/wabzqem">me on Twitter</a> for the latest updates.
 
