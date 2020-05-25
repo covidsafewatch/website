@@ -27,7 +27,7 @@ Technical anaylsis of COVIDSafe for iPhone performed by Richard Nelson, that ide
 
 Below you will find the technical explanation of the bug observed in the COVIDSafe iOS application, causing it to be much less effective than it could be, while the application is not in the foreground.
 
-See https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/edit for the original report which was shared with the DTA.
+See https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6VOQw/preview for the original report which was shared with the DTA.
 
 
 ## Repeated scanning for peripherals (and not in the background)
