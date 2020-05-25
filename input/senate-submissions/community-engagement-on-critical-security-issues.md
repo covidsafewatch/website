@@ -13,6 +13,11 @@ No industry best-practices were implemented at launch, including but not limited
 * Engagement on reported issues to coordinate disclosure.
 
 
+# Lack of a bug bounty or formal documented process
+
+<?# Twitter 1258020825053065217 /?>
+
+
 # Engagement on reported issues to coordinate disclosure
 
 <?# Twitter 1257506430476640256 /?>
@@ -36,6 +41,20 @@ It is worth noting how much better the response from the DTA was to the iPhone c
 <?# Twitter 1264712171734228993 /?>
 
 
+<?# Twitter 1256952268206665730 /?>
+
+<?# Twitter 1257600104183164929 /?>
+<?# Twitter 1257506430476640256 /?>
+<?# Twitter 1257506832140038145 /?>
+<?# Twitter 1257507532173541378 /?>
+<?# Twitter 1257524946361741317 /?>
+<?# Twitter 1257532378320265216 /?>
+<?# Twitter 1257537188540985349 /?>
+<?# Twitter 1257537587306090498 /?>
+<?# Twitter 1257540470613237765 /?>
+<?# Twitter 1257540474048581632 /?>
+<?# Twitter 1257541996874326018 /?>
+<?# Twitter 1257547477542027270 /?>
 
 
 # Atrribution
