@@ -6,7 +6,7 @@ IssueMaintainer: ghuntley
 
 # May 9th, 2020 - Incident
 
-Discussion about a S3 bucket starts circulating in the <a href="/">COVIDSafe.watch</a> community about an Amazon S3 bucket publically serving files without authentication. These files were named "CovidSafeUserData". 
+Discussion about a S3 bucket starts circulating in the <a href="/">COVIDSafe.watch</a> community about an Amazon S3 bucket publicly serving files without authentication. These files were named "CovidSafeUserData". 
 
 Geoffrey Huntley reported the matter to ASD.Assist@defense.gov.au and again via phone.
 
@@ -32,11 +32,11 @@ k9us35AlkI7aZNfNkFVWJ2v5ZVAdTHDh3pgBRZETwVg1of5DEXhc5XJV6mLsu9bM
 -----END PGP SIGNATURE-----
 ```
 
-Additionally the DTA has publically commented in the Australian media that all matters should be reported to support@covidsafe.gov.au.
+Additionally the DTA has publicly commented in the Australian media that all matters should be reported to support@covidsafe.gov.au.
 
 <?# Twitter 1257506430476640256 /?>
 
-Here's a screenshot showing that data was publically accessible without authentication.
+Here's a screenshot showing that data was publicly accessible without authentication.
 
 Geoffrey Huntley did not download, access or conduct any analysis of this data.
 
@@ -61,11 +61,11 @@ support@covidsafe.gov.au, the designated security contact, replied two days late
 Taking two days to respond to a potential data breach report is unacceptable.
 
 
-Additionally, it is clear that support@covidsafe.gov.au is not the appropriate avenue for security and privacy researchers. It is industry best practice that security and privacy research is read, processed and triaged by engineers and not customer support presentatives whom maybe non-technical.
+Additionally, it is clear that support@covidsafe.gov.au is not the appropriate avenue for security and privacy researchers. It is industry best practice that security and privacy research is read, processed and triaged by engineers and not customer support representatives whom maybe non-technical.
 
-Establishing a proper bug bounty - with or without financial rewards must be done urgently. What matters outcome wise is the establishment of a known, publically documented process that is manned by engineers with response time SLAs of less than an hour no matter what time of day it is. 
+Establishing a proper bug bounty - with or without financial rewards must be done urgently. What matters outcome wise is the establishment of a known, publicly documented process that is manned by engineers with response time SLAs of less than an hour no matter what time of day it is. 
 
 <?# Twitter 1263581018566430720 /?>
 
-Geoffrey Huntley recommends using a commerical offering such as https://bugcrowd.com or https://hackerone.com/
+Geoffrey Huntley recommends using a commercial offering such as https://bugcrowd.com or https://hackerone.com/
 

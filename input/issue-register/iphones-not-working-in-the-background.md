@@ -9,7 +9,7 @@ Status: Unresolved
 >
 > Acting health department secretary Caroline Edwards told a senate inquiry into COVID-19 on Thursday that although the app is derived from TraceTogether, its code base will be unique.
 >
-> “I don’t think the Singapore TraceTogether app is the model,” she said in response to questions from Labor senator Murray Watt, adding that it has been an “important contributor”
+> "I don’t think the Singapore TraceTogether app is the model," she said in response to questions from Labor senator Murray Watt, adding that it has been an "important contributor"
 > 
 > But Australia’s app, which is being developed by the Digital Transformation Agency, is expected to build on TraceTogether elements, particularly around Bluetooth on iPhones.
 >
@@ -91,11 +91,11 @@ Entered foreground
 
 `centralManager(_:didDiscover:advertisementData:rssi:)`
 
-> This delegate method tells the delegate the central manager discovered a peripheral while scanning for devices. In the COVIDSafe binary, this method is at address 0x100055c14. To set a breakpoint, you first need to calculate the ASLR offset. You can do this by using lldb to show where the COVIDSafe image is based. Here’s a video that shows the breakpoint correctly hitting once the second iOS device runs the scan (when the app is opened). This doesn’t show it not occuring (the above script does), but that would have been a very long video, as the breakpoint never occurs. This follows from the above evidence that scan results are not sent to the application.
+> This delegate method tells the delegate the central manager discovered a peripheral while scanning for devices. In the COVIDSafe binary, this method is at address 0x100055c14. To set a breakpoint, you first need to calculate the ASLR offset. You can do this by using lldb to show where the COVIDSafe image is based. Here’s a video that shows the breakpoint correctly hitting once the second iOS device runs the scan (when the app is opened). This doesn’t show it not occurring (the above script does), but that would have been a very long video, as the breakpoint never occurs. This follows from the above evidence that scan results are not sent to the application.
 
 ### The Bug
 
-> The COVIDSafe application code is derived from Opentrace. In the OpenTrace source code, it sets up a timer to run here:
+> The COVIDSafe application code is derived from OpenTrace. In the OpenTrace source code, it sets up a timer to run here:
 
 https://github.com/opentrace-community/opentrace-ios/blob/75fc506bef34ba48a727f9758f94823b9b4a2286/OpenTrace/Bluetrace/CentralController.swift#L86
 

@@ -9,7 +9,7 @@ Geoffrey Huntley documented the possibility of the language used in the applicat
 
 <img src="you-have-tested-positive-for-covid-bug-report.png" width="100%"/>
 
-> When a user taps the “upload my data” button the next screen asserts “You have tested positive for COVID-19” which may be a false assertion and cause confusion. This text needs changing.
+> When a user taps the "upload my data" button the next screen asserts "You have tested positive for COVID-19" which may be a false assertion and cause confusion. This text needs changing.
 
 This research featured on the front page of the technology website "Hacker News" and received wide attention from the global technology industry, including from Mike Cannon-Brookes, co-founder of Atlassian. 
 
@@ -97,7 +97,7 @@ https://www.theadvocate.com.au/story/6745024/govt-under-pressure-over-app-bugs-a
 
 > Computer experts have voiced concern that, more than a week after the app was launched, the government was yet to issue a software update or address problems people have encountered in downloading and using the app.
 > 
-> In addition to well-known problems in making the app work effectively on Apple iphones, users have also encountered issues downloading the app, registering for use and obtaining technical support.
+> In addition to well-known problems in making the app work effectively on Apple iPhones, users have also encountered issues downloading the app, registering for use and obtaining technical support.
 > 
 > Software engineer Geoffrey Huntley said one of the potentially most alarming yet easily rectified problems was that the app displayed the message "You have tested positive for COVID-19" when users pressed the 'Upload my information' button at the bottom of the main page.
 >

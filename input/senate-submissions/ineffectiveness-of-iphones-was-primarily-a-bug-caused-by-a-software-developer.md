@@ -13,7 +13,7 @@ The ineffectiveness of COVIDSafe on iPhone was a bug in COVIDSafe, and not subst
 >
 > Acting health department secretary Caroline Edwards told a senate inquiry into COVID-19 on Thursday that although the app is derived from TraceTogether, its code base will be unique.
 >
-> “I don’t think the Singapore TraceTogether app is the model,” she said in response to questions from Labor senator Murray Watt, adding that it has been an “important contributor”
+> "I don’t think the Singapore TraceTogether app is the model," she said in response to questions from Labor senator Murray Watt, adding that it has been an "important contributor"
 > 
 > But Australia’s app, which is being developed by the Digital Transformation Agency, is expected to build on TraceTogether elements, particularly around Bluetooth on iPhones.
 >
@@ -41,11 +41,11 @@ See https://docs.google.com/document/d/1sviVey1jCk97BACwkAJMctG8rFlC7Mf8pMpluW6V
 
 `centralManager(_:didDiscover:advertisementData:rssi:)`
 
-> This delegate method tells the delegate the central manager discovered a peripheral while scanning for devices. In the COVIDSafe binary, this method is at address 0x100055c14. To set a breakpoint, you first need to calculate the ASLR offset. You can do this by using lldb to show where the COVIDSafe image is based. Here’s a video that shows the breakpoint correctly hitting once the second iOS device runs the scan (when the app is opened). This doesn’t show it not occuring (the above script does), but that would have been a very long video, as the breakpoint never occurs. This follows from the above evidence that scan results are not sent to the application.
+> This delegate method tells the delegate the central manager discovered a peripheral while scanning for devices. In the COVIDSafe binary, this method is at address 0x100055c14. To set a breakpoint, you first need to calculate the ASLR offset. You can do this by using lldb to show where the COVIDSafe image is based. Here’s a video that shows the breakpoint correctly hitting once the second iOS device runs the scan (when the app is opened). This doesn’t show it not occurring (the above script does), but that would have been a very long video, as the breakpoint never occurs. This follows from the above evidence that scan results are not sent to the application.
 
 ## The Bug
 
-> The COVIDSafe application code is derived from Opentrace. In the OpenTrace source code, it sets up a timer to run here:
+> The COVIDSafe application code is derived from OpenTrace. In the OpenTrace source code, it sets up a timer to run here:
 
 https://github.com/opentrace-community/opentrace-ios/blob/75fc506bef34ba48a727f9758f94823b9b4a2286/OpenTrace/Bluetrace/CentralController.swift#L86
 
@@ -423,9 +423,9 @@ Peripheral advertising..
 >
 > Gizmodo Australia has contacted the DTA to understand how its process works and if it’s working on fixing any of the flaws Mussared and the group of developers have pointed out.
 > 
-> “As continuously stated, the Government will continue to work with Apple and Google to look for any opportunities to enhance the performance of their Bluetooth functionality – something that is not exclusive to the COVIDSafe app,” a DTA spokesperson said to Gizmodo Australia.
+> "As continuously stated, the Government will continue to work with Apple and Google to look for any opportunities to enhance the performance of their Bluetooth functionality – something that is not exclusive to the COVIDSafe app," a DTA spokesperson said to Gizmodo Australia.
 > 
-> “The app performs better than many similar apps in other countries.”
+> "The app performs better than many similar apps in other countries."
 
 From: https://www.gizmodo.com.au/2020/05/covidsafe-bug-reporting-problems/
 
@@ -464,7 +464,7 @@ COVIDSafe v1.2 for iPhone released which largely fixed background behaviour by i
 >
 >> the application only needs to call scanForPeripherals once. I have an example project which continues to get peripheral discovery callbacks when it is in the background. The key to this, apart from not continuously starting and stopping scans is to set CBCentralManagerScanOptionAllowDuplicatesKey to true
 >
-> This is extremely important, but as confident as I was, I wasn’t 100% certain that the start/stop scans were being done for a reason I wasn’t privvy to.
+> This is extremely important, but as confident as I was, I wasn’t 100% certain that the start/stop scans were being done for a reason I wasn’t privy to.
 >
 > Well, now we have the source code of version 1.2, and we can see exactly what they have <a href="https://github.com/AU-COVIDSafe/mobile-ios/commit/cae9823e4426af126b05d4680d49d19ab596db31#diff-ea5ac28399eeee2eeaf4c8ebfb03a7d4">changed here</a>: 
 >
@@ -494,19 +494,19 @@ From: https://medium.com/@wabz/the-unbroken-ios-covidsafe-application-dea520af36
 >
 > There have been muddled and contradictory messages from the government and DTA over COVIDSafe’s performance on iPhones and effectiveness when not running in the foreground. The update has gone a long way towards fixing these issues, Mr Mussared said.
 > 
-> “I’m almost disappointed for the DTA that they can’t get out there and scream from the rooftops because unfortunately they said it was never broken,” he said.
+> "I’m almost disappointed for the DTA that they can’t get out there and scream from the rooftops because unfortunately they said it was never broken," he said.
 > 
-> “There has to be some admission of the way they addressed serious security issues, and it would be really wonderful if they could say they fixed the iPhone. Now it works as well as they said it used to.
+> "There has to be some admission of the way they addressed serious security issues, and it would be really wonderful if they could say they fixed the iPhone. Now it works as well as they said it used to.
 > 
-> “That’s important because people are not installing the app because they think it doesn’t work and they haven’t told people it has been fixed.”
+> "That’s important because people are not installing the app because they think it doesn’t work and they haven’t told people it has been fixed."
 > 
 > The government’s attention and public communications have still been focused on trying to convince more Australians to download the COVIDSafe app, with restrictions easing around the country.
 > 
 > But there needed to be more focus on ensuring everyone who has already downloaded it to proactively update the app if they do not have these turned on automatically, shadow assistant minister for cybersecurity Tim Watts said.
 > 
-> “An important update to the COVIDSafe iPhone app was released today improving both the security and the ability of the app to register contacts,” Mr Watts said.
+> "An important update to the COVIDSafe iPhone app was released today improving both the security and the ability of the app to register contacts," Mr Watts said.
 > 
-> “While the PM regularly urges people to download the app he’s said nothing about the need for people to update this app,” he said.
+> "While the PM regularly urges people to download the app he’s said nothing about the need for people to update this app," he said.
 
 From: https://www.innovationaus.com/covidsafe-app-gets-important-update/
 
@@ -522,9 +522,9 @@ From: https://www.innovationaus.com/covidsafe-app-gets-important-update/
 
 > Early on developers noted the iPhone version would not be able to exchange Bluetooth handshakes with other devices unless it was running on the screen – incredibly impractical for users.
 > 
-> The government initially denied this, refused to answer questions about it, and only once, before the Covid-19 senate committee, did the agencys chief executive, Randall Brugeaud, admit the Bluetooth function suffered when the app wasn’t on screen.
+> The government initially denied this, refused to answer questions about it, and only once, before the Covid-19 senate committee, did the agency's chief executive, Randall Brugeaud, admit the Bluetooth function suffered when the app wasn’t on screen.
 > 
-> “What we can say is the quality of the Bluetooth connectivity for phones that have the app installed running in the foreground is very good,” he said. “And it progressively deteriorates and the quality of the connection is not as good as you get to a point where the phone is locked and the app is running in the background.”
+> "What we can say is the quality of the Bluetooth connectivity for phones that have the app installed running in the foreground is very good," he said. "And it progressively deteriorates and the quality of the connection is not as good as you get to a point where the phone is locked and the app is running in the background."
 > 
 > That, in part, has been addressed by updates quietly released in the past week, but issues still persist, and will never truly be resolved unless the federal government implements functions released by Apple and Google this week.
 
