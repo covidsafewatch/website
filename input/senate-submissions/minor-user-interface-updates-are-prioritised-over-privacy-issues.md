@@ -34,6 +34,8 @@ Initially Geoffrey Huntley was <a href="https://www.gizmodo.com.au/2020/04/covid
 
 From : https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/
 
+<#? Youtube LWkurIhCiVY /?>
+
 ## Issue 1 - CVE-2020-12857
 
 > The first issue is that the COVIDSafe app caches the characteristic value that will be read by a remote device using the MAC address of the remote device. Due to a logic error, this cache is only cleared when a successful transaction takes place (i.e. the remote device subsequently writes its own payload back to the characteristic). Importantly, the cache entry is not removed when: 
