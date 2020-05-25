@@ -22,7 +22,7 @@ From: https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_traci
 >>
 >> "They've got no way of knowing if the app is installed or not - they are essentially sending an SMS to every mobile phone number in Australia that you should download the app.
 >>
->> "It's like spam in your junk box - it's an SMS advertisement that the government is sending to everyone."
+>> "It's like spam in your junk box - it's an SMS advertisement that the government is sending to everyone"
 
 <?# Twitter 1257164020865314816 /?
 <?# Twitter 1257169760128655361 /?>
