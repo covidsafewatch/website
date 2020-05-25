@@ -1,4 +1,3 @@
-
 title: Usage of Amazon Web Services (AWS)
 Status: Not submitted. Requires proof read and readability improvements.
 IssueMaintainer: ghuntley
