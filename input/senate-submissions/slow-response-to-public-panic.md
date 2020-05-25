@@ -11,11 +11,11 @@ Geoffrey Huntley documented the possibility of the language used in the applicat
 
 > When a user taps the "upload my data" button the next screen asserts "You have tested positive for COVID-19" which may be a false assertion and cause confusion. This text needs changing.
 
-This research featured on the front page of the technology website "Hacker News" and thus received wide attention from the global technology industry, including from Mike Cannon-Brookes, co-founder of Atlassian. 
+This research featured on the front page of the technology website "Hacker News" and received wide attention from the global technology industry, including from Mike Cannon-Brookes, co-founder of Atlassian. 
 
 https://news.ycombinator.com/item?id=22986147
 
-> I believe the government, PM and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
+> I believe the government, the Prime Minister and various ministers have said the code will be released. My sources also say exactly the same. They’re obviously operating with extreme urgency to get the app out. For you. [... snip ...]
 
 Mike Cannon-Brookes' account was created on the 1st of April 2020. The above comment is his first and only comment on this [very important] technology website. Mike's comments were picked up and widely circulated in the media.
 

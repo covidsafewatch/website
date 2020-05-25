@@ -5,7 +5,7 @@ IssueMaintainer: wabz
 
 # Overview
 
-The ineffectiveness of COVIDSafe on iPhone always was human error. A technical report was provided to the DTA before the Senate meeting. Whilst the problem has been resolved there has been no acknowledgement because it contradicts the very public statements DTA have made to the Senate and in the media as to the background behaviour on iOS being a limitation imposed by Apple, and not an error in the way the application was using CoreBluetooth.
+The ineffectiveness of COVIDSafe on iPhone was a bug in COVIDSafe, and not substantially a limitation imposed by Apple. A technical report was provided to the DTA before the Senate meeting. Whilst the problem has been resolved there has been no communication by DTA in this regard, because it contradicts the very public statements DTA made to the Senate and in the media as to the background behaviour on iOS being a limitation imposed by Apple.
 
 # 23rd of April 2020
 

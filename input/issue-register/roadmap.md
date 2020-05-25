@@ -16,3 +16,9 @@ There has been no roadmap published by the DTA. We sometimes hear through the me
 See Mr. Brugeaud's comments at the top of page 3 about being early adopters of the forthcoming Apple and Google APIs.
 
 https://parlinfo.aph.gov.au/parlInfo/download/committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/toc_pdf/Senate%20Select%20Committee%20on%20COVID-19_2020_05_06_7691.pdf;fileType=application%2Fpdf#search=%22committees/commsen/21693643-a9ab-41e2-8440-77267c6c7b37/0000%22
+
+## "How did the Covidsafe app go from being vital to almost irrelevant?"
+
+Vanessa Teague quoted as saying the adoption of the Exposure Notification APIs would require large changes to the operation of the app, and that it would require people to run both apps (the current app and a separate app using the Exposure Notification APIs) for a few weeks.
+
+https://www.theguardian.com/world/2020/may/24/how-did-the-covidsafe-app-go-from-being-vital-to-almost-irrelevant
