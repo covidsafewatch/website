@@ -1,4 +1,4 @@
-Title: Slow response to public panic
+Title: COVIDSafe caused public panic
 Status: Not submitted. Requires proof read and readability improvements.
 IssueMaintainer: ghuntley
 ---
