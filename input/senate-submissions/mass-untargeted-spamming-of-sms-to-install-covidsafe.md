@@ -5,14 +5,13 @@ IssueMaintainer: ghuntley
 
 # Overview
 
+From: https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/
+
+
 > Why do I keep getting COVIDSafe messages and notifications on my phone when I've already downloaded the COVIDSafe app?
 >
 > If you've registered and installed the COVIDSafe app on your phones you have probably asked yourself this very question. Notifications or text messages from COVIDSafe have been flying thick and fast it seems.
-
-<?# Twitter 1257164020865314816 /?
-<?# Twitter 1257169760128655361 /?>
-<?# Twitter 1257225599266942976 /?>
-
+>
 > Queensland open-source software engineer Geoffrey Huntley explained that the federal government is using the notification window as a way of letting Australians know that the application is working successfully.
 >
 > And what about the text messages being sent directly to individual mobile phones?
@@ -25,6 +24,8 @@ IssueMaintainer: ghuntley
 >>
 >> "It's like spam in your junk box - it's an SMS advertisement that the government is sending to everyone."
 
-From: https://www.canberratimes.com.au/story/6744784/why-do-i-keep-getting-these-messages-when-ive-downloaded-the-covidsafe-app/
+<?# Twitter 1257164020865314816 /?
+<?# Twitter 1257169760128655361 /?>
+<?# Twitter 1257225599266942976 /?>
 
-<#? Youtube LWkurIhCiVY /?>
+<?# Youtube LWkurIhCiVY /?>

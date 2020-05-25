@@ -32,9 +32,9 @@ Initially Geoffrey Huntley was <a href="https://www.gizmodo.com.au/2020/04/covid
 >
 > Australia’s app uses some of Singapore’s open source contact-tracing code. Huntley said he found flaws in Singapore’s code, reported it to developers there and saw changes made on the same day. He said he’s since informed Australian authorities of the same problem and seen it left in place in an app update that he said has changed nothing of substance. His research and opinions are detailed in this Tweet and subsequent thread.
 
-From : https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/
+From: https://www.theregister.co.uk/2020/05/07/covidsafe_australia_contact_tracing_app_issues/
 
-<#? Youtube LWkurIhCiVY /?>
+<?# Youtube LWkurIhCiVY /?>
 
 ## Issue 1 - CVE-2020-12857
 
