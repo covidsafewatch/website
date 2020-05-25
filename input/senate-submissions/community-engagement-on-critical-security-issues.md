@@ -17,6 +17,8 @@ No industry best-practices were implemented at launch, including but not limited
 
 <?# Twitter 1258020825053065217 /?>
 
+<?# Twitter 1264363796207792129 /?>
+
 
 > Huntley has called upon those responsible for the app to implement formal customer service and developer community engagement tools, as he feels the app is a worthy weapon in Australia’s coronavirus response. However he has withdrawn his personal support for the app until the privacy issues he has identified are addressed.
 

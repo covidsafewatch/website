@@ -60,6 +60,9 @@ This issue was fixed in v1.0.17 released on 14/05/2020.
 
 > Note on the fix: When this issue was fixed, instead of removing the cache, there was additional logic added to the disconnection event to remove the entry. I'm not aware of any way that this event can fail to fire, but it would have been far more robust and easy to reason about the fix if the cache had been removed altogether.
 
+This issue remains unfixed on iPhones.
+
+<?# Twitter 1264363796207792129 /?>
 
 ## Issue #2 - CVE-2020-12858
 
