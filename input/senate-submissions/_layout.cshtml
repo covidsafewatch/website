@@ -115,10 +115,7 @@
 @RenderBody()
 
 <h1>Appendix - Timeline</h1>
-
-<?! Markdown ?>
-<?! Include "_timeline.md" /?>
-<?!/ Markdown ?>
+@Html.Raw(await Outputs["Content"]["senate-submissions/timeline.html"].GetContentStringAsync())
 
 <h1>Appendix - Google Android Changelog</h1>
 

@@ -22,12 +22,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Statiq.Web" Version="1.0.0-alpha.15" />
+    <PackageReference Include="Statiq.Web" Version="1.0.0-alpha.16" />
   </ItemGroup>
   
   <!--
   <ItemGroup>
-    <ProjectReference Include="..\Statiq.Web\src\Statiq.Web\Statiq.Web.csproj" />
+    <ProjectReference Include="..\..\..\statiqdev\Statiq.Web\src\Statiq.Web\Statiq.Web.csproj" />
   </ItemGroup>
   -->
 
