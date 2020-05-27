@@ -34,3 +34,9 @@ The formula is as follows:
 Then you will know exactly how many people are using the application every day.
 
 <?# Twitter 1265761322739748864 /?>
+
+Basically:
+
+1. A download does not mean usage (may not have registered, had issues registering [ie. norfolk island residents]))
+2. A registration does not mean usage. (may have deleted the application because of battery usage or interference with other bluetooth devices)
+3. Usage means usage.
