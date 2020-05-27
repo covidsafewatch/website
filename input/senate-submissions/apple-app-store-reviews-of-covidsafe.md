@@ -32,8 +32,12 @@ Have an engaged customer support team on social media and on the app stores help
 - <a href="2020-05-22-covidsafe-apple-reviews.xlsx">2020-05-22-covidsafe-apple-reviews.xlsx</a>
 - <a href="2020-05-22-covidsafe-apple-reviews.csv">2020-05-22-covidsafe-apple-reviews.csv</a>
 - <a href="2020-05-22-covidsafe-apple-reviews.pdf">2020-05-22-covidsafe-apple-reviews.pdf</a>
+- <a href="2020-05-22-covidsafe-apple-reviews-html.pdf">2020-05-22-covidsafe-apple-reviews-html.pdf</a>
+- <a href="2020-05-22-covidsafe-apple-reviews-html.txt">2020-05-22-covidsafe-apple-reviews-html.txt</a>
 - <a href="2020-05-22-covidsafe-apple-reviews.zip">2020-05-22-covidsafe-apple-reviews.zip</a>
 
 # Reviews
 
-<iframe src="2020-05-22-covidsafe-apple-reviews.pdf" width="100%" height="1920"/>
+<?! Markdown ?>
+<?! Include "2020-05-22-covidsafe-apple-reviews-html.txt" /?>
+<?!/ Markdown ?>
