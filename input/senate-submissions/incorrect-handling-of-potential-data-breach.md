@@ -1,5 +1,5 @@
 Title: Incorrect handling of a potential data breach
-Status: Not submitted. Requires proof read and readability improvements.
+Status: Submitted, pending confirmation of receipt.
 IssueMaintainer: ghuntley
 ---
 
