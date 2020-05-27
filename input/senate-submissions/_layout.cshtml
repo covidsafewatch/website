@@ -119,8 +119,8 @@
 
 <h1>Appendix - Google Android Changelog</h1>
 
-@Html.Partial("/senate-submissions/_google-android-changelog.cshtml")
+@Html.Raw(await Outputs["Content"]["senate-submissions/google-android-changelog.html"].GetContentStringAsync())
 
 <h1>Appendix - Apple iPhone Changelog</h1>
 
-@Html.Partial("/senate-submissions/_apple-iphone-changelog.cshtml")
+@Html.Raw(await Outputs["Content"]["senate-submissions/apple-iphone-changelog.html"].GetContentStringAsync())
