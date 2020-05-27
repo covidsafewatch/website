@@ -1,5 +1,5 @@
 Title: Issues preventing downloads and registration
-Status: Not submitted. Requires proof read and readability improvements.
+Status: Submitted, pending confirmation of receipt.
 IssueMaintainer: ghuntley
 ---
 
