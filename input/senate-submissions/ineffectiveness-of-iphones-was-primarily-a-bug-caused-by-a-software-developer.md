@@ -1,5 +1,5 @@
 Title: Ineffectiveness of iPhones was primarily a bug caused by a  software developer
-Status: Not submitted. Requires proof read and readability improvements.
+Status: Submitted, pending confirmation of receipt.
 IssueMaintainer: wabz 
 ---
 
