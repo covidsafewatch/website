@@ -1,5 +1,5 @@
 Title: Unneeded incompatibility with Android 5.0
-Status: Not submitted. Requires proof read and readability improvements.
+Status: Submitted, pending confirmation of receipt.
 IssueMaintainer: wabz 
 ---
 
