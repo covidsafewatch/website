@@ -88,9 +88,9 @@ Entered foreground
 ### Debug Breakpoints
 
 > Further evidence can be seen by setting up a debugger on the COVIDSafe app. Using a disassembler, you can find the entry point of the delegate method: 
-
-`centralManager(_:didDiscover:advertisementData:rssi:)`
-
+>
+> `centralManager(_:didDiscover:advertisementData:rssi:)`
+>
 > This delegate method tells the delegate the central manager discovered a peripheral while scanning for devices. In the COVIDSafe binary, this method is at address 0x100055c14. To set a breakpoint, you first need to calculate the ASLR offset. You can do this by using lldb to show where the COVIDSafe image is based. Here’s a video that shows the breakpoint correctly hitting once the second iOS device runs the scan (when the app is opened). This doesn’t show it not occurring (the above script does), but that would have been a very long video, as the breakpoint never occurs. This follows from the above evidence that scan results are not sent to the application.
 
 ### The Bug
