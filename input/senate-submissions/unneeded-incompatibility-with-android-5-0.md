@@ -1,6 +1,6 @@
 Title: Unneeded incompatibility with Android 5.0
 Status: Submitted, pending confirmation of receipt.
-IssueMaintainer: wabz 
+IssueMaintainer: ghuntley 
 ---
 
 Android 5.0 Lollipop was launched by Google back in late 2014 preceded by 5.1 Lollipop in early 2015. As of April 2020 both run on 2.64% of Australia’s Android Devices which make 55% of the wider Market. (Source) The COVIDSafe app has found to have an unneeded compatibility with those devices as it’s minimum version supported is 6.0.
