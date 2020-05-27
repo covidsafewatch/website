@@ -1,5 +1,5 @@
 Title:  Minor user interface updates are prioritised over privacy issues
-Status: Not submitted. Requires proof read and readability improvements.
+Status: Submitted, pending confirmation of receipt.
 IssueMaintainer: ghuntley
 ---
 
