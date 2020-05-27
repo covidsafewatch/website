@@ -33,8 +33,12 @@ Have an engaged customer support team on social media and on the app stores help
 - <a href="2020-05-22-covidsafe-google-reviews.xlsx">2020-05-22-covidsafe-google-reviews.xlsx</a>
 - <a href="2020-05-22-covidsafe-google-reviews.csv">2020-05-22-covidsafe-google-reviews.csv</a>
 - <a href="2020-05-22-covidsafe-google-reviews.pdf">2020-05-22-covidsafe-google-reviews.pdf</a>
+- <a href="2020-05-22-covidsafe-google-reviews-html.pdf">2020-05-22-covidsafe-google-reviews-html.pdf</a>
+- <a href="2020-05-22-covidsafe-google-reviews-html.txt">2020-05-22-covidsafe-google-reviews-html.html</a>
 - <a href="2020-05-22-covidsafe-google-reviews.zip">2020-05-22-covidsafe-google-reviews.zip</a>
 
 # Reviews
 
-<iframe src="2020-05-22-covidsafe-google-reviews.pdf" width="100%" height="1920"/>
+<?! Markdown ?>
+<?! Include "2020-05-22-covidsafe-googgle-play-reviews-html.txt" /?>
+<?!/ Markdown ?>
