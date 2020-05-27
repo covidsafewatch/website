@@ -32,3 +32,5 @@ The formula is as follows:
 - Divide that amount by 12 (as in 12 hours)
 
 Then you will know exactly how many people are using the application every day.
+
+<?# Twitter 1265761322739748864 /?>
