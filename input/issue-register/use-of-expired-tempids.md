@@ -74,3 +74,6 @@ As has been interpreted from the code and has also been observed from performing
 # Timeline
 - 17th May 2020: Reported to support@covidsafe.gov.au
 - 18th May 2020: Response confirming receipt and that this has been passed on to the development team.
+- 26th May 2020: iOS app updated with fix.
+- 26th May 2020: Updated source code for both iOS and Android published.
+- 01 Jun 2020: Android app updated with fix.
