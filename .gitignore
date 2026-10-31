@@ -40,3 +40,8 @@ TestResult.xml
 *.pfx
 # Local Netlify folder
 .netlify
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
